@@ -1,0 +1,19 @@
+﻿  第 1 次复核：verdict=PASS findings=2
+{
+  "verdict": "PASS",
+  "findings": [
+    {
+      "severity": "minor",
+      "item": "信息图比例条按组内最大值归一且无刻度说明，满轨条易被误读",
+      "evidence": "n3_infographic.svg 中 ¥200–399 订单条 width=300 填满轨道、¥400+ 退货率条 width=100 填满轨道，实际仅为组内最大值（27,148 / 2.95%），无坐标轴或比例注记，可能被读成 100%（旁侧数值标签可部分缓解）"
+    },
+    {
+      "severity": "minor",
+      "item": "柱状图数值标签色与柱体填充色不一致（视觉一致性瑕疵）",
+      "evidence": "n3_chart.svg 第 2 柱填充 #10B981 但标签用 #059669，第 3 柱填充 #F59E0B 但标签用 #D97706（第 1 柱一致均为 #3B82F6）"
+    }
+  ],
+  "artifact": "artifacts/N5_hetero_review.v1.json",
+  "tokens": 7863,
+  "latency_ms": 72854.8
+}

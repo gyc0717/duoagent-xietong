@@ -1,0 +1,8 @@
+{
+  "node": "N2",
+  "producer": "dsh_coder",
+  "label": "编程：brief + 历史 + 澄清 + 工件全文 + 外部文献 + 结构化数据 + 按需大文件全文",
+  "content": "[DeepSeek Harness · 编程 | model=deepseek-coder] 编程：brief + 历史 + 澄清 + 工件全文 + 外部文献 + 结构化数据 + 按需大文件全文\n基于完整上下文（brief + 3 轮对话历史 + 3 条澄清 + 依赖工件全文 + 4 条外部文献 + structured_data 分组统计 + 按需大文件全文）产出脚本与结构化结果；空值边界已覆盖，信息无损。",
+  "trust_level": "trusted",
+  "channel": "both"
+}

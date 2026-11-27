@@ -1,0 +1,12 @@
+{
+  "node": "N1",
+  "role": "workbuddy_dispatch",
+  "state": "SUCCESS",
+  "trace_id": "tr-096f926497",
+  "ts": "2026-11-25T19:26:13",
+  "context_mode": "FULL",
+  "truncation": false,
+  "fulltext_on_demand": true,
+  "summary_only": false,
+  "trust_channel_separation": true
+}

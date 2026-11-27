@@ -1,0 +1,72 @@
+{
+  "label": "公开真实数据集 · 非本公司 · 非家电",
+  "steps": [
+    {
+      "node": "N1",
+      "name": "派单与口径声明",
+      "ok": true,
+      "status": "ok",
+      "detail": "任务：真数据全链；数据源=公开数据集_UCI_OnlineRetail.csv；口径=started（发起退货）；标注=公开真实数据集 · 非本公司 · 非家电",
+      "artifact": ""
+    },
+    {
+      "node": "N2",
+      "name": "数据接入与清洗",
+      "ok": true,
+      "status": "ok",
+      "detail": "20000 行 / 丢弃 0 / sha c25410bc99bd",
+      "artifact": "real/out/ingest_report.json"
+    },
+    {
+      "node": "N3",
+      "name": "确定性生成图表",
+      "ok": true,
+      "status": "ok",
+      "detail": "5 组数据 · 图表 3 张（数值锁在 chart_data.json）",
+      "artifact": "real/out/gmv_by_category.svg"
+    },
+    {
+      "node": "N4",
+      "name": "本地文件索引",
+      "ok": true,
+      "status": "ok",
+      "detail": "索引 1 个文件 · 跳过 1",
+      "artifact": "real/out/file_index.json"
+    },
+    {
+      "node": "N5",
+      "name": "确定性沙箱 9 类检查",
+      "ok": true,
+      "status": "ok",
+      "detail": "9/9 · real_execution",
+      "artifact": "real/out/execution_evidence.json"
+    },
+    {
+      "node": "N6",
+      "name": "二审（Bailian 真调用）",
+      "ok": true,
+      "status": "ok",
+      "detail": "风险点：退货率2.74%虽低于行业均值，但退款金额达15,148.98英镑，占GMV约4%，存在虚假退货或恶意退款风险，需核查退货真实性及退款合理性。",
+      "artifact": "model:qwen-flash · 168 tok · token_pricing"
+    },
+    {
+      "node": "N7",
+      "name": "三审（Ark 真调用）",
+      "ok": true,
+      "status": "ok",
+      "detail": "终审结论：基于非本公司非家电公开数据集测算，2.74%退货率虽低于行业均值，但退款额占GMV约4%，存虚假/恶意退款风险提示。本结果仅为管线验证，不构成正式业务结论，不可作为业务决策参考。",
+      "artifact": "model:doubao-seed-2-1-lite-260915 · 1900 tok · token_pricing"
+    },
+    {
+      "node": "N8",
+      "name": "收口报告",
+      "ok": true,
+      "status": "ok",
+      "detail": "1200 字符（含声明）",
+      "artifact": "real/out/final_report.md"
+    }
+  ],
+  "passed": 8,
+  "total": 8,
+  "ok": true
+}

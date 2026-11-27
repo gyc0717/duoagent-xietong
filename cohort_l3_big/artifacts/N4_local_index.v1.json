@@ -1,0 +1,59 @@
+{
+  "root": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer",
+  "files": 221,
+  "total_bytes": 795753186,
+  "big_files": 6,
+  "chunk_bytes": 4194304,
+  "top": [
+    {
+      "rel": "大肥鱼音乐管家 Setup 0.2.0.exe",
+      "uri": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/大肥鱼音乐管家 Setup 0.2.0.exe",
+      "bytes": 367986043,
+      "big": true,
+      "chunks": 88,
+      "sha256": "9caa8b7aae039e4e9ab14eae989a5ad787d0140f09ffa296f4afc2c6ff281784",
+      "content_mode": "SUMMARY_PLUS_URI",
+      "note": "大文件不整份进上下文；需要时按 rel 调 load_fulltext()"
+    },
+    {
+      "rel": "win-unpacked/大肥鱼音乐管家.exe",
+      "uri": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/大肥鱼音乐管家.exe",
+      "bytes": 176813568,
+      "big": true,
+      "chunks": 43,
+      "sha256": "67dc2a7036860a68e5312c212c31b8772ac463ed0289fcc44897867f55075e89",
+      "content_mode": "SUMMARY_PLUS_URI",
+      "note": "大文件不整份进上下文；需要时按 rel 调 load_fulltext()"
+    },
+    {
+      "rel": "大肥鱼音乐管家 Setup 0.2.1.exe",
+      "uri": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/大肥鱼音乐管家 Setup 0.2.1.exe",
+      "bytes": 98916346,
+      "big": true,
+      "chunks": 24,
+      "sha256": "0e8062ec1ef407539649940fd60d88659e776a1b20d6dd8d43e95d40b40e2376",
+      "content_mode": "SUMMARY_PLUS_URI",
+      "note": "大文件不整份进上下文；需要时按 rel 调 load_fulltext()"
+    },
+    {
+      "rel": "win-unpacked/resources/backend/_internal/numpy.libs/libscipy_openblas64_-c16e4918366c6bc1f1cd71e28ca36fc0.dll",
+      "uri": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy.libs/libscipy_openblas64_-c16e4918366c6bc1f1cd71e28ca36fc0.dll",
+      "bytes": 20269568,
+      "big": true,
+      "chunks": 5,
+      "sha256": "7a62620b556f4a485ca273e34f0e224f345da4530d15029c74ba6ea5de878934",
+      "content_mode": "SUMMARY_PLUS_URI",
+      "note": "大文件不整份进上下文；需要时按 rel 调 load_fulltext()"
+    },
+    {
+      "rel": "win-unpacked/icudtl.dat",
+      "uri": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/icudtl.dat",
+      "bytes": 10717392,
+      "big": true,
+      "chunks": 3,
+      "sha256": "f5170aa2b388d23bebf98784dd488a9bcb741470384a6a9a8d7a2638d768defb",
+      "content_mode": "SUMMARY_PLUS_URI",
+      "note": "大文件不整份进上下文；需要时按 rel 调 load_fulltext()"
+    }
+  ]
+}

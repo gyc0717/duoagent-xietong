@@ -1,0 +1,60 @@
+{
+  "node": "N0",
+  "producer": "data_executor",
+  "label": "L0 结构化数据执行器 · 分组统计 / 对账 / 图表数值口径",
+  "plugin": {
+    "plugin": "l0-data-executor",
+    "runtime": "Python 3.11 / pandas / openpyxl（本地 L0 插件）",
+    "capabilities": [
+      "表格读写",
+      "分组统计",
+      "对账",
+      "空值策略",
+      "CSV/XLSX 导出"
+    ],
+    "invoked_at": "入口阶段预跑（不占关键路径，不新增角色）",
+    "produces": "artifacts/structured_data.json（L3 工件登记，FULLTEXT）",
+    "consumed_by": "N3 Kimi 生图数值口径 / N5 一审交叉校验",
+    "cost": "确定性执行，零模型 token"
+  },
+  "result": {
+    "source": "Marvis 本地经营明细（12.8GB 切片） + 千问外部行业均值",
+    "rows": 48216,
+    "null_policy": "按 0 计入并单独标注（用户第 2 轮明确要求）",
+    "groups": [
+      {
+        "aov_band": "¥0–199",
+        "orders": 18940,
+        "returns": 306,
+        "return_rate": 0.0162
+      },
+      {
+        "aov_band": "¥200–399",
+        "orders": 21104,
+        "returns": 486,
+        "return_rate": 0.023
+      },
+      {
+        "aov_band": "¥400+",
+        "orders": 8172,
+        "returns": 254,
+        "return_rate": 0.0311
+      }
+    ],
+    "totals": {
+      "orders": 128400,
+      "aov_cny": 286,
+      "return_rate": 0.021
+    },
+    "reconciliation": {
+      "sum_group_orders": 48216,
+      "ledger_orders": 48216,
+      "diff": 0
+    },
+    "chart_value_lock": true,
+    "note": "Kimi 图表数值以此工件为权威口径；N5 一审做图表 / 源表 / 本工件三方交叉校验"
+  },
+  "trust_level": "trusted",
+  "channel": "data_only",
+  "trace_id": "tr-096f926497"
+}

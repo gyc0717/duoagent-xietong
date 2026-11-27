@@ -1,0 +1,22 @@
+{
+  "node": "N1Q",
+  "role": "qwen_search",
+  "vendor": null,
+  "artifacts": [
+    "A-002",
+    "A-010",
+    "A-023",
+    "A-024",
+    "A-025",
+    "A-066",
+    "A-068",
+    "A-073",
+    "A-074"
+  ],
+  "context_mode": "FULL",
+  "truncation": false,
+  "fulltext_on_demand": true,
+  "trust_channel_separation": true,
+  "untrusted_consumed": true,
+  "claimed_at": "2026-11-25T23:22:47+08:00"
+}

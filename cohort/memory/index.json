@@ -1,0 +1,121 @@
+{
+  "index_version": "v1.6",
+  "task_id": "T-20261125-001",
+  "trace_id": "tr-096f926497",
+  "entries": 11,
+  "reusable": 3,
+  "historical_refs": 3,
+  "policy": "工件按 sha256 + version 复用；评测集从真实 trace 按节奏刷新",
+  "artifacts": [
+    {
+      "artifact_id": "A-001",
+      "node": "N0",
+      "producer": "data_executor",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N0_data_executor.json",
+      "sha256": "fdb44f3503dd3aca",
+      "version": 1,
+      "reusable": true,
+      "trace_id": "tr-096f926497"
+    },
+    {
+      "artifact_id": "A-002",
+      "node": "N1",
+      "producer": "workbuddy_dispatch",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N1_workbuddy_dispatch.json",
+      "sha256": "e493b18e1c88d491",
+      "version": 1,
+      "reusable": false,
+      "trace_id": "tr-096f926497"
+    },
+    {
+      "artifact_id": "A-003",
+      "node": "N1Q",
+      "producer": "qwen_search",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N1Q_qwen_search.json",
+      "sha256": "447db0aec3f192f7",
+      "version": 2,
+      "reusable": true,
+      "trace_id": "tr-096f926497"
+    },
+    {
+      "artifact_id": "A-004",
+      "node": "N2",
+      "producer": "dsh_coder",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N2_dsh_coder.json",
+      "sha256": "1ccf4510de78a552",
+      "version": 2,
+      "reusable": false,
+      "trace_id": "tr-096f926497"
+    },
+    {
+      "artifact_id": "A-005",
+      "node": "N3",
+      "producer": "kimi_image",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N3_kimi_image.json",
+      "sha256": "4485b108e4339ea3",
+      "version": 1,
+      "reusable": false,
+      "trace_id": "tr-096f926497"
+    },
+    {
+      "artifact_id": "A-006",
+      "node": "N4",
+      "producer": "marvis_device",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N4_marvis_device.json",
+      "sha256": "363144d99cb0a44b",
+      "version": 1,
+      "reusable": true,
+      "trace_id": "tr-096f926497"
+    },
+    {
+      "artifact_id": "A-007",
+      "node": "N5",
+      "producer": "dsh_l1",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N5_dsh_l1.json",
+      "sha256": "f08c6c5e39d1fa2b",
+      "version": 1,
+      "reusable": false,
+      "trace_id": "tr-096f926497"
+    },
+    {
+      "artifact_id": "A-008",
+      "node": "N5",
+      "producer": "sandbox_exec",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N5_sandbox_exec.json",
+      "sha256": "612ee51e45969428",
+      "version": 1,
+      "reusable": false,
+      "trace_id": "tr-096f926497"
+    },
+    {
+      "artifact_id": "A-009",
+      "node": "N6",
+      "producer": "workbuddy_dispatch",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N6_workbuddy_dispatch.json",
+      "sha256": "f7ade26ce8975af2",
+      "version": 1,
+      "reusable": false,
+      "trace_id": "tr-096f926497"
+    },
+    {
+      "artifact_id": "A-010",
+      "node": "N7",
+      "producer": "doubao_chat",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N7_doubao_chat.json",
+      "sha256": "76fece3240985c3f",
+      "version": 1,
+      "reusable": false,
+      "trace_id": "tr-096f926497"
+    },
+    {
+      "artifact_id": "A-011",
+      "node": "N8",
+      "producer": "workbuddy_dispatch",
+      "uri": "file://D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\poc\\artifacts\\N8_workbuddy_dispatch.json",
+      "sha256": "65820948f794f998",
+      "version": 1,
+      "reusable": false,
+      "trace_id": "tr-096f926497"
+    }
+  ]
+}

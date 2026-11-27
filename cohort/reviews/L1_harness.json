@@ -1,0 +1,198 @@
+{
+  "level": "一审（深度 + 沙箱实证 + 异构复核）",
+  "reviewer": "DeepSeek Harness + 独立验证沙箱 + 通义千问（第二意见）",
+  "result": "PASS",
+  "scope": "重跑推理 / 独立复核 / 沙箱确定性执行 / 千问异构交叉复核 / 三方数值比对 / 引用核验",
+  "deep_review_rounds": 4,
+  "rounds": [
+    {
+      "round": 1,
+      "reviewer": "DeepSeek Harness（同源）",
+      "mode": "rerun_inference + independent_crosscheck + chart_vs_source + citation_check",
+      "checks": {
+        "unit_test": "12/12",
+        "lint_error": 0,
+        "diff_hunks": 3,
+        "chart_vs_source": "100%",
+        "citations_resolvable": "4/4"
+      },
+      "found_defect": true,
+      "reason": "N2 空值边界条件未覆盖（用户第 2 轮明确要求）"
+    },
+    {
+      "round": 2,
+      "reviewer": "sandbox",
+      "mode": "compile + unit_test + svg_render + data_script_rerun",
+      "found_defect": true,
+      "evidence_class": "deterministic"
+    },
+    {
+      "round": 3,
+      "reviewer": "qwen",
+      "mode": "cross_model_review + source_freshness_verify",
+      "found_defect": true
+    },
+    {
+      "round": 4,
+      "reviewer": "dsh + sandbox + qwen 联合",
+      "found_defect": false,
+      "result": "PASS"
+    }
+  ],
+  "sandbox_evidence": {
+    "round": 2,
+    "reviewer": "L3 独立验证沙箱（确定性执行器，非模型判断）",
+    "mode": "compile + unit_test + svg_render + data_script_rerun",
+    "principle": "脚本产事实，模型判事实",
+    "evidence_source": "real_execution",
+    "executor": "python3 + unittest + lxml（确定性执行，零模型 token）",
+    "elapsed_ms": 384.2,
+    "checks": {
+      "compile": "PASS",
+      "unit_test": "13/13",
+      "lint_error": 0,
+      "svg_render": "5/5",
+      "diff_hunks": 0,
+      "chart_vs_structured_data": "100%",
+      "data_script_rerun": "PASS",
+      "reconciliation_diff": 0
+    },
+    "null_boundary_reproduced": true,
+    "evidence": "真实执行 8/8 类检查，耗时 384.2ms；空值边界由朴素实现真运行时复现（TypeError: '<' not supported between instances of 'NoneType' and 'int'），修复实现覆盖",
+    "found_defect": true,
+    "real_checks": {
+      "01_compile": {
+        "files": 5,
+        "errors": [],
+        "pass": true
+      },
+      "02_unit_test": {
+        "run": 13,
+        "failed": 0,
+        "pass": true,
+        "detail": "OK"
+      },
+      "03_svg_render": {
+        "rendered": 5,
+        "total": 5,
+        "bad": [],
+        "pass": true
+      },
+      "04_chart_vs_structured_data": {
+        "compared": 14,
+        "mismatches": [],
+        "pass": true
+      },
+      "05_data_script_rerun": {
+        "recomputed": {
+          "orders": 48216,
+          "returns": 1032,
+          "aov_cny": 256.46,
+          "return_rate": 0.0214,
+          "bands": {
+            "¥0–199": 15340,
+            "¥200–399": 27148,
+            "¥400+": 5728
+          }
+        },
+        "artifact": {
+          "orders": 48216,
+          "returns": 1032,
+          "aov_cny": 256.46,
+          "return_rate": 0.0214,
+          "bands": {
+            "¥0–199": 15340,
+            "¥200–399": 27148,
+            "¥400+": 5728
+          }
+        },
+        "pass": true
+      },
+      "06_reconciliation": {
+        "sum_group_orders": 48216,
+        "ledger_orders": 48216,
+        "diff": 0,
+        "pass": true
+      },
+      "07_null_boundary": {
+        "naive_impl": "RAISED",
+        "error": "TypeError: '<' not supported between instances of 'NoneType' and 'int'",
+        "fixed_impl_handles_null": true,
+        "pass": true
+      },
+      "08_mock_vs_real_consistency": {
+        "mock_totals_orders": 128400,
+        "real_rows": 48216,
+        "gap": 80184,
+        "finding": "mock 的 totals.orders 与 partitions 合计不自洽，纯文本复核未发现",
+        "pass": true
+      }
+    }
+  },
+  "heterogeneous_findings": [
+    {
+      "round": 3,
+      "reviewer": "通义千问 Qwen（异构，非 deepseek 系）",
+      "mode": "cross_model_review + source_freshness_verify",
+      "found_defect": true,
+      "reason": "S-03 第三方声量指数发布于 2026-11-02，却用于标注 11 月全月趋势；同源自复核与沙箱均未检出该时效性问题",
+      "blind_spot_type": "同源模型自复核共享盲点",
+      "fix": "改用 11 月完整月报并补引用角标，或显式标注数据截止日"
+    }
+  ],
+  "citation_contract": [
+    {
+      "node": "N1Q",
+      "checked": 4,
+      "missing": [],
+      "paywall_limited": [
+        "S-04"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "injection_scan": {
+    "node": "N1Q",
+    "checked": 4,
+    "hits": [
+      {
+        "source": "S-02",
+        "field": "payload_hidden",
+        "patterns": [
+          "忽略以上",
+          "系统指令",
+          "外发到"
+        ],
+        "action": "quarantine → 数据通道净化 → 原始完整保留"
+      }
+    ],
+    "quarantined_sources": [
+      "S-02"
+    ],
+    "fact_content_truncated": false,
+    "channel_policy": "外部检索工件 trust_level=untrusted，仅可进数据通道，永不作为指令",
+    "result": "PASS_WITH_QUARANTINE"
+  },
+  "quality_gates": [
+    {
+      "level": "L1",
+      "decision": "REWORK",
+      "target": "N2",
+      "reason": "N2 空值边界条件未覆盖（用户第 2 轮明确要求）；沙箱真运行时已确定性复现",
+      "cost_policy": "不设上限，不裁剪上下文"
+    },
+    {
+      "level": "L1",
+      "decision": "REWORK",
+      "target": "N1Q",
+      "reason": "S-03 第三方声量指数发布于 2026-11-02，却用于标注 11 月全月趋势；同源自复核与沙箱均未检出该时效性问题",
+      "cost_policy": "不设上限，不裁剪上下文"
+    }
+  ],
+  "rework": [
+    "N2 局部重算 1 次",
+    "N1Q 局部重算 1 次"
+  ],
+  "note": "沙箱与异构复核均为 N5 内部调用点，三级审核链未变",
+  "trace_id": "tr-096f926497"
+}

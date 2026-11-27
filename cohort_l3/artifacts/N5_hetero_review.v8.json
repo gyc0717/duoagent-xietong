@@ -1,0 +1,45 @@
+{
+  "verdict": "PASS",
+  "checked": [
+    "rows 总数",
+    "null_policy 描述",
+    "groups 中每个区间的 orders, returns, return_rate, null_amount 数值",
+    "totals 中的 orders, returns, return_rate, aov_cny, null_amount_rows 数值",
+    "reconciliation 中 sum_group_orders, ledger_orders, diff 的数值",
+    "chart_value_lock 值",
+    "视觉层中显示的订单量总数",
+    "视觉层中显示的各区间订单量",
+    "视觉层中显示的整体退货率",
+    "视觉层中显示的客单价",
+    "视觉层中显示的注释"
+  ],
+  "findings": [],
+  "reviewer": "Qwen",
+  "reviewer_model": "qwen-max",
+  "reviewed_ids": [
+    "A-011",
+    "A-012",
+    "A-013",
+    "A-014",
+    "A-015",
+    "A-069",
+    "A-070"
+  ],
+  "reviewed_names": [
+    "chart_01_orders_by_band",
+    "chart_02_return_rate_by_band",
+    "chart_03_null_amount_by_band",
+    "chart_04_reconciliation",
+    "chart_05_returns_by_band",
+    "kimi_chart",
+    "kimi_infographic"
+  ],
+  "vendor_distinct": true,
+  "usage": {
+    "calls": 1,
+    "prompt_tokens": 3531,
+    "completion_tokens": 137,
+    "latency_ms": 4561.6,
+    "est_cost_cny": 0.00979
+  }
+}

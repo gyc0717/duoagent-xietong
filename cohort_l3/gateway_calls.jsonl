@@ -1,0 +1,242 @@
+{"ts": "2026-11-26T00:13:09", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": null, "authed": false}
+{"ts": "2026-11-26T00:13:17", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": null, "authed": false}
+{"ts": "2026-11-26T00:13:17", "method": "GET", "path": "/status", "code": 401, "ms": 0, "token_fp": null, "authed": false}
+{"ts": "2026-11-26T00:13:17", "method": "GET", "path": "/status", "code": 200, "ms": 21, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:13:17", "method": "POST", "path": "/sandbox", "code": 200, "ms": 882, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:13:17", "method": "POST", "path": "/publish", "code": 403, "ms": 1, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:13:17", "method": "POST", "path": "/workflow", "code": 404, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:13:50", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:13:50", "method": "GET", "path": "/status", "code": 200, "ms": 61, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:14:06", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:14:06", "method": "GET", "path": "/status", "code": 200, "ms": 30, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:14:15", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": null, "authed": false}
+{"ts": "2026-11-26T00:16:44", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:16:44", "method": "GET", "path": "/status", "code": 200, "ms": 23, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:17:10", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:17:10", "method": "GET", "path": "/status", "code": 200, "ms": 19, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:17:33", "method": "GET", "path": "/health", "code": 200, "ms": 2, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:17:33", "method": "GET", "path": "/status", "code": 200, "ms": 24, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:17:34", "method": "POST", "path": "/sandbox", "code": 200, "ms": 1003, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:17:55", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:17:55", "method": "GET", "path": "/status", "code": 200, "ms": 60, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:17:56", "method": "POST", "path": "/sandbox", "code": 200, "ms": 959, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:18:16", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:18:16", "method": "GET", "path": "/status", "code": 200, "ms": 66, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:18:17", "method": "POST", "path": "/sandbox", "code": 200, "ms": 990, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:31", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:31", "method": "GET", "path": "/status", "code": 200, "ms": 51, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:31", "method": "POST", "path": "/register", "code": 200, "ms": 10, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:31", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:31", "method": "GET", "path": "/status", "code": 200, "ms": 73, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:31", "method": "POST", "path": "/register", "code": 200, "ms": 8, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:31", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:31", "method": "GET", "path": "/status", "code": 200, "ms": 55, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:32", "method": "POST", "path": "/register", "code": 200, "ms": 7, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:50", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:50", "method": "GET", "path": "/status", "code": 200, "ms": 75, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:50", "method": "POST", "path": "/register", "code": 200, "ms": 10, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:50", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:50", "method": "GET", "path": "/status", "code": 200, "ms": 49, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:50", "method": "POST", "path": "/register", "code": 200, "ms": 10, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:50", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:50", "method": "GET", "path": "/status", "code": 200, "ms": 53, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:21:51", "method": "POST", "path": "/register", "code": 200, "ms": 7, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:22:01", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": null, "authed": false}
+{"ts": "2026-11-26T00:25:59", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:25:59", "method": "GET", "path": "/status", "code": 200, "ms": 37, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:00", "method": "POST", "path": "/register", "code": 200, "ms": 7, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:00", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:00", "method": "GET", "path": "/status", "code": 200, "ms": 58, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:00", "method": "POST", "path": "/register", "code": 200, "ms": 10, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:00", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:00", "method": "GET", "path": "/status", "code": 200, "ms": 52, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:01", "method": "POST", "path": "/register", "code": 200, "ms": 7, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:01", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:01", "method": "GET", "path": "/status", "code": 200, "ms": 52, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:01", "method": "POST", "path": "/register", "code": 200, "ms": 5, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:26:11", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": null, "authed": false}
+{"ts": "2026-11-26T00:30:19", "method": "GET", "path": "/health", "code": 200, "ms": 0, "token_fp": null, "authed": false}
+{"ts": "2026-11-26T00:30:27", "method": "GET", "path": "/health", "code": 200, "ms": 1, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:30:27", "method": "GET", "path": "/status", "code": 200, "ms": 45, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:30:28", "method": "POST", "path": "/sandbox", "code": 200, "ms": 1000, "token_fp": "367880a8", "authed": true}
+{"ts": "2026-11-26T00:30:47", "method": "GET", "path": "/health", "code": 200, "ms": 1, "token_fp": null, "authed": false}
+{"ts": "2026-11-26T00:36:49", "method": "GET", "path": "/health", "code": 200, "ms": 1, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T00:37:13", "method": "GET", "path": "/health", "code": 200, "ms": 1, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:37:13", "method": "GET", "path": "/status", "code": 200, "ms": 56, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:37:14", "method": "POST", "path": "/sandbox", "code": 200, "ms": 934, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:37:23", "method": "GET", "path": "/progress", "code": 200, "ms": 16, "caller": "operator", "caller_source": "token_fp（服务端反查）", "token_fp": "77110f62", "claimed_caller": "operator-self-claimed"}
+{"ts": "2026-11-26T00:41:35", "method": "GET", "path": "/model/aliases", "code": 200, "ms": 1, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:41:35", "method": "GET", "path": "/model/aliases", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:41:35", "kind": "model_call", "alias": "evil-endpoint", "run_id": "default", "code": 403, "vendor": null, "tokens": null, "cost_cny": null, "cost_source": null, "latency_ms": null, "caller": "harness"}
+{"ts": "2026-11-26T00:41:35", "method": "POST", "path": "/model", "code": 403, "ms": 16, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:41:36", "kind": "model_call", "alias": "moonshot-lite", "run_id": "demo-1", "code": 502, "vendor": "Moonshot", "tokens": null, "cost_cny": null, "cost_source": null, "latency_ms": null, "caller": "harness"}
+{"ts": "2026-11-26T00:41:36", "method": "POST", "path": "/model", "code": 502, "ms": 317, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:41:43", "kind": "model_call", "alias": "moonshot-lite", "run_id": "probe", "code": 502, "vendor": "Moonshot", "tokens": null, "cost_cny": null, "cost_source": null, "latency_ms": null, "caller": "harness"}
+{"ts": "2026-11-26T00:41:43", "method": "POST", "path": "/model", "code": 502, "ms": 285, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:41:43", "kind": "model_call", "alias": "bailian-flash", "run_id": "probe", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 14, "completion": 1, "total": 15}, "cost_cny": 5e-06, "cost_source": "token_pricing", "latency_ms": 327, "caller": "harness"}
+{"ts": "2026-11-26T00:41:43", "method": "POST", "path": "/model", "code": 200, "ms": 328, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:41:45", "kind": "model_call", "alias": "ark-lite", "run_id": "probe", "code": 200, "vendor": "Ark", "tokens": {"prompt": 52, "completion": 33, "total": 85}, "cost_cny": 3.5e-05, "cost_source": "token_pricing", "latency_ms": 1791, "caller": "harness"}
+{"ts": "2026-11-26T00:41:45", "method": "POST", "path": "/model", "code": 200, "ms": 1792, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:42:00", "kind": "model_call", "alias": "moonshot-lite", "run_id": "demo-2", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 90, "completion": 32, "total": 122}, "cost_cny": 0.00366, "cost_source": "token_pricing", "latency_ms": 1672, "caller": "harness"}
+{"ts": "2026-11-26T00:42:00", "method": "POST", "path": "/model", "code": 200, "ms": 1689, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:42:00", "kind": "model_call", "alias": "bailian-flash", "run_id": "demo-2", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 14, "completion": 1, "total": 15}, "cost_cny": 5e-06, "cost_source": "token_pricing", "latency_ms": 396, "caller": "harness"}
+{"ts": "2026-11-26T00:42:00", "method": "POST", "path": "/model", "code": 200, "ms": 398, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:42:02", "kind": "model_call", "alias": "ark-lite", "run_id": "demo-2", "code": 200, "vendor": "Ark", "tokens": {"prompt": 52, "completion": 37, "total": 89}, "cost_cny": 3.8e-05, "cost_source": "token_pricing", "latency_ms": 1242, "caller": "harness"}
+{"ts": "2026-11-26T00:42:02", "method": "POST", "path": "/model", "code": 200, "ms": 1244, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:42:45", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:42:45", "method": "GET", "path": "/status", "code": 200, "ms": 55, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:42:54", "kind": "model_call", "alias": "moonshot-lite", "run_id": "run-004245", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 98, "completion": 315, "total": 413}, "cost_cny": 0.01239, "cost_source": "token_pricing", "latency_ms": 8370, "caller": "harness"}
+{"ts": "2026-11-26T00:42:54", "method": "POST", "path": "/model", "code": 200, "ms": 8372, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:42:54", "kind": "model_call", "alias": "bailian-flash", "run_id": "run-004245", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 29, "completion": 12, "total": 41}, "cost_cny": 2.3e-05, "cost_source": "token_pricing", "latency_ms": 501, "caller": "harness"}
+{"ts": "2026-11-26T00:42:54", "method": "POST", "path": "/model", "code": 200, "ms": 503, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:42:55", "method": "POST", "path": "/sandbox", "code": 200, "ms": 895, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:43:31", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:43:31", "method": "GET", "path": "/status", "code": 200, "ms": 66, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:43:46", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:43:46", "method": "GET", "path": "/status", "code": 200, "ms": 26, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:43:55", "kind": "model_call", "alias": "moonshot-lite", "run_id": "run-004346", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 95, "completion": 216, "total": 311}, "cost_cny": 0.00933, "cost_source": "token_pricing", "latency_ms": 8867, "caller": "harness"}
+{"ts": "2026-11-26T00:43:55", "method": "POST", "path": "/model", "code": 200, "ms": 8868, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:43:56", "kind": "model_call", "alias": "bailian-flash", "run_id": "run-004346", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 26, "completion": 13, "total": 39}, "cost_cny": 2.3e-05, "cost_source": "token_pricing", "latency_ms": 385, "caller": "harness"}
+{"ts": "2026-11-26T00:43:56", "method": "POST", "path": "/model", "code": 200, "ms": 386, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:43:57", "method": "POST", "path": "/sandbox", "code": 200, "ms": 919, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:44:24", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:44:24", "method": "GET", "path": "/status", "code": 200, "ms": 70, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:44:35", "kind": "model_call", "alias": "moonshot-lite", "run_id": "run-004424", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 93, "completion": 256, "total": 349}, "cost_cny": 0.01047, "cost_source": "token_pricing", "latency_ms": 11067, "caller": "harness"}
+{"ts": "2026-11-26T00:44:35", "method": "POST", "path": "/model", "code": 200, "ms": 11069, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:44:44", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T00:44:53", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:44:53", "method": "GET", "path": "/status", "code": 200, "ms": 26, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:44:53", "kind": "model_call", "alias": "bailian-flash", "run_id": "run-004452", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 17, "completion": 14, "total": 31}, "cost_cny": 2.2e-05, "cost_source": "token_pricing", "latency_ms": 515, "caller": "harness"}
+{"ts": "2026-11-26T00:44:53", "method": "POST", "path": "/model", "code": 200, "ms": 517, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:44:57", "method": "GET", "path": "/health", "code": 200, "ms": 1, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:44:58", "method": "GET", "path": "/status", "code": 200, "ms": 24, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:44:59", "kind": "model_call", "alias": "moonshot-lite", "run_id": "run-004457", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 98, "completion": 16, "total": 114}, "cost_cny": 0.00342, "cost_source": "token_pricing", "latency_ms": 1853, "caller": "harness"}
+{"ts": "2026-11-26T00:44:59", "method": "POST", "path": "/model", "code": 200, "ms": 1856, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:45:04", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:45:04", "method": "GET", "path": "/status", "code": 200, "ms": 27, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:45:15", "kind": "model_call", "alias": "moonshot-lite", "run_id": "run-004504", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 95, "completion": 366, "total": 461}, "cost_cny": 0.01383, "cost_source": "token_pricing", "latency_ms": 10899, "caller": "harness"}
+{"ts": "2026-11-26T00:45:15", "method": "POST", "path": "/model", "code": 200, "ms": 10901, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:45:15", "kind": "model_call", "alias": "bailian-flash", "run_id": "run-004504", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 26, "completion": 13, "total": 39}, "cost_cny": 2.3e-05, "cost_source": "token_pricing", "latency_ms": 408, "caller": "harness"}
+{"ts": "2026-11-26T00:45:15", "method": "POST", "path": "/model", "code": 200, "ms": 410, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:45:33", "kind": "model_call", "alias": "ark-lite", "run_id": "run-004504", "code": 200, "vendor": "Ark", "tokens": {"prompt": 56, "completion": 1661, "total": 1717}, "cost_cny": 0.001013, "cost_source": "token_pricing", "latency_ms": 17643, "caller": "harness"}
+{"ts": "2026-11-26T00:45:33", "method": "POST", "path": "/model", "code": 200, "ms": 17645, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:45:34", "method": "POST", "path": "/sandbox", "code": 200, "ms": 874, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:46:54", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T00:49:48", "method": "GET", "path": "/health", "code": 200, "ms": 1, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T00:50:01", "kind": "model_call", "alias": "bailian-flash", "run_id": "http-402-evidence", "code": 402, "vendor": null, "tokens": null, "cost_cny": null, "cost_source": null, "latency_ms": null, "caller": "harness"}
+{"ts": "2026-11-26T00:50:01", "method": "POST", "path": "/model", "code": 402, "ms": 16, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:54:32", "method": "POST", "path": "/run/charts", "code": 200, "ms": 129, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:54:32", "method": "POST", "path": "/run/index", "code": 200, "ms": 177, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:54:32", "method": "POST", "path": "/run/report", "code": 200, "ms": 137, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:54:32", "method": "POST", "path": "/run/evil", "code": 404, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:54:52", "method": "POST", "path": "/run/ingest", "code": 200, "ms": 214, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:54:52", "method": "POST", "path": "/run/ingest", "code": 403, "ms": 3, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:54:52", "method": "POST", "path": "/run/ingest", "code": 400, "ms": 1, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:55:23", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:55:23", "method": "GET", "path": "/status", "code": 200, "ms": 60, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:55:23", "method": "POST", "path": "/run/index", "code": 200, "ms": 194, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:55:24", "method": "POST", "path": "/run/ingest", "code": 200, "ms": 169, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:55:24", "method": "POST", "path": "/run/charts", "code": 200, "ms": 132, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:55:25", "method": "POST", "path": "/sandbox", "code": 200, "ms": 900, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:55:53", "kind": "model_call", "alias": "moonshot-lite", "run_id": "run-005523", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 100, "completion": 600, "total": 700}, "cost_cny": 0.021, "cost_source": "token_pricing", "latency_ms": 27799, "caller": "harness"}
+{"ts": "2026-11-26T00:55:53", "method": "POST", "path": "/model", "code": 200, "ms": 27814, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:56:04", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:56:04", "method": "GET", "path": "/status", "code": 200, "ms": 63, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:56:05", "method": "POST", "path": "/run/index", "code": 200, "ms": 158, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:56:05", "method": "POST", "path": "/run/ingest", "code": 200, "ms": 208, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:56:05", "method": "POST", "path": "/run/charts", "code": 200, "ms": 138, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:56:06", "method": "POST", "path": "/sandbox", "code": 200, "ms": 898, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:56:07", "kind": "model_call", "alias": "bailian-flash", "run_id": "run-005604", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 22, "completion": 16, "total": 38}, "cost_cny": 2.6e-05, "cost_source": "token_pricing", "latency_ms": 526, "caller": "harness"}
+{"ts": "2026-11-26T00:56:07", "method": "POST", "path": "/model", "code": 200, "ms": 528, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:56:47", "kind": "model_call", "alias": "ark-lite", "run_id": "run-005604", "code": 200, "vendor": "Ark", "tokens": {"prompt": 58, "completion": 3987, "total": 4045}, "cost_cny": 0.00241, "cost_source": "token_pricing", "latency_ms": 39841, "caller": "harness"}
+{"ts": "2026-11-26T00:56:47", "method": "POST", "path": "/model", "code": 200, "ms": 39844, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T00:56:47", "method": "POST", "path": "/run/report", "code": 200, "ms": 152, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:14:22", "kind": "model_call", "alias": "bailian-flash", "run_id": "chain-011421", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 99, "completion": 57, "total": 156}, "cost_cny": 9.8e-05, "cost_source": "token_pricing", "latency_ms": 899, "caller": "harness"}
+{"ts": "2026-11-26T01:14:22", "method": "POST", "path": "/model", "code": 200, "ms": 901, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:14:36", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-011422", "code": 200, "vendor": "Ark", "tokens": {"prompt": 163, "completion": 869, "total": 1032}, "cost_cny": 0.00057, "cost_source": "token_pricing", "latency_ms": 13901, "caller": "harness"}
+{"ts": "2026-11-26T01:14:36", "method": "POST", "path": "/model", "code": 200, "ms": 13904, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:14:45", "kind": "model_call", "alias": "bailian-flash", "run_id": "chain-011444", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 115, "completion": 60, "total": 175}, "cost_cny": 0.000106, "cost_source": "token_pricing", "latency_ms": 1195, "caller": "harness"}
+{"ts": "2026-11-26T01:14:45", "method": "POST", "path": "/model", "code": 200, "ms": 1198, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:15:19", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-011445", "code": 200, "vendor": "Ark", "tokens": {"prompt": 174, "completion": 2799, "total": 2973}, "cost_cny": 0.001732, "cost_source": "token_pricing", "latency_ms": 34211, "caller": "harness"}
+{"ts": "2026-11-26T01:15:19", "method": "POST", "path": "/model", "code": 200, "ms": 34213, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:15:40", "kind": "model_call", "alias": "bailian-flash", "run_id": "chain-011539", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 115, "completion": 69, "total": 184}, "cost_cny": 0.000117, "cost_source": "token_pricing", "latency_ms": 763, "caller": "harness"}
+{"ts": "2026-11-26T01:15:40", "method": "POST", "path": "/model", "code": 200, "ms": 765, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:15:57", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-011540", "code": 200, "vendor": "Ark", "tokens": {"prompt": 185, "completion": 1293, "total": 1478}, "cost_cny": 0.000831, "cost_source": "token_pricing", "latency_ms": 17207, "caller": "harness"}
+{"ts": "2026-11-26T01:15:57", "method": "POST", "path": "/model", "code": 200, "ms": 17207, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:16:31", "kind": "model_call", "alias": "bailian-flash", "run_id": "chain-011630", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 115, "completion": 53, "total": 168}, "cost_cny": 9.8e-05, "cost_source": "token_pricing", "latency_ms": 808, "caller": "harness"}
+{"ts": "2026-11-26T01:16:31", "method": "POST", "path": "/model", "code": 200, "ms": 810, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:16:52", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-011631", "code": 200, "vendor": "Ark", "tokens": {"prompt": 167, "completion": 1881, "total": 2048}, "cost_cny": 0.001179, "cost_source": "token_pricing", "latency_ms": 21180, "caller": "harness"}
+{"ts": "2026-11-26T01:16:52", "method": "POST", "path": "/model", "code": 200, "ms": 21182, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:17:08", "kind": "model_call", "alias": "bailian-flash", "run_id": "chain-011707", "code": 200, "vendor": "Bailian", "tokens": {"prompt": 115, "completion": 53, "total": 168}, "cost_cny": 9.8e-05, "cost_source": "token_pricing", "latency_ms": 738, "caller": "harness"}
+{"ts": "2026-11-26T01:17:08", "method": "POST", "path": "/model", "code": 200, "ms": 741, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:17:28", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-011708", "code": 200, "vendor": "Ark", "tokens": {"prompt": 167, "completion": 1733, "total": 1900}, "cost_cny": 0.00109, "cost_source": "token_pricing", "latency_ms": 20532, "caller": "harness"}
+{"ts": "2026-11-26T01:17:28", "method": "POST", "path": "/model", "code": 200, "ms": 20533, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:20:21", "kind": "model_call", "alias": "moonshot-lite", "run_id": "chain-011956", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 168, "completion": 900, "total": 1068}, "cost_cny": 0.03204, "cost_source": "token_pricing", "latency_ms": 25053, "caller": "harness"}
+{"ts": "2026-11-26T01:20:21", "method": "POST", "path": "/model", "code": 200, "ms": 25054, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:20:42", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-012021", "code": 200, "vendor": "Ark", "tokens": {"prompt": 181, "completion": 1965, "total": 2146}, "cost_cny": 0.001233, "cost_source": "token_pricing", "latency_ms": 20806, "caller": "harness"}
+{"ts": "2026-11-26T01:20:42", "method": "POST", "path": "/model", "code": 200, "ms": 20808, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:21:22", "kind": "model_call", "alias": "moonshot-lite", "run_id": "chain-012059", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 168, "completion": 900, "total": 1068}, "cost_cny": 0.03204, "cost_source": "token_pricing", "latency_ms": 23331, "caller": "harness"}
+{"ts": "2026-11-26T01:21:22", "method": "POST", "path": "/model", "code": 200, "ms": 23334, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:21:46", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-012122", "code": 200, "vendor": "Ark", "tokens": {"prompt": 180, "completion": 1829, "total": 2009}, "cost_cny": 0.001151, "cost_source": "token_pricing", "latency_ms": 23604, "caller": "harness"}
+{"ts": "2026-11-26T01:21:46", "method": "POST", "path": "/model", "code": 200, "ms": 23606, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:25:03", "kind": "model_call", "alias": "moonshot-lite", "run_id": "chain-012437", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 168, "completion": 900, "total": 1068}, "cost_cny": 0.03204, "cost_source": "token_pricing", "latency_ms": 26496, "caller": "harness"}
+{"ts": "2026-11-26T01:25:03", "method": "POST", "path": "/model", "code": 200, "ms": 26498, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:25:17", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-012504", "code": 200, "vendor": "Ark", "tokens": {"prompt": 182, "completion": 1034, "total": 1216}, "cost_cny": 0.000675, "cost_source": "token_pricing", "latency_ms": 12910, "caller": "harness"}
+{"ts": "2026-11-26T01:25:17", "method": "POST", "path": "/model", "code": 200, "ms": 12911, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:26:26", "kind": "model_call", "alias": "moonshot-lite", "run_id": "chain-012603", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 168, "completion": 851, "total": 1019}, "cost_cny": 0.03057, "cost_source": "token_pricing", "latency_ms": 23318, "caller": "harness"}
+{"ts": "2026-11-26T01:26:26", "method": "POST", "path": "/model", "code": 200, "ms": 23322, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:26:40", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-012627", "code": 200, "vendor": "Ark", "tokens": {"prompt": 186, "completion": 1101, "total": 1287}, "cost_cny": 0.000716, "cost_source": "token_pricing", "latency_ms": 13087, "caller": "harness"}
+{"ts": "2026-11-26T01:26:40", "method": "POST", "path": "/model", "code": 200, "ms": 13089, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T01:27:37", "method": "GET", "path": "/progress", "code": 401, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T10:17:09", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T10:21:29", "kind": "model_call", "alias": "moonshot-lite", "run_id": "chain-102109", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 168, "completion": 655, "total": 823}, "cost_cny": 0.02469, "cost_source": "token_pricing", "latency_ms": 16476, "caller": "harness"}
+{"ts": "2026-11-26T10:21:29", "method": "POST", "path": "/model", "code": 200, "ms": 16479, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T10:21:39", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-102109", "code": 200, "vendor": "Ark", "tokens": {"prompt": 195, "completion": 671, "total": 866}, "cost_cny": 0.000461, "cost_source": "token_pricing", "latency_ms": 9704, "caller": "harness"}
+{"ts": "2026-11-26T10:21:39", "method": "POST", "path": "/model", "code": 200, "ms": 9708, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T10:33:52", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T10:35:28", "kind": "model_call", "alias": "moonshot-lite", "run_id": "chain-103459", "code": 200, "vendor": "Moonshot", "tokens": {"prompt": 174, "completion": 671, "total": 845}, "cost_cny": 0.02535, "cost_source": "token_pricing", "latency_ms": 16380, "caller": "harness"}
+{"ts": "2026-11-26T10:35:28", "method": "POST", "path": "/model", "code": 200, "ms": 16385, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T10:35:41", "kind": "model_call", "alias": "ark-lite", "run_id": "chain-103459", "code": 200, "vendor": "Ark", "tokens": {"prompt": 186, "completion": 1129, "total": 1315}, "cost_cny": 0.000733, "cost_source": "token_pricing", "latency_ms": 12594, "caller": "harness"}
+{"ts": "2026-11-26T10:35:41", "method": "POST", "path": "/model", "code": 200, "ms": 12598, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T10:38:52", "method": "GET", "path": "/health", "code": 200, "ms": 1, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:07:32", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:07:32", "method": "GET", "path": "/status", "code": 401, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:12:03", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:12:04", "method": "GET", "path": "/status", "code": 200, "ms": 66, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:12:12", "method": "GET", "path": "/status", "code": 200, "ms": 61, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:12:16", "method": "GET", "path": "/status", "code": 200, "ms": 62, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:12:30", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:12:30", "method": "GET", "path": "/status", "code": 200, "ms": 75, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:29:10", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:30:39", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:30:40", "method": "GET", "path": "/status", "code": 200, "ms": 1215, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:31:19", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:31:19", "method": "GET", "path": "/status", "code": 200, "ms": 46, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:32:35", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:32:35", "method": "GET", "path": "/status", "code": 200, "ms": 55, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:33:47", "method": "GET", "path": "/health", "code": 200, "ms": 1, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:33:52", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:33:52", "method": "GET", "path": "/status", "code": 200, "ms": 108, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:45:31", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:46:24", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:46:24", "method": "GET", "path": "/status", "code": 200, "ms": 175, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:46:55", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:46:55", "method": "GET", "path": "/status", "code": 200, "ms": 78, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:52:13", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:52:13", "method": "GET", "path": "/status", "code": 401, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:54:48", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:54:48", "method": "GET", "path": "/status", "code": 200, "ms": 175, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:55:05", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T11:55:05", "method": "GET", "path": "/status", "code": 200, "ms": 45, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:58:01", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:58:02", "method": "GET", "path": "/status", "code": 200, "ms": 252, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:58:03", "method": "POST", "path": "/run/index", "code": 200, "ms": 943, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T11:58:03", "method": "POST", "path": "/run/ingest", "code": 404, "ms": 1, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T21:22:47", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T21:22:48", "method": "GET", "path": "/status", "code": 200, "ms": 1326, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T21:24:27", "method": "GET", "path": "/health", "code": 200, "ms": 1, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T21:24:27", "method": "GET", "path": "/status", "code": 200, "ms": 167, "caller": "harness", "caller_source": "token_fp（服务端反查）", "token_fp": "0ebdfccf", "claimed_caller": null}
+{"ts": "2026-11-26T21:44:49", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-26T21:44:49", "method": "GET", "path": "/status", "code": 401, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": "f3062eed", "claimed_caller": null}
+{"ts": "2026-11-27T19:12:16", "method": "GET", "path": "/health", "code": 200, "ms": 0, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}
+{"ts": "2026-11-27T20:13:25", "method": "GET", "path": "/health", "code": 200, "ms": 2, "caller": null, "caller_source": "token_fp（服务端反查）", "token_fp": null, "claimed_caller": null}

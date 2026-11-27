@@ -1,0 +1,26 @@
+﻿N3 · Kimi（kimi-k3）开始产出视觉层
+
+[infographic]
+  第 1 次生成：0 字符，问题 1 个
+    ✗ SVG 不是合法 XML：Document is empty, line 1, column 1 (<string>, line 1)
+  第 2 次生成：4323 字符，问题 1 个
+    ✗ SVG 不是合法 XML：AttValue: ' expected, line 66, column 22 (<string>, line 66)
+  第 3 次生成：2665 字符，问题 1 个
+    ✗ SVG 不是合法 XML：Premature end of data in tag text line 40, line 40, column 76 (<string>, line 40)
+python.exe : Traceback (most recent call last):
+所在位置 行:1 字符: 310
++ ... lti-agent"; & "C:\Users\gyc20\.dsh\dsh-runtimes\dsh-primary-runtime\d ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\数据\deepseek-harness\default-workspace\multi-agent\n3\n3_visuals.py", line 194, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\数据\deepseek-harness\default-workspace\multi-agent\n3\n3_visuals.py", line 170, in main
+    results.append(make_visual(kind, data, usage, ws))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\数据\deepseek-harness\default-workspace\multi-agent\n3\n3_visuals.py", line 141, in make_visual
+    raise RuntimeError(f"{kind} 三次都没通过质检：{errors}")
+RuntimeError: infographic 三次都没通过质检：['SVG 不是合法 XML：Premature end of data in tag text line 40, line 40, column 76 (<strin
+g>, line 40)']

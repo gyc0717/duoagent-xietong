@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "root": "D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\cohort_l3_big",
+    "artifacts": 9,
+    "nodes": [
+      "N1",
+      "N1Q",
+      "N3",
+      "N4",
+      "N5"
+    ],
+    "trust": {
+      "trusted": 8,
+      "untrusted": 1
+    },
+    "fulltext": 9,
+    "ledger_events": 10
+  },
+  "verify": {
+    "total": 9,
+    "ok": 9,
+    "missing": [],
+    "tampered": [],
+    "pass": true
+  },
+  "task": {
+    "task_id": "T-20261125-002",
+    "goal": "产出新品 Q4 竞品与经营复盘（代码/数据结果 + 图表 + 一页总结）",
+    "note": "L3 真实工作区落地验证：登记表 + 文件锁 + sha256 + 真沙箱 + 本地索引"
+  }
+}

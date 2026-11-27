@@ -1,0 +1,40 @@
+{
+  "rows": 48216,
+  "null_policy": "amount 空值按 0 计入并对账，单独标注 null_amount（用户第 2 轮明确要求）",
+  "groups": [
+    {
+      "aov_band": "¥0–199",
+      "orders": 15340,
+      "returns": 237,
+      "return_rate": 0.0154,
+      "null_amount": 694
+    },
+    {
+      "aov_band": "¥200–399",
+      "orders": 27148,
+      "returns": 626,
+      "return_rate": 0.0231,
+      "null_amount": 0
+    },
+    {
+      "aov_band": "¥400+",
+      "orders": 5728,
+      "returns": 169,
+      "return_rate": 0.0295,
+      "null_amount": 0
+    }
+  ],
+  "totals": {
+    "orders": 48216,
+    "returns": 1032,
+    "return_rate": 0.0214,
+    "aov_cny": 256.46,
+    "null_amount_rows": 694
+  },
+  "reconciliation": {
+    "sum_group_orders": 48216,
+    "ledger_orders": 48216,
+    "diff": 0
+  },
+  "chart_value_lock": true
+}

@@ -1,0 +1,8 @@
+{
+  "node": "N6",
+  "producer": "workbuddy_dispatch",
+  "label": "二审 WorkBuddy：完整性 / 合规 / 上下文完整度 / 信任隔离 / 引用 / 预算",
+  "content": "[WorkBuddy · 分发/二审/界面 | model=hunyuan] 二审 WorkBuddy：完整性 / 合规 / 上下文完整度 / 信任隔离 / 引用 / 预算\n二审通过：交付清单齐全、data_class 合规、上下文完整度 100%、指令/数据通道分离且外部工件全标 untrusted、深度校验与引用角标齐全、工件全部登记 trace_id；预算使用率低，无需裁剪任何上下文。",
+  "trust_level": "trusted",
+  "channel": "both"
+}

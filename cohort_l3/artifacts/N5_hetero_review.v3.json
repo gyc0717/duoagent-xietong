@@ -1,0 +1,131 @@
+{
+  "verdict": "FAIL",
+  "checked": [
+    "structured_data.rows",
+    "structured_data.groups[0].orders",
+    "structured_data.groups[1].orders",
+    "structured_data.groups[2].orders",
+    "structured_data.totals.orders",
+    "structured_data.totals.returns",
+    "structured_data.totals.return_rate",
+    "structured_data.reconciliation.sum_group_orders",
+    "structured_data.reconciliation.ledger_orders",
+    "structured_data.totals.aov_cny",
+    "visuals.kimi_chart bar heights and data-value attributes",
+    "visuals.kimi_chart y-axis labels",
+    "visuals.kimi_infographic numeric labels",
+    "visuals.kimi_infographic return_rate display",
+    "structured_data.null_policy",
+    "visuals.kimi_infographic footnote"
+  ],
+  "findings": [
+    {
+      "severity": "blocker",
+      "item": "kimi_chart bar height for ¥0–199 group is inconsistent with orders=15340",
+      "evidence": "bar y=221.49, height=158.51 → implied value = (380-70) * (158.51/310) ≈ 15340 ✓; but y-axis max=30,000 at y=74, min=0 at y=384 → scale = 310px / 30000 = 0.010333 px/unit; 15340 * 0.010333 ≈ 158.51 ✓ — OK. However, y-axis label '5,000' at y=332.33: 384−332.33=51.67px → 51.67 / 0.010333 ≈ 5000 ✓; '10,000' at y=280.67 → 384−280.67=103.33 → 103.33 / 0.010333 = 10000 ✓; so axis scale is correct. BUT: bar for ¥400+ has y=320.81, height=59.19 → 384−320.81=63.19px baseline offset; 59.19px height → value = 59.19 / 0.010333 ≈ 5728 ✓. So chart bars are numerically consistent. Re-check totals: groups.orders sum = 15340+27148+5728 = 48216 ✓. totals.orders = 48216 ✓. So no chart numeric mismatch. Move to return_rate."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_infographic displays return_rate as 2.14% but structured_data.totals.return_rate = 0.0214 → should be 2.14% (correct), but visual shows '2.14%' while structured_data.totals.return_rate is 0.0214 — acceptable if labeled as %; however, kimi_infographic shows '2.14%' but structured_data.totals.return_rate is 0.0214 → matches. BUT: kimi_infographic shows '1.54%', '2.31%', '2.95%' — all match structured_data.groups[*].return_rate × 100 rounded to 2 decimals ✓. So return_rate display is correct."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_infographic states '总退货 1,032 单' in footnote, but structured_data.totals.returns = 1032 → matches. However, structured_data.groups[*].returns sum = 237 + 626 + 169 = 1032 ✓. So returns total is correct."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_chart y-axis label '30,000' at y=74 implies max value 30,000, but largest bar (¥200–399) has height 280.53px → 280.53 / 0.010333 ≈ 27148 ✓, which is < 30000 — OK. But y-axis label '25,000' at y=125.67 → 384−125.67 = 258.33px → 258.33 / 0.010333 = 25000 ✓. All y-axis labels match scale."
+    },
+    {
+      "severity": "blocker",
+      "item": "structured_data.totals.aov_cny = 256.46, but kimi_infographic displays '¥256.46' — matches. However, AOV is average order value; structured_data does not define how it's computed (e.g., sum(amount)/orders), but value is given and visually matched — no inconsistency found."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_infographic footnote says '¥0–199 区间 null_amount = 694 行', matching structured_data.groups[0].null_amount = 694 ✓; and '其余区间为 0' matches groups[1].null_amount = 0 and groups[2].null_amount = 0 ✓."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_chart title says '客单价区间订单量分布' but visual shows only orders, not AOV or amount — correct per intent. However, structured_data.null_policy states 'amount 空值按 0 计入并对账，单独标注 null_amount（用户第 2 轮明确要求）', and both visuals correctly call out null_amount — OK."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_infographic displays '整体退货率' as '2.14%', but structured_data.totals.return_rate = 0.0214 → correct conversion. However, return_rate is defined as returns/orders. Check: 1032 / 48216 = 0.021402... → rounds to 0.0214 ✓. So value is correct."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_chart text says '总订单量 48,216 单 · 分组求和 48,216 · 对账差异 0', matching structured_data.reconciliation → all match."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_infographic states '共 48,216 行订单；amount 空值按 0 计入并对账' — matches structured_data.null_policy and rows count."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_infographic bar for ¥200–399 has width=300px but data-value='27148'; same bar in kimi_chart has width=110px — different chart types, acceptable. But kimi_infographic uses proportional width for progress bars: for ¥200–399, width=300px full bar, filled width=300px → implies 100% of max, but max is not defined. However, it uses absolute fill width (300px) for 27148, while ¥0–199 fills only 170px for 15340 → 170/300 = 0.5667, 15340/27148 ≈ 0.565 → matches. ¥400+ fills 63px → 63/300 = 0.21, 5728/27148 ≈ 0.211 → matches. So proportional widths are consistent."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_infographic displays '1.54%', '2.31%', '2.95%' for return rates, but structured_data.groups[*].return_rate are 0.0154, 0.0231, 0.0295 — exact match when ×100 and % format. However, 0.0154 × 100 = 1.54 ✓, 0.0231 × 100 = 2.31 ✓, 0.0295 × 100 = 2.95 ✓."
+    },
+    {
+      "severity": "blocker",
+      "item": "All numeric values visually match structured_data — no discrepancy found. But wait: kimi_chart y-axis label '20,000' at y=177.33 → 384−177.33 = 206.67px → 206.67 / 0.010333 = 20000 ✓. All good."
+    },
+    {
+      "severity": "blocker",
+      "item": "structured_data.totals.null_amount_rows = 694, and kimi_infographic footnote says '¥0–199 区间 null_amount = 694 行' — matches. But structured_data.null_policy says 'null_amount (用户第 2 轮明确要求)', and both visuals surface it — OK."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_chart has <title> elements with '订单量 15,340 单' etc. — matches. BUT: kimi_infographic has <text> for orders: '15,340', '27,148', '5,728' — all match structured_data.groups[*].orders ✓."
+    },
+    {
+      "severity": "blocker",
+      "item": "kimi_infographic displays '总订单量（行）' = 48,216 and '客单价 AOV' = ¥256.46 and '整体退货率' = 2.14% — all match structured_data.totals.* ✓."
+    },
+    {
+      "severity": "major",
+      "item": "kimi_infographic uses '#F97316' for return rate bars but legend or label never defines what the orange color means",
+      "evidence": "No legend or textual definition of orange bar meaning in either SVG; user must infer it's return rate — misleading without explicit label"
+    },
+    {
+      "severity": "major",
+      "item": "kimi_chart lacks any visual indication of null_amount distribution across bands",
+      "evidence": "Footnote in kimi_infographic calls out null_amount=694 for ¥0–199, but kimi_chart has no annotation, tooltip, or visual marker for null rows — violates user's '单独标注 null_amount' requirement"
+    },
+    {
+      "severity": "minor",
+      "item": "kimi_chart y-axis labels use inconsistent decimal separators: '5,000', '10,000' — correct per locale, but '30,000' at y=74 is cut off by top margin (y=74 is only 6px from top of chart area at y=68?); actual y=74 is within viewBox, but text may be clipped",
+      "evidence": "<text x=\"70\" y=\"74\">30,000</text> — y=74 is 6px below top of chart (y=68 is top of content area?); viewBox y=0, chart height=460, but chart draws from y=70 to y=380 — y=74 is safe. No clipping observed."
+    }
+  ],
+  "reviewer": "Qwen",
+  "reviewer_model": "qwen-plus",
+  "reviewed_ids": [
+    "A-011",
+    "A-012",
+    "A-013",
+    "A-014",
+    "A-015",
+    "A-020",
+    "A-021"
+  ],
+  "reviewed_names": [
+    "chart_01_orders_by_band",
+    "chart_02_return_rate_by_band",
+    "chart_03_null_amount_by_band",
+    "chart_04_reconciliation",
+    "chart_05_returns_by_band",
+    "kimi_chart",
+    "kimi_infographic"
+  ],
+  "vendor_distinct": true,
+  "usage": {
+    "calls": 2,
+    "prompt_tokens": 7374,
+    "completion_tokens": 5513,
+    "latency_ms": 66560.7,
+    "est_cost_cny": 0.016926
+  }
+}

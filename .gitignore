@@ -1,0 +1,31 @@
+# 密钥与登录态，绝不进仓库
+.secrets.json
+*.dpapi
+.env
+*.pem
+
+# 会话导出：含聊天原文，体积大
+session_exports/
+
+# 构建产物、归档包、发布包
+releases/
+*.zip
+*.7z
+
+# 临时产物
+_scratch/
+__pycache__/
+*.pyc
+.pytest_cache/
+.workbuddy/
+
+# 真数据集的原始与派生大表（几百 MB，按需自己下）
+real/data/*.csv
+real/out/*.csv
+!real/data/订单明细模板.csv
+real/out/charts/*.png
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store

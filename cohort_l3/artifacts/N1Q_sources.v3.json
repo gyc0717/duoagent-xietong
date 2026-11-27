@@ -1,0 +1,42 @@
+{
+  "node": "N1Q",
+  "query": "2026 年第三季度家电行业平均退货率是多少？同时给出 Q4 竞品客单价与声量的公开资料。每条资料必须有：标题、可点击 URL、发布时间、原文引用片段、可信度。",
+  "answer": "2026年第三季度家电行业平均退货率及2026年Q4竞品客单价与声量数据均查不到——因该时间点尚未发生，当前（2024年）无任何权威机构或媒体发布未来两年的行业统计数据；所有主流数据库（如奥维云网、中怡康、Euromonitor、Statista）仅更新至2023年全年或2024年Q2，未见2026年预测性退货率或Q4竞品运营指标的公开报告。",
+  "sources": [],
+  "citation_contract": {
+    "total": 0,
+    "pass": 0,
+    "rejected": []
+  },
+  "reachability": {
+    "checked": 0,
+    "reachable": 0,
+    "unreachable": []
+  },
+  "injection_scan": {
+    "patterns": [
+      "忽略以上",
+      "忽略之前",
+      "忽略所有",
+      "系统指令",
+      "外发到",
+      "绕过",
+      "ignore previous",
+      "ignore all previous",
+      "send all data",
+      "system prompt"
+    ],
+    "hits": [],
+    "quarantined": null,
+    "fact_content_truncated": false
+  },
+  "trust_level": "untrusted",
+  "channel": "data_only",
+  "usage": {
+    "model": "qwen-plus",
+    "calls": 1,
+    "tokens": 335,
+    "latency_ms": 3396.1,
+    "est_cny": 0.000422
+  }
+}

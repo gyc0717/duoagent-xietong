@@ -1,0 +1,8 @@
+{
+  "node": "N5",
+  "producer": "dsh_l1",
+  "label": "深度一审 Harness：同源复核 + 沙箱实证 + 千问异构复核 + 质量门禁",
+  "content": "[DeepSeek Harness · 一审 | model=deepseek-coder] 深度一审 Harness：同源复核 + 沙箱实证 + 千问异构复核 + 质量门禁\n深度一审 4 轮：同源重跑推理 → 独立验证沙箱真编译/真跑单测/真渲染 SVG/数据脚本复算（脚本产事实）→ 千问异构交叉复核 → 联合复审。沙箱真实运行时复现空值边界异常，为打回提供确定性证据；共检出 2 处缺陷 → 质量门禁打回重做。",
+  "trust_level": "trusted",
+  "channel": "both"
+}

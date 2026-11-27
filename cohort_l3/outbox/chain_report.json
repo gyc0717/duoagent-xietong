@@ -1,0 +1,90 @@
+{
+  "steps": [
+    {
+      "name": "N5 沙箱实证",
+      "ms": 1276,
+      "ok": true,
+      "rc": 0,
+      "tail": [
+        "  \"evidence_source\": \"real_execution\",",
+        "  \"elapsed_ms\": 533.6,",
+        "  \"checks_passed\": \"9/9\",",
+        "  \"artifact\": \"artifacts/N5_execution_evidence.v27.json\",",
+        "  \"sha256\": \"925a0f48cea3\"",
+        "}"
+      ]
+    },
+    {
+      "name": "N5 异构复核",
+      "ms": 3723,
+      "ok": true,
+      "rc": 0,
+      "tail": [
+        "  \"findings\": [],",
+        "  \"artifact\": \"artifacts/N5_hetero_review.v9.json\",",
+        "  \"tokens\": 3601,",
+        "  \"latency_ms\": 3248.8,",
+        "  \"est_cny\": 0.009146",
+        "}"
+      ]
+    },
+    {
+      "name": "复核结论裁决",
+      "ms": 578,
+      "ok": true,
+      "rc": 0,
+      "tail": [
+        "    \"refuted_self\": 0,",
+        "    \"refuted_computed\": 0,",
+        "    \"unverifiable\": 0,",
+        "    \"blockers\": 0",
+        "  }",
+        "}"
+      ]
+    },
+    {
+      "name": "N7 豆包三审",
+      "ms": 89209,
+      "ok": true,
+      "rc": 0,
+      "tail": [
+        "  \"artifact\": \"artifacts/N7_review_summary.v7.json\",",
+        "  \"tokens\": 11405,",
+        "  \"est_cny\": 0.00626",
+        "}",
+        "",
+        "本次双11日用电器订单退货分析已完成，沙箱检查9/9通过，异构评审及最终裁决均为PASS。本次分析总样本48,216行，总订单48,216笔，总退货1,032笔，整体退货率2.14%，客单价¥256.46；空金额行共694行，按要求空值按0计入并对账，组订单汇总与台账订单完全一致，差异为0。按客单价分三档：¥0–199档订单15,340笔、退货237笔、退货率1.54%；¥200–399档订单27,148笔、退货626笔、退货率2.31%；¥400+档订单5,728笔、退货169笔、退货率2.95%。已生成锁定数值的柱状图n3_chart.svg，及补满轨标注的信息图n3_infographic.fixed.svg。"
+      ]
+    },
+    {
+      "name": "C-05 裁判打分",
+      "ms": 1312,
+      "ok": true,
+      "rc": 0,
+      "tail": [
+        "  \"usage\": {",
+        "    \"tokens\": 757,",
+        "    \"latency_ms\": 951.3,",
+        "    \"est_cny\": 0.000627",
+        "  }",
+        "}"
+      ]
+    },
+    {
+      "name": "P2 评测门禁",
+      "ms": 196,
+      "ok": true,
+      "rc": 0,
+      "tail": [
+        "  ✓ deliverable_faithfulness []",
+        "  ✓ chart_scale_declared     {'file': 'n3_infographic.fixed.svg', 'expect': ['满轨 = 27,148 单', '满轨 =",
+        "  ✓ citation_reachable       {'reachable': 2, 'checked': 3, 'unreachable': ['https://news.etnet.com",
+        "  ✓ context_completeness     {'N1Q': 9, 'N3': 18, 'N4': 1, 'N5': 36}",
+        "  ✓ review_adjudicated       {'reviewer': 'Qwen', 'reviewer_verdict': 'PASS', 'adjudicated': 'PASS'",
+        "  ✓ regression               基线 eval-2026Q4-017：完整度 100% → 100%；门禁全绿=True"
+      ]
+    }
+  ],
+  "eval": "PASS",
+  "hetero": "PASS"
+}

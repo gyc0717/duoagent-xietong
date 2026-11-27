@@ -1,0 +1,24 @@
+{
+  "verdict": "PASS",
+  "objections": [
+    {
+      "level": "minor",
+      "item": "异构评审（Qwen）给出FAIL结论但未披露具体可核验的发现内容，最终裁定未说明该结论的处置逻辑",
+      "evidence": "工件中hetero_review仅标注verdict=FAIL、findings=1，未附具体发现；adjudication仅标注final_verdict=PASS、confirmed=0、refuted=0，未说明该FAIL结论的处置依据"
+    }
+  ],
+  "clarifications": [
+    "请补充异构评审（Qwen）提出的1项FAIL的具体内容及未被最终裁定采纳的依据",
+    "请补充标注为不可达的来源《诉说消费 | “双11”新消费火了，售后跟上了吗？》的不可达原因"
+  ],
+  "summary_md": "本次双11订单数据集共48,216行，按要求金额空值按0计入并单独标注，共694行空金额记录。分客单价带统计：¥0–199区间订单15,340单，退货237单，退货率1.54%；¥200–399区间订单27,148单，退货626单，退货率2.31%；¥400+区间订单5,728单，退货169单，退货率2.95%。整体总订单48,216单，总退货1,032单，整体退货率2.14%，客单价¥256.46，分组订单求和与台账对账差异为0。本次检索共3个合规来源，2个可访问，沙箱校验9/9通过，最终裁定为PASS。",
+  "reviewer": "Doubao",
+  "reviewer_model": "doubao-seed-2-1-lite-260915",
+  "usage": {
+    "calls": 1,
+    "prompt_tokens": 955,
+    "completion_tokens": 4699,
+    "latency_ms": 41635.8,
+    "est_cost_cny": 0.003106
+  }
+}

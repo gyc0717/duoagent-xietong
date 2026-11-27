@@ -1,0 +1,97 @@
+{
+  "root": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out",
+  "built_at": "2026-11-25T19:28:49+08:00",
+  "files": 8,
+  "total_bytes": 1547745,
+  "big_files": 0,
+  "unhashed_over_limit": 0,
+  "policy": {
+    "skipped_dirs": [
+      ".dsh-office",
+      ".git",
+      ".pnpm-store",
+      ".venv",
+      "__pycache__",
+      "node_modules",
+      "venv"
+    ],
+    "chunk_bytes": 4194304,
+    "big_threshold_bytes": 8388608,
+    "fulltext_on_demand": true,
+    "truncation": false
+  },
+  "entries": [
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/ledger.csv",
+      "rel": "ledger.csv",
+      "bytes": 1537564,
+      "mtime": "2026-11-25T19:28:48+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "dddaad38308b2e568b708339414aae4b2033d2b4aff1c0b78680428d87e5c5bb"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/execution_evidence.json",
+      "rel": "execution_evidence.json",
+      "bytes": 2539,
+      "mtime": "2026-11-25T19:28:48+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "f017f73a0a001df484a0f13ba080cde9c92bc42d3cacabea834ba7ed9c363494"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/charts/chart_02_return_rate_by_band.svg",
+      "rel": "charts/chart_02_return_rate_by_band.svg",
+      "bytes": 1440,
+      "mtime": "2026-11-25T19:28:48+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "a3ab98d302a5e6884e0e764fd69c605d8312eb132dffad37ab3555590dbad25f"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/charts/chart_03_null_amount_by_band.svg",
+      "rel": "charts/chart_03_null_amount_by_band.svg",
+      "bytes": 1440,
+      "mtime": "2026-11-25T19:28:48+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "2f78db23df4b501e682baa35a3909e7cedf6fcf021cd3cbf7d819c6bc919c804"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/charts/chart_01_orders_by_band.svg",
+      "rel": "charts/chart_01_orders_by_band.svg",
+      "bytes": 1401,
+      "mtime": "2026-11-25T19:28:48+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d35e6b228bb6285423fedaf86f0f7ba6f500caf513302508e147ea288f9250c5"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/charts/chart_05_returns_by_band.svg",
+      "rel": "charts/chart_05_returns_by_band.svg",
+      "bytes": 1396,
+      "mtime": "2026-11-25T19:28:48+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "49bf0268b138747215fa951c2d83df5281ba468c1124a58d1c516b0962b919e5"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/charts/chart_04_reconciliation.svg",
+      "rel": "charts/chart_04_reconciliation.svg",
+      "bytes": 1084,
+      "mtime": "2026-11-25T19:28:48+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d1bcd86ab438980fd1e0cac7fe5eef0fa7f3a7dfd02b4992c7663da48e1ea384"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/structured_data.json",
+      "rel": "structured_data.json",
+      "bytes": 881,
+      "mtime": "2026-11-25T19:28:48+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "b07133574ab13994eaed1d94cdf25b36cdafbeebeb683306d3d3ff47f81aba58"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{"node": "N0-DATA", "role": "data_executor", "cn": "L0 · 结构化数据执行器", "model": "python3.11/pandas", "tokens": 0, "ctx_in": 0, "cny": 0.0, "is_harness": false, "note": "P3 确定性数据执行，零模型 token"}
+{"node": "N1Q", "role": "injection_filter", "cn": "L3 · 注入扫描过滤器（规则）", "model": "rule-based", "tokens": 0, "ctx_in": 0, "cny": 0.0, "is_harness": false, "note": "P0 规则型注入扫描，零模型 token"}
+{"node": "N1", "role": "workbuddy_dispatch", "cn": "WorkBuddy · 分发/二审/界面", "model": "hunyuan", "tokens": 5200, "ctx_in": 3200, "cny": 0.0624, "is_harness": false, "note": ""}
+{"node": "N1Q", "role": "qwen_search", "cn": "千问 · 联网检索/文献", "model": "qwen-deep-research", "tokens": 14000, "ctx_in": 9000, "cny": 0.196, "is_harness": false, "note": ""}
+{"node": "N2", "role": "dsh_coder", "cn": "DeepSeek Harness · 编程", "model": "deepseek-coder", "tokens": 28000, "ctx_in": 22000, "cny": 0.56, "is_harness": true, "note": ""}
+{"node": "N3", "role": "kimi_image", "cn": "Kimi · 生图", "model": "kimi-design", "tokens": 9800, "ctx_in": 7000, "cny": 0.2548, "is_harness": false, "note": ""}
+{"node": "N4", "role": "marvis_device", "cn": "Marvis · 电脑大文件管控", "model": "marvis-ondevice", "tokens": 6400, "ctx_in": 4000, "cny": 0.0, "is_harness": false, "note": ""}
+{"node": "N5", "role": "dsh_l1", "cn": "DeepSeek Harness · 一审", "model": "deepseek-coder", "tokens": 15000, "ctx_in": 11000, "cny": 0.3, "is_harness": true, "note": ""}
+{"node": "N5-SBX", "role": "sandbox_exec", "cn": "L3 · 独立验证沙箱（确定性）", "model": "bash/python/svg-render", "tokens": 0, "ctx_in": 0, "cny": 0.0, "is_harness": false, "note": "P1 沙箱确定性执行，零模型 token"}
+{"node": "N5-HET", "role": "qwen_hetero", "cn": "千问 · 异构交叉复核", "model": "qwen3-max", "tokens": 8000, "ctx_in": 6500, "cny": 0.112, "is_harness": false, "note": "N5 一审内异构第二意见（非新增审核级）"}
+{"node": "N2-R1", "role": "dsh_coder", "cn": "DeepSeek Harness · 编程", "model": "deepseek-coder", "tokens": 9000, "ctx_in": 6000, "cny": 0.18, "is_harness": true, "note": "质量门禁打回后的局部重算，完整上下文重新注入"}
+{"node": "N1Q-R1", "role": "qwen_search", "cn": "千问 · 联网检索/文献", "model": "qwen-deep-research", "tokens": 5000, "ctx_in": 3500, "cny": 0.07, "is_harness": false, "note": "异构复核打回：补充时效性引用并重验"}
+{"node": "N5-R1", "role": "dsh_l1", "cn": "DeepSeek Harness · 一审", "model": "deepseek-coder", "tokens": 6000, "ctx_in": 4000, "cny": 0.12, "is_harness": true, "note": "两次打回后的深度联合复审"}
+{"node": "N6", "role": "workbuddy_dispatch", "cn": "WorkBuddy · 分发/二审/界面", "model": "hunyuan", "tokens": 5200, "ctx_in": 3200, "cny": 0.0624, "is_harness": false, "note": ""}
+{"node": "N7", "role": "doubao_chat", "cn": "豆包 · 交谈/三审/总结", "model": "doubao-chat", "tokens": 8800, "ctx_in": 6000, "cny": 0.088, "is_harness": false, "note": ""}
+{"node": "N8", "role": "workbuddy_dispatch", "cn": "WorkBuddy · 分发/二审/界面", "model": "hunyuan", "tokens": 5200, "ctx_in": 3200, "cny": 0.0624, "is_harness": false, "note": ""}
+{"node": "N8-EVAL", "role": "eval_judge", "cn": "L4 · 评测裁判（rubric 锁定）", "model": "qwen3-max@rubric-v1.6-lock", "tokens": 4200, "ctx_in": 3000, "cny": 0.0588, "is_harness": false, "note": "P2 评测裁判抽样，模型与 rubric 锁版本"}

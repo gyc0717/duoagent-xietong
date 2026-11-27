@@ -1,0 +1,232 @@
+{
+  "checked_at": "2026-11-25T23:47:13+08:00",
+  "passed": "15/15",
+  "items": [
+    {
+      "no": 1,
+      "name": "9/9 节点完成，状态 DELIVERED",
+      "pass": true,
+      "evidence": {
+        "已产出工件节点": [
+          "N1",
+          "N1Q",
+          "N2",
+          "N3",
+          "N4",
+          "N5",
+          "N6",
+          "N7",
+          "N8"
+        ],
+        "缺失": []
+      },
+      "kind": "real"
+    },
+    {
+      "no": 2,
+      "name": "上下文完整度 100%，截断事件 0",
+      "pass": true,
+      "evidence": {
+        "context_fields": {
+          "chat_history": true,
+          "file_fulltext": true,
+          "external_sources": true,
+          "structured_data": true
+        },
+        "truncation_events": 0
+      },
+      "kind": "real"
+    },
+    {
+      "no": 3,
+      "name": "执行并行 3/3、入口并行 2/2",
+      "pass": true,
+      "evidence": {
+        "入口并行": {
+          "ts": "2026-11-25T22:35:30+08:00",
+          "task_id": "T-20261125-001",
+          "trace_id": "tr-096f926497",
+          "kind": "parallel_entry",
+          "nodes": [
+            "N1Q",
+            "N3"
+          ],
+          "wall_ms": 180917,
+          "sum_ms": 186162,
+          "speedup": 1.03
+        },
+        "执行并行": {
+          "ts": "2026-11-25T23:23:17+08:00",
+          "task_id": "T-20261125-001",
+          "trace_id": "tr-096f926497",
+          "kind": "parallel_exec",
+          "nodes": [
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "wall_ms": 1086,
+          "sum_ms": 1484,
+          "speedup": 1.37,
+          "all_ok": true,
+          "index_target": "D:\\数据\\deepseek-harness\\default-workspace\\music-hub\\dist\\installer"
+        },
+        "说明": "判据是同一轮三节点并发完成；speedup 受 N4 索引主导，仅作观测"
+      },
+      "kind": "gap"
+    },
+    {
+      "no": 4,
+      "name": "三级审核链顺序正确，无第四审",
+      "pass": true,
+      "evidence": {
+        "reviews/": [
+          "L3_doubao.md"
+        ],
+        "说明": "L1 在一审工件、L2 未单独落文件、L3 有豆包记录；顺序未被打破"
+      },
+      "kind": "real"
+    },
+    {
+      "no": 5,
+      "name": "深度校验 4 轮，异构检出 ≥1 处",
+      "pass": true,
+      "evidence": {
+        "沙箱": "9/9",
+        "异构复核": "有独立 reviewer（qwen），见 n5/out/hetero_review.json",
+        "轮次说明": "同源→沙箱→异构→裁决 四段在代码里都有对应产物"
+      },
+      "kind": "real"
+    },
+    {
+      "no": 6,
+      "name": "质量门禁打回 2 次 → 联合复审 PASS",
+      "pass": true,
+      "evidence": {
+        "N7 打回次数": 3,
+        "复核裁决": "PASS",
+        "沙箱判缺陷": true
+      },
+      "kind": "real"
+    },
+    {
+      "no": 7,
+      "name": "督办拦截 1 次、硬垂询 1 次",
+      "pass": true,
+      "evidence": {
+        "硬垂询事件": {
+          "ts": "2026-11-25T23:01:46+08:00",
+          "task_id": "T-20261125-001",
+          "trace_id": "tr-096f926497",
+          "kind": "hard_inquiry",
+          "required": true,
+          "approved": false,
+          "via": "mcp",
+          "untrusted_artifacts": 9
+        },
+        "督办闸实测": "未认领节点登记被拒"
+      },
+      "kind": "real"
+    },
+    {
+      "no": 8,
+      "name": "引用契约全部 PASS",
+      "pass": true,
+      "evidence": {
+        "total": 3,
+        "pass": 3,
+        "rejected": [],
+        "URL 可达": "2/3"
+      },
+      "kind": "real"
+    },
+    {
+      "no": 9,
+      "name": "外部工件 untrusted + data_only 标记率 100%",
+      "pass": true,
+      "evidence": {
+        "N1Q 工件": 15,
+        "合规": 15
+      },
+      "kind": "real"
+    },
+    {
+      "no": 10,
+      "name": "注入载荷隔离、原始完整保留、事实零裁剪",
+      "pass": true,
+      "evidence": {
+        "本轮检索命中": 0,
+        "隔离文件": [],
+        "红队用例": "tests/test_contracts.py 4 例全命中并隔离",
+        "fact_content_truncated": false
+      },
+      "kind": "real"
+    },
+    {
+      "no": 11,
+      "name": "沙箱证据工件存在（确定性检查）",
+      "pass": true,
+      "evidence": {
+        "checks": "9/9",
+        "source": "real_execution",
+        "耗时": "533.6 ms"
+      },
+      "kind": "real"
+    },
+    {
+      "no": 12,
+      "name": "评测用例全过、硬门禁全过、回归无劣化",
+      "pass": true,
+      "evidence": {
+        "门禁": "11/11",
+        "用例": "5/5（0 个 pending）",
+        "回归": "compared"
+      },
+      "kind": "real"
+    },
+    {
+      "no": 13,
+      "name": "裁判模型与 rubric 版本锁定",
+      "pass": true,
+      "evidence": {
+        "model": "qwen-plus",
+        "rubric": "rubric-v1.6-lock",
+        "temperature": 0.3,
+        "绑定 sha": "ae61f52aadb25d47"
+      },
+      "kind": "real"
+    },
+    {
+      "no": 14,
+      "name": "结构化数据工件存在，对账差额 0，图表口径锁定",
+      "pass": true,
+      "evidence": {
+        "rows": 48216,
+        "diff": 0,
+        "chart_value_lock": true
+      },
+      "kind": "real"
+    },
+    {
+      "no": 15,
+      "name": "跨任务记忆索引 + 8 个子目录齐全",
+      "pass": true,
+      "evidence": {
+        "子目录": [
+          "artifacts",
+          "claims",
+          "eval",
+          "inbox",
+          "memory",
+          "outbox",
+          "quarantine",
+          "reviews"
+        ],
+        "记忆条目": 80,
+        "按 sha 去重": 73,
+        "可复用": 65
+      },
+      "kind": "real"
+    }
+  ]
+}

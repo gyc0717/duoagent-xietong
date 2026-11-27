@@ -1,0 +1,8 @@
+{
+  "node": "N4",
+  "producer": "marvis_device",
+  "label": "管控电脑大文件：本地索引/切片/归档，按需全文加载",
+  "content": "[Marvis · 电脑大文件管控 | model=marvis-ondevice] 管控电脑大文件：本地索引/切片/归档，按需全文加载\n在电脑本地管控 12.8GB 大文件（历史复盘/票据/视频素材）：建立索引、按任务切片、整理归档；按 data_class 允许时按需注入全文，同时提供摘要 + URI 双通道，零强制截断。",
+  "trust_level": "trusted",
+  "channel": "both"
+}

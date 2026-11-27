@@ -1,0 +1,89 @@
+{
+  "label": "课程电商数据集 · 非本公司 · 非双11 · USD",
+  "run_id": "chain-103459",
+  "snap_before": {
+    "ts": "2026-11-26T10:35:00",
+    "provider": "Moonshot",
+    "balance_cny": 6.34871,
+    "run_id": "chain-103459",
+    "phase": "before",
+    "source": "GET /v1/users/me/balance"
+  },
+  "snap_after": {
+    "ts": "2026-11-26T10:35:42",
+    "provider": "Moonshot",
+    "balance_cny": 6.34871,
+    "run_id": "chain-103459",
+    "phase": "after",
+    "source": "GET /v1/users/me/balance"
+  },
+  "steps": [
+    {
+      "node": "N1",
+      "name": "派单与口径声明",
+      "ok": true,
+      "status": "ok",
+      "detail": "任务：真数据全链；数据源=课程电商数据集_退款.csv；口径=refunded；币种=USD；标注=课程电商数据集 · 非本公司 · 非双11 · USD",
+      "artifact": ""
+    },
+    {
+      "node": "N2",
+      "name": "数据接入与清洗",
+      "ok": true,
+      "status": "ok",
+      "detail": "360863 行 / 丢弃 0 / sha 9b10c5af388b",
+      "artifact": "real/out/ingest_report.json"
+    },
+    {
+      "node": "N3",
+      "name": "确定性生成图表",
+      "ok": true,
+      "status": "ok",
+      "detail": "5 组数据 · 图表 3 张（数值锁在 chart_data.json）",
+      "artifact": "real/out/gmv_by_category.svg"
+    },
+    {
+      "node": "N4",
+      "name": "本地文件索引",
+      "ok": true,
+      "status": "ok",
+      "detail": "索引 1 个文件 · 跳过 1",
+      "artifact": "real/out/file_index.json"
+    },
+    {
+      "node": "N5",
+      "name": "确定性沙箱 9 类检查",
+      "ok": true,
+      "status": "ok",
+      "detail": "9/9 · real_execution",
+      "artifact": "real/out/execution_evidence.json"
+    },
+    {
+      "node": "N6",
+      "name": "二审（Moonshot 真调用）",
+      "ok": true,
+      "status": "ok",
+      "detail": "复核意见：退款行占比4.5316%但“已退款”金额为0，存在退款金额缺失或状态/金额口径不一致风险；请核验退款金额字段与订单行口径后再算退款率，避免低估为0，且勿外推至本公司或双11。",
+      "artifact": "model:kimi-k3.1-pro · 845 tok · token_pricing"
+    },
+    {
+      "node": "N7",
+      "name": "三审（Ark 真调用）",
+      "ok": true,
+      "status": "ok",
+      "detail": "终审结论：本结果仅为管线流程验证，绝不能作为正式业务结论。当前数据存在退款金额与状态口径错配风险，数据集为非本公司、非双11的美元口径课程电商数据，严禁外推滥用。",
+      "artifact": "model:doubao-seed-2-1-lite-260915 · 1315 tok · token_pricing"
+    },
+    {
+      "node": "N8",
+      "name": "收口报告",
+      "ok": true,
+      "status": "ok",
+      "detail": "1200 字符（含声明）",
+      "artifact": "real/out/final_report.md"
+    }
+  ],
+  "passed": 8,
+  "total": 8,
+  "ok": true
+}

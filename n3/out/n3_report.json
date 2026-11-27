@@ -1,0 +1,40 @@
+{
+  "node": "N3",
+  "model": "kimi-k3",
+  "outputs": [
+    {
+      "svg": "n3_chart.svg",
+      "png": "n3_chart.png",
+      "artifact": "artifacts/N3_kimi_chart.v3.json",
+      "sha256": "e85e54351e64"
+    },
+    {
+      "svg": "n3_infographic.svg",
+      "png": "n3_infographic.png",
+      "artifact": "artifacts/N3_kimi_infographic.v3.json",
+      "sha256": "e62d044ae52b"
+    }
+  ],
+  "usage": {
+    "calls": 2,
+    "prompt_tokens": 1139,
+    "completion_tokens": 8422,
+    "total_tokens": 9561,
+    "latency_ms": 172876.5,
+    "est_cost_cny": 0.139308,
+    "per_call": [
+      {
+        "model": "kimi-k3",
+        "ms": 39681.4,
+        "in": 555,
+        "out": 2894
+      },
+      {
+        "model": "kimi-k3",
+        "ms": 133195.1,
+        "in": 584,
+        "out": 5528
+      }
+    ]
+  }
+}

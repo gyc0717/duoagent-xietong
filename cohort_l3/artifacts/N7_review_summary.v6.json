@@ -1,0 +1,23 @@
+{
+  "verdict": "PASS",
+  "objections": [
+    {
+      "level": "minor",
+      "item": "检索源指标与沙箱执行证据的关联未明确",
+      "evidence": "工件中retrieval字段显示sources=0、contract_pass=0、reachable=0，而harness_review标注evidence_source为real_execution，二者未说明对应关系"
+    }
+  ],
+  "clarifications": [
+    "需澄清本次分析所用结构化数据的来源合规性，明确检索源指标为0但存在真实沙箱执行证据的原因"
+  ],
+  "summary_md": "本次分析共覆盖48,216笔订单，组订单加总与台账订单数完全一致，对账差异为0。分客单价区间表现：¥0–199区间订单15,340笔，退货237笔，退货率1.54%，含694笔金额空值（按规则计0并单独标注）；¥200–399区间订单27,148笔，退货626笔，退货率2.31%；¥400+区间订单5,728笔，退货169笔，退货率2.95%。整体总退货1,032笔，总退货率2.14%，整体客单价¥256.46。沙箱校验9/9全部通过，异构评审无异议，最终结论为PASS。",
+  "reviewer": "Doubao",
+  "reviewer_model": "doubao-seed-2-1-lite-260915",
+  "usage": {
+    "calls": 1,
+    "prompt_tokens": 793,
+    "completion_tokens": 5576,
+    "latency_ms": 54088.8,
+    "est_cost_cny": 0.003583
+  }
+}

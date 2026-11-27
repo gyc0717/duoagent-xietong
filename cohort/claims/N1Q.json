@@ -1,0 +1,19 @@
+{
+  "node": "N1Q",
+  "role": "qwen_search",
+  "state": "SUCCESS",
+  "trace_id": "tr-096f926497",
+  "ts": "2026-11-25T19:26:13",
+  "context_mode": "FULL",
+  "truncation": false,
+  "fulltext_on_demand": true,
+  "summary_only": false,
+  "trust_channel_separation": true,
+  "external_sources": 4,
+  "citations_verified": true,
+  "trust_level": "untrusted",
+  "channel": "data_only",
+  "quarantined": [
+    "S-02"
+  ]
+}

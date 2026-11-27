@@ -1,0 +1,2850 @@
+{
+  "root": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer",
+  "built_at": "2026-11-25T19:29:04+08:00",
+  "files": 221,
+  "total_bytes": 795753186,
+  "big_files": 6,
+  "unhashed_over_limit": 0,
+  "policy": {
+    "skipped_dirs": [
+      ".dsh-office",
+      ".git",
+      ".pnpm-store",
+      ".venv",
+      "__pycache__",
+      "node_modules",
+      "venv"
+    ],
+    "chunk_bytes": 4194304,
+    "big_threshold_bytes": 8388608,
+    "fulltext_on_demand": true,
+    "truncation": false
+  },
+  "entries": [
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/大肥鱼音乐管家 Setup 0.2.0.exe",
+      "rel": "大肥鱼音乐管家 Setup 0.2.0.exe",
+      "bytes": 367986043,
+      "mtime": "2026-11-12T17:48:11+08:00",
+      "big": true,
+      "chunks": [
+        {
+          "seq": 0,
+          "offset": 0,
+          "length": 4194304
+        },
+        {
+          "seq": 1,
+          "offset": 4194304,
+          "length": 4194304
+        },
+        {
+          "seq": 2,
+          "offset": 8388608,
+          "length": 4194304
+        },
+        {
+          "seq": 3,
+          "offset": 12582912,
+          "length": 4194304
+        },
+        {
+          "seq": 4,
+          "offset": 16777216,
+          "length": 4194304
+        },
+        {
+          "seq": 5,
+          "offset": 20971520,
+          "length": 4194304
+        },
+        {
+          "seq": 6,
+          "offset": 25165824,
+          "length": 4194304
+        },
+        {
+          "seq": 7,
+          "offset": 29360128,
+          "length": 4194304
+        },
+        {
+          "seq": 8,
+          "offset": 33554432,
+          "length": 4194304
+        },
+        {
+          "seq": 9,
+          "offset": 37748736,
+          "length": 4194304
+        },
+        {
+          "seq": 10,
+          "offset": 41943040,
+          "length": 4194304
+        },
+        {
+          "seq": 11,
+          "offset": 46137344,
+          "length": 4194304
+        },
+        {
+          "seq": 12,
+          "offset": 50331648,
+          "length": 4194304
+        },
+        {
+          "seq": 13,
+          "offset": 54525952,
+          "length": 4194304
+        },
+        {
+          "seq": 14,
+          "offset": 58720256,
+          "length": 4194304
+        },
+        {
+          "seq": 15,
+          "offset": 62914560,
+          "length": 4194304
+        },
+        {
+          "seq": 16,
+          "offset": 67108864,
+          "length": 4194304
+        },
+        {
+          "seq": 17,
+          "offset": 71303168,
+          "length": 4194304
+        },
+        {
+          "seq": 18,
+          "offset": 75497472,
+          "length": 4194304
+        },
+        {
+          "seq": 19,
+          "offset": 79691776,
+          "length": 4194304
+        },
+        {
+          "seq": 20,
+          "offset": 83886080,
+          "length": 4194304
+        },
+        {
+          "seq": 21,
+          "offset": 88080384,
+          "length": 4194304
+        },
+        {
+          "seq": 22,
+          "offset": 92274688,
+          "length": 4194304
+        },
+        {
+          "seq": 23,
+          "offset": 96468992,
+          "length": 4194304
+        },
+        {
+          "seq": 24,
+          "offset": 100663296,
+          "length": 4194304
+        },
+        {
+          "seq": 25,
+          "offset": 104857600,
+          "length": 4194304
+        },
+        {
+          "seq": 26,
+          "offset": 109051904,
+          "length": 4194304
+        },
+        {
+          "seq": 27,
+          "offset": 113246208,
+          "length": 4194304
+        },
+        {
+          "seq": 28,
+          "offset": 117440512,
+          "length": 4194304
+        },
+        {
+          "seq": 29,
+          "offset": 121634816,
+          "length": 4194304
+        },
+        {
+          "seq": 30,
+          "offset": 125829120,
+          "length": 4194304
+        },
+        {
+          "seq": 31,
+          "offset": 130023424,
+          "length": 4194304
+        },
+        {
+          "seq": 32,
+          "offset": 134217728,
+          "length": 4194304
+        },
+        {
+          "seq": 33,
+          "offset": 138412032,
+          "length": 4194304
+        },
+        {
+          "seq": 34,
+          "offset": 142606336,
+          "length": 4194304
+        },
+        {
+          "seq": 35,
+          "offset": 146800640,
+          "length": 4194304
+        },
+        {
+          "seq": 36,
+          "offset": 150994944,
+          "length": 4194304
+        },
+        {
+          "seq": 37,
+          "offset": 155189248,
+          "length": 4194304
+        },
+        {
+          "seq": 38,
+          "offset": 159383552,
+          "length": 4194304
+        },
+        {
+          "seq": 39,
+          "offset": 163577856,
+          "length": 4194304
+        },
+        {
+          "seq": 40,
+          "offset": 167772160,
+          "length": 4194304
+        },
+        {
+          "seq": 41,
+          "offset": 171966464,
+          "length": 4194304
+        },
+        {
+          "seq": 42,
+          "offset": 176160768,
+          "length": 4194304
+        },
+        {
+          "seq": 43,
+          "offset": 180355072,
+          "length": 4194304
+        },
+        {
+          "seq": 44,
+          "offset": 184549376,
+          "length": 4194304
+        },
+        {
+          "seq": 45,
+          "offset": 188743680,
+          "length": 4194304
+        },
+        {
+          "seq": 46,
+          "offset": 192937984,
+          "length": 4194304
+        },
+        {
+          "seq": 47,
+          "offset": 197132288,
+          "length": 4194304
+        },
+        {
+          "seq": 48,
+          "offset": 201326592,
+          "length": 4194304
+        },
+        {
+          "seq": 49,
+          "offset": 205520896,
+          "length": 4194304
+        },
+        {
+          "seq": 50,
+          "offset": 209715200,
+          "length": 4194304
+        },
+        {
+          "seq": 51,
+          "offset": 213909504,
+          "length": 4194304
+        },
+        {
+          "seq": 52,
+          "offset": 218103808,
+          "length": 4194304
+        },
+        {
+          "seq": 53,
+          "offset": 222298112,
+          "length": 4194304
+        },
+        {
+          "seq": 54,
+          "offset": 226492416,
+          "length": 4194304
+        },
+        {
+          "seq": 55,
+          "offset": 230686720,
+          "length": 4194304
+        },
+        {
+          "seq": 56,
+          "offset": 234881024,
+          "length": 4194304
+        },
+        {
+          "seq": 57,
+          "offset": 239075328,
+          "length": 4194304
+        },
+        {
+          "seq": 58,
+          "offset": 243269632,
+          "length": 4194304
+        },
+        {
+          "seq": 59,
+          "offset": 247463936,
+          "length": 4194304
+        },
+        {
+          "seq": 60,
+          "offset": 251658240,
+          "length": 4194304
+        },
+        {
+          "seq": 61,
+          "offset": 255852544,
+          "length": 4194304
+        },
+        {
+          "seq": 62,
+          "offset": 260046848,
+          "length": 4194304
+        },
+        {
+          "seq": 63,
+          "offset": 264241152,
+          "length": 4194304
+        },
+        {
+          "seq": 64,
+          "offset": 268435456,
+          "length": 4194304
+        },
+        {
+          "seq": 65,
+          "offset": 272629760,
+          "length": 4194304
+        },
+        {
+          "seq": 66,
+          "offset": 276824064,
+          "length": 4194304
+        },
+        {
+          "seq": 67,
+          "offset": 281018368,
+          "length": 4194304
+        },
+        {
+          "seq": 68,
+          "offset": 285212672,
+          "length": 4194304
+        },
+        {
+          "seq": 69,
+          "offset": 289406976,
+          "length": 4194304
+        },
+        {
+          "seq": 70,
+          "offset": 293601280,
+          "length": 4194304
+        },
+        {
+          "seq": 71,
+          "offset": 297795584,
+          "length": 4194304
+        },
+        {
+          "seq": 72,
+          "offset": 301989888,
+          "length": 4194304
+        },
+        {
+          "seq": 73,
+          "offset": 306184192,
+          "length": 4194304
+        },
+        {
+          "seq": 74,
+          "offset": 310378496,
+          "length": 4194304
+        },
+        {
+          "seq": 75,
+          "offset": 314572800,
+          "length": 4194304
+        },
+        {
+          "seq": 76,
+          "offset": 318767104,
+          "length": 4194304
+        },
+        {
+          "seq": 77,
+          "offset": 322961408,
+          "length": 4194304
+        },
+        {
+          "seq": 78,
+          "offset": 327155712,
+          "length": 4194304
+        },
+        {
+          "seq": 79,
+          "offset": 331350016,
+          "length": 4194304
+        },
+        {
+          "seq": 80,
+          "offset": 335544320,
+          "length": 4194304
+        },
+        {
+          "seq": 81,
+          "offset": 339738624,
+          "length": 4194304
+        },
+        {
+          "seq": 82,
+          "offset": 343932928,
+          "length": 4194304
+        },
+        {
+          "seq": 83,
+          "offset": 348127232,
+          "length": 4194304
+        },
+        {
+          "seq": 84,
+          "offset": 352321536,
+          "length": 4194304
+        },
+        {
+          "seq": 85,
+          "offset": 356515840,
+          "length": 4194304
+        },
+        {
+          "seq": 86,
+          "offset": 360710144,
+          "length": 4194304
+        },
+        {
+          "seq": 87,
+          "offset": 364904448,
+          "length": 3081595
+        }
+      ],
+      "sha256": "9caa8b7aae039e4e9ab14eae989a5ad787d0140f09ffa296f4afc2c6ff281784"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/大肥鱼音乐管家.exe",
+      "rel": "win-unpacked/大肥鱼音乐管家.exe",
+      "bytes": 176813568,
+      "mtime": "2026-11-12T21:41:00+08:00",
+      "big": true,
+      "chunks": [
+        {
+          "seq": 0,
+          "offset": 0,
+          "length": 4194304
+        },
+        {
+          "seq": 1,
+          "offset": 4194304,
+          "length": 4194304
+        },
+        {
+          "seq": 2,
+          "offset": 8388608,
+          "length": 4194304
+        },
+        {
+          "seq": 3,
+          "offset": 12582912,
+          "length": 4194304
+        },
+        {
+          "seq": 4,
+          "offset": 16777216,
+          "length": 4194304
+        },
+        {
+          "seq": 5,
+          "offset": 20971520,
+          "length": 4194304
+        },
+        {
+          "seq": 6,
+          "offset": 25165824,
+          "length": 4194304
+        },
+        {
+          "seq": 7,
+          "offset": 29360128,
+          "length": 4194304
+        },
+        {
+          "seq": 8,
+          "offset": 33554432,
+          "length": 4194304
+        },
+        {
+          "seq": 9,
+          "offset": 37748736,
+          "length": 4194304
+        },
+        {
+          "seq": 10,
+          "offset": 41943040,
+          "length": 4194304
+        },
+        {
+          "seq": 11,
+          "offset": 46137344,
+          "length": 4194304
+        },
+        {
+          "seq": 12,
+          "offset": 50331648,
+          "length": 4194304
+        },
+        {
+          "seq": 13,
+          "offset": 54525952,
+          "length": 4194304
+        },
+        {
+          "seq": 14,
+          "offset": 58720256,
+          "length": 4194304
+        },
+        {
+          "seq": 15,
+          "offset": 62914560,
+          "length": 4194304
+        },
+        {
+          "seq": 16,
+          "offset": 67108864,
+          "length": 4194304
+        },
+        {
+          "seq": 17,
+          "offset": 71303168,
+          "length": 4194304
+        },
+        {
+          "seq": 18,
+          "offset": 75497472,
+          "length": 4194304
+        },
+        {
+          "seq": 19,
+          "offset": 79691776,
+          "length": 4194304
+        },
+        {
+          "seq": 20,
+          "offset": 83886080,
+          "length": 4194304
+        },
+        {
+          "seq": 21,
+          "offset": 88080384,
+          "length": 4194304
+        },
+        {
+          "seq": 22,
+          "offset": 92274688,
+          "length": 4194304
+        },
+        {
+          "seq": 23,
+          "offset": 96468992,
+          "length": 4194304
+        },
+        {
+          "seq": 24,
+          "offset": 100663296,
+          "length": 4194304
+        },
+        {
+          "seq": 25,
+          "offset": 104857600,
+          "length": 4194304
+        },
+        {
+          "seq": 26,
+          "offset": 109051904,
+          "length": 4194304
+        },
+        {
+          "seq": 27,
+          "offset": 113246208,
+          "length": 4194304
+        },
+        {
+          "seq": 28,
+          "offset": 117440512,
+          "length": 4194304
+        },
+        {
+          "seq": 29,
+          "offset": 121634816,
+          "length": 4194304
+        },
+        {
+          "seq": 30,
+          "offset": 125829120,
+          "length": 4194304
+        },
+        {
+          "seq": 31,
+          "offset": 130023424,
+          "length": 4194304
+        },
+        {
+          "seq": 32,
+          "offset": 134217728,
+          "length": 4194304
+        },
+        {
+          "seq": 33,
+          "offset": 138412032,
+          "length": 4194304
+        },
+        {
+          "seq": 34,
+          "offset": 142606336,
+          "length": 4194304
+        },
+        {
+          "seq": 35,
+          "offset": 146800640,
+          "length": 4194304
+        },
+        {
+          "seq": 36,
+          "offset": 150994944,
+          "length": 4194304
+        },
+        {
+          "seq": 37,
+          "offset": 155189248,
+          "length": 4194304
+        },
+        {
+          "seq": 38,
+          "offset": 159383552,
+          "length": 4194304
+        },
+        {
+          "seq": 39,
+          "offset": 163577856,
+          "length": 4194304
+        },
+        {
+          "seq": 40,
+          "offset": 167772160,
+          "length": 4194304
+        },
+        {
+          "seq": 41,
+          "offset": 171966464,
+          "length": 4194304
+        },
+        {
+          "seq": 42,
+          "offset": 176160768,
+          "length": 652800
+        }
+      ],
+      "sha256": "67dc2a7036860a68e5312c212c31b8772ac463ed0289fcc44897867f55075e89"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/大肥鱼音乐管家 Setup 0.2.1.exe",
+      "rel": "大肥鱼音乐管家 Setup 0.2.1.exe",
+      "bytes": 98916346,
+      "mtime": "2026-11-12T21:41:38+08:00",
+      "big": true,
+      "chunks": [
+        {
+          "seq": 0,
+          "offset": 0,
+          "length": 4194304
+        },
+        {
+          "seq": 1,
+          "offset": 4194304,
+          "length": 4194304
+        },
+        {
+          "seq": 2,
+          "offset": 8388608,
+          "length": 4194304
+        },
+        {
+          "seq": 3,
+          "offset": 12582912,
+          "length": 4194304
+        },
+        {
+          "seq": 4,
+          "offset": 16777216,
+          "length": 4194304
+        },
+        {
+          "seq": 5,
+          "offset": 20971520,
+          "length": 4194304
+        },
+        {
+          "seq": 6,
+          "offset": 25165824,
+          "length": 4194304
+        },
+        {
+          "seq": 7,
+          "offset": 29360128,
+          "length": 4194304
+        },
+        {
+          "seq": 8,
+          "offset": 33554432,
+          "length": 4194304
+        },
+        {
+          "seq": 9,
+          "offset": 37748736,
+          "length": 4194304
+        },
+        {
+          "seq": 10,
+          "offset": 41943040,
+          "length": 4194304
+        },
+        {
+          "seq": 11,
+          "offset": 46137344,
+          "length": 4194304
+        },
+        {
+          "seq": 12,
+          "offset": 50331648,
+          "length": 4194304
+        },
+        {
+          "seq": 13,
+          "offset": 54525952,
+          "length": 4194304
+        },
+        {
+          "seq": 14,
+          "offset": 58720256,
+          "length": 4194304
+        },
+        {
+          "seq": 15,
+          "offset": 62914560,
+          "length": 4194304
+        },
+        {
+          "seq": 16,
+          "offset": 67108864,
+          "length": 4194304
+        },
+        {
+          "seq": 17,
+          "offset": 71303168,
+          "length": 4194304
+        },
+        {
+          "seq": 18,
+          "offset": 75497472,
+          "length": 4194304
+        },
+        {
+          "seq": 19,
+          "offset": 79691776,
+          "length": 4194304
+        },
+        {
+          "seq": 20,
+          "offset": 83886080,
+          "length": 4194304
+        },
+        {
+          "seq": 21,
+          "offset": 88080384,
+          "length": 4194304
+        },
+        {
+          "seq": 22,
+          "offset": 92274688,
+          "length": 4194304
+        },
+        {
+          "seq": 23,
+          "offset": 96468992,
+          "length": 2447354
+        }
+      ],
+      "sha256": "0e8062ec1ef407539649940fd60d88659e776a1b20d6dd8d43e95d40b40e2376"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy.libs/libscipy_openblas64_-c16e4918366c6bc1f1cd71e28ca36fc0.dll",
+      "rel": "win-unpacked/resources/backend/_internal/numpy.libs/libscipy_openblas64_-c16e4918366c6bc1f1cd71e28ca36fc0.dll",
+      "bytes": 20269568,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": true,
+      "chunks": [
+        {
+          "seq": 0,
+          "offset": 0,
+          "length": 4194304
+        },
+        {
+          "seq": 1,
+          "offset": 4194304,
+          "length": 4194304
+        },
+        {
+          "seq": 2,
+          "offset": 8388608,
+          "length": 4194304
+        },
+        {
+          "seq": 3,
+          "offset": 12582912,
+          "length": 4194304
+        },
+        {
+          "seq": 4,
+          "offset": 16777216,
+          "length": 3492352
+        }
+      ],
+      "sha256": "7a62620b556f4a485ca273e34f0e224f345da4530d15029c74ba6ea5de878934"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/icudtl.dat",
+      "rel": "win-unpacked/icudtl.dat",
+      "bytes": 10717392,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": true,
+      "chunks": [
+        {
+          "seq": 0,
+          "offset": 0,
+          "length": 4194304
+        },
+        {
+          "seq": 1,
+          "offset": 4194304,
+          "length": 4194304
+        },
+        {
+          "seq": 2,
+          "offset": 8388608,
+          "length": 2328784
+        }
+      ],
+      "sha256": "f5170aa2b388d23bebf98784dd488a9bcb741470384a6a9a8d7a2638d768defb"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/LICENSES.chromium.html",
+      "rel": "win-unpacked/LICENSES.chromium.html",
+      "bytes": 9142459,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": true,
+      "chunks": [
+        {
+          "seq": 0,
+          "offset": 0,
+          "length": 4194304
+        },
+        {
+          "seq": 1,
+          "offset": 4194304,
+          "length": 4194304
+        },
+        {
+          "seq": 2,
+          "offset": 8388608,
+          "length": 753851
+        }
+      ],
+      "sha256": "000ae5775ffa701d57afe7ac3831b76799e8250a2d0c328d1785cba935aab38d"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/music-hub-server.exe",
+      "rel": "win-unpacked/resources/backend/music-hub-server.exe",
+      "bytes": 7827655,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "beaf9ae7a352b06669ff11e3d670e0529bbac0f79f8997cee3381fe6250c09a6"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/libGLESv2.dll",
+      "rel": "win-unpacked/libGLESv2.dll",
+      "bytes": 7808512,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "ee039e42a4948e9f26ece8515f3c699014fa7803ae597cd3427fa1548962f9af"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/python312.dll",
+      "rel": "win-unpacked/resources/backend/_internal/python312.dll",
+      "bytes": 6945272,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "9a0e3435aaa680d868150f87ab3e388ad2eebc22f87e036155c7b4eda8cd2120"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources.pak",
+      "rel": "win-unpacked/resources.pak",
+      "bytes": 5331889,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1d241f5d4403a6e802e898c61e4753f8508ae4dda8fcb7750558ec1ecade52c6"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/vk_swiftshader.dll",
+      "rel": "win-unpacked/vk_swiftshader.dll",
+      "bytes": 5238784,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "680ea3717671c896d516517ff322976ab708f18862135be4216a27ad57353dcc"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/libcrypto-3.dll",
+      "rel": "win-unpacked/resources/backend/_internal/libcrypto-3.dll",
+      "bytes": 5231472,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "ccfffddcd3defb8d899026298af9af43bc186130f8483d77e97c93233d5f27d7"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/d3dcompiler_47.dll",
+      "rel": "win-unpacked/d3dcompiler_47.dll",
+      "bytes": 4916712,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "7353f25dc5cf84d09894e3e0461cef0e56799adbc617fce37620ca67240b547d"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/_core/_multiarray_umath.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/_core/_multiarray_umath.cp312-win_amd64.pyd",
+      "bytes": 4160512,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "358eafe1d112ba2603acae2706dc050a0ba6e3f00994a1a060e4729cb60ef42d"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/ffmpeg.dll",
+      "rel": "win-unpacked/ffmpeg.dll",
+      "bytes": 2877440,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "c8476ee68088d72b9fab25703093df19237d14387016b77f472e10c99c9415ed"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/PIL/_imaging.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/PIL/_imaging.cp312-win_amd64.pyd",
+      "bytes": 2459136,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "286cb70bff80bcfd68e8bcec15f019a433c213e9af1998a241177009cb2acb39"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/PIL/_imagingft.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/PIL/_imagingft.cp312-win_amd64.pyd",
+      "bytes": 1933824,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "b85412c37d12dcb93dda260d7fbe3cd8a724370ba41e9e927e668c15487a3632"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/sqlite3.dll",
+      "rel": "win-unpacked/resources/backend/_internal/sqlite3.dll",
+      "bytes": 1583608,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "8daa45684bf6688fca28d956b2e8942f2fa98f656675ce68e6d61dd869848a7a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/base_library.zip",
+      "rel": "win-unpacked/resources/backend/_internal/base_library.zip",
+      "bytes": 1333717,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "55a7651b9cff7bfedcf21655331d079f40c7a1855fdcf0b3d60df5a89e5b18a9"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/ml.pak",
+      "rel": "win-unpacked/locales/ml.pak",
+      "bytes": 1332459,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "83d187cd70048f4129fa65ba148c74a04a47ee1f14218e7c85b36fe83e87b5e3"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/ta.pak",
+      "rel": "win-unpacked/locales/ta.pak",
+      "bytes": 1320024,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6348cc2d385b9808fdf1b815914dbfb26f552da4d10f85b2613a5e6e9f95b8fa"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/kn.pak",
+      "rel": "win-unpacked/locales/kn.pak",
+      "bytes": 1280837,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "58d16195170f76e40e18ee0ac2e10e1b73bcfd083821158927a7d67a51bcbc42"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/te.pak",
+      "rel": "win-unpacked/locales/te.pak",
+      "bytes": 1220352,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "09ab1ac2b69f868539d4f2e59dfea8c3c2f418a5455777e4c91d13c5ee55ab4c"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/hi.pak",
+      "rel": "win-unpacked/locales/hi.pak",
+      "bytes": 1176726,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1f49622ec6682c90e03fc42c319074565cf9d3532a2a4e3798e2f6cc159b2e8a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/unicodedata.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/unicodedata.pyd",
+      "bytes": 1140592,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "208ee1cd3cbad0828433ca7246b05be2b1ff5569983d27d296c0b38888585488"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/bn.pak",
+      "rel": "win-unpacked/locales/bn.pak",
+      "bytes": 1138948,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e6adcfb4f3b3bccd4a27edadc168b503c36551cd6b27fb24043efeb21f691ce5"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/gu.pak",
+      "rel": "win-unpacked/locales/gu.pak",
+      "bytes": 1117670,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "716ea0433e19edb5113dc8a25ae67c2587bc17c7fb63a93ac473bdcef8f72d34"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/mr.pak",
+      "rel": "win-unpacked/locales/mr.pak",
+      "bytes": 1094665,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "0877f2e75e0b9f5e709f0a0bf7cc793a02ff5bbb28bd6a8b6b6012760c1bbff3"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/th.pak",
+      "rel": "win-unpacked/locales/th.pak",
+      "bytes": 1027321,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "f06a45f0395c3e42e42c46de2c19a2a104661b47be6f9ee97f8c68b05706ef1e"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/el.pak",
+      "rel": "win-unpacked/locales/el.pak",
+      "bytes": 966750,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6a06d1d6b566214f7c3b693052beec488f7aae5ceeca26781a5d66fade39388b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/vulkan-1.dll",
+      "rel": "win-unpacked/vulkan-1.dll",
+      "bytes": 947200,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d5df2f59cc8b32abd6178250e7d1370a7f37270cc727449e21778080b5e29cd2"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/ru.pak",
+      "rel": "win-unpacked/locales/ru.pak",
+      "bytes": 893079,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d0068b9ddf8a9e6a5b1186bd0e00ed9f09224ed56ba7e653e2d54158d938c6f2"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/uk.pak",
+      "rel": "win-unpacked/locales/uk.pak",
+      "bytes": 891667,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "29d68d90512ee9952635c7e074d5ab210531d93ae24c11a8f91bca20b685e9a2"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/bg.pak",
+      "rel": "win-unpacked/locales/bg.pak",
+      "bytes": 881843,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "50e4f6b9c387adf4baba3377c61d99326cc3987928d8d60b88d1ac29352820ea"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/ar.pak",
+      "rel": "win-unpacked/locales/ar.pak",
+      "bytes": 848943,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "ea49bc2ceb6b185030eaa0ee0155feca90e632390417299113b02fbe365ff731"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/sr.pak",
+      "rel": "win-unpacked/locales/sr.pak",
+      "bytes": 830811,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "a2bc6b064ff1f7b15707f61bd76ddd9d889bd982c4182e9e74272d39c6235c85"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/libssl-3.dll",
+      "rel": "win-unpacked/resources/backend/_internal/libssl-3.dll",
+      "bytes": 794992,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "007142039f04d04e0ed607bda53de095e5bc6a8a10d26ecedde94ea7d2d7eefe"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/fa.pak",
+      "rel": "win-unpacked/locales/fa.pak",
+      "bytes": 786229,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "7a856070430e3cfad15b96b153b1cb483cca9a1b9a43453df3707b09c748a3f2"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/ur.pak",
+      "rel": "win-unpacked/locales/ur.pak",
+      "bytes": 780171,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "2520ba8471c840aa075075524c4ad2bde10f43fa7a1b623aa14555180ecd30ef"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/am.pak",
+      "rel": "win-unpacked/locales/am.pak",
+      "bytes": 774206,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "b05dcb8136751aee5eced680a5bad935e386bfce657dd283d3ec00ee722fd740"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/random/_generator.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/random/_generator.cp312-win_amd64.pyd",
+      "bytes": 748032,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "ea75aa253eba42164cdbd91cd79b6e05f00891d8e4fe07dfb13867c84a516466"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/he.pak",
+      "rel": "win-unpacked/locales/he.pak",
+      "bytes": 688870,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "c3955c97b6998f1806f8871fd3137f6f504bdd091f8bd1ff5ab8cd089474ae8e"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/v8_context_snapshot.bin",
+      "rel": "win-unpacked/v8_context_snapshot.bin",
+      "bytes": 642377,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "2db4a98abe705ef9bc18e69d17f91bc3f4c0f5703f9f57b41acb877100718918"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/ja.pak",
+      "rel": "win-unpacked/locales/ja.pak",
+      "bytes": 637276,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "8260f4c9500b64d541386a8515fd0c9ddef82e3f044951b7b51a33ad81c1128f"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/random/mtrand.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/random/mtrand.cp312-win_amd64.pyd",
+      "bytes": 633344,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1d459b6bb8214709aed1adf12d09be1e54c0505ccaf0d915d382f99f4a2f932d"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/vi.pak",
+      "rel": "win-unpacked/locales/vi.pak",
+      "bytes": 616935,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "25aeee59775ae38b21a091107022312fc228f96dbea906042bf3626b7cf86b98"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy.libs/msvcp140-d64049c6e3865410a7dda6a7e9f0c575.dll",
+      "rel": "win-unpacked/resources/backend/_internal/numpy.libs/msvcp140-d64049c6e3865410a7dda6a7e9f0c575.dll",
+      "bytes": 585384,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "66fa570bd6b879aa491f6e45a3e576c3ec7f5fe31ed0eba8b7d81f88c3b01680"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/lt.pak",
+      "rel": "win-unpacked/locales/lt.pak",
+      "bytes": 578461,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1bd385b780f3d13d41f8cf782a322e37be889aee273ffde3d8959e0ebcaabd0b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/lv.pak",
+      "rel": "win-unpacked/locales/lv.pak",
+      "bytes": 577630,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "91642c04de64f88a5c49b4eeaf5d627554e60d56fc40e7cd58cd2601b0d3dbf2"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/hu.pak",
+      "rel": "win-unpacked/locales/hu.pak",
+      "bytes": 574850,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6ca150d0fc35492bafb411bbc520f3b34da6399969fa9685ae74201623882560"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/fr.pak",
+      "rel": "win-unpacked/locales/fr.pak",
+      "bytes": 572576,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "976622fb851378f57f81423e5625e40d0753d7a5e34caed2c39e4b130a3427b8"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/sk.pak",
+      "rel": "win-unpacked/locales/sk.pak",
+      "bytes": 561212,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "f9cd222838721a618c23c8f6493bc9699c795c0063998f1a8d506b4b7a297cdc"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/pl.pak",
+      "rel": "win-unpacked/locales/pl.pak",
+      "bytes": 556829,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "69e16e41f5fe7fa18557b938874f20cda6879f3cc616ead9a815c1381fe94158"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/fil.pak",
+      "rel": "win-unpacked/locales/fil.pak",
+      "bytes": 554334,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "ab107369d45e105a4cb4f2f6bc8da2a8c1b6c65d5e94a7ab3e703e619c083dae"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/cs.pak",
+      "rel": "win-unpacked/locales/cs.pak",
+      "bytes": 552003,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1c9448ea3aefce1a7e1491e73af91af772d8b22d538676a2beab690558e668fa"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/ro.pak",
+      "rel": "win-unpacked/locales/ro.pak",
+      "bytes": 543759,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "82e69f505222125ea62f8e90d8030d82a1bd49871192cb4274a8fd9d0e03d577"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/sl.pak",
+      "rel": "win-unpacked/locales/sl.pak",
+      "bytes": 539150,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "b174c4c49654f7d65d223568c700bfaace74238447ae63171787236ce2aab00e"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/ko.pak",
+      "rel": "win-unpacked/locales/ko.pak",
+      "bytes": 538740,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "cba6b7633cce796407821264e176a6266f80c1799ade16bf16893d68144236c6"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/ca.pak",
+      "rel": "win-unpacked/locales/ca.pak",
+      "bytes": 536688,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "4ecfa3785ab52564e0bd7dda04d59a30163561588a04f3bd1b1b71de051d2c53"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/de.pak",
+      "rel": "win-unpacked/locales/de.pak",
+      "bytes": 534385,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "47253e2fcf0e4691f29b3ebbe8f888a97b28d6aeaf73ab000857a6b8d0907ff3"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/hr.pak",
+      "rel": "win-unpacked/locales/hr.pak",
+      "bytes": 533826,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e442d083c32d752d1ef2225d84a4f1a91efab768e86fc63a7ed22c10fbf7e520"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/es-419.pak",
+      "rel": "win-unpacked/locales/es-419.pak",
+      "bytes": 528171,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d1019c780e836e0c30fe01928d23ecdd0ca04ed8ee886adb3428e3683e4ed6ea"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/es.pak",
+      "rel": "win-unpacked/locales/es.pak",
+      "bytes": 528159,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "f6a01c26bc18dcf701e1d4b6ff76602f14c4bb9adf9dd176c9107d5aedb4503f"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/pt-PT.pak",
+      "rel": "win-unpacked/locales/pt-PT.pak",
+      "bytes": 524567,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "a903ca2a8e52f987e23d040de7403b58d925a6c39668d3bc0822fb2aadd34cb1"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/pt-BR.pak",
+      "rel": "win-unpacked/locales/pt-BR.pak",
+      "bytes": 523253,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6d54f87f6c8b5e01bd0da9a961236344e95e85c3dc55fc92a34542777d6f6275"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/it.pak",
+      "rel": "win-unpacked/locales/it.pak",
+      "bytes": 521539,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "a7f555e7e797e1de1a66cfca8c7b709b0e542ca62e7de96e034701fcef316d0c"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/tr.pak",
+      "rel": "win-unpacked/locales/tr.pak",
+      "bytes": 521272,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "676d46d19d1673eeff4f5e908aec3b53a6273c440e69e7d655ced6c70531cb9a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/sw.pak",
+      "rel": "win-unpacked/locales/sw.pak",
+      "bytes": 510585,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1949953d638f266ce74d84c020174c074780166b880e7c2ec38bc6047bbb8ecc"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/da.pak",
+      "rel": "win-unpacked/locales/da.pak",
+      "bytes": 499433,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "438d2b1fd396c2108ca3902f69eeb372219edd5d95fe70970d8ee9e64556c9a4"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/ms.pak",
+      "rel": "win-unpacked/locales/ms.pak",
+      "bytes": 496447,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "c7b56e9ca2f75b4414c13144ff4deee1459c2a7cde79730d863ab234cd4c2f8b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/nl.pak",
+      "rel": "win-unpacked/locales/nl.pak",
+      "bytes": 496419,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "c7a18764ca908ec7f66c48cae2be06fef95213d7a5580b45f9bacee474456167"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/fi.pak",
+      "rel": "win-unpacked/locales/fi.pak",
+      "bytes": 489527,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e6454458dfbe150112c37f8b02f8c72c593af22e8be16980ebc854ad113fb763"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/sv.pak",
+      "rel": "win-unpacked/locales/sv.pak",
+      "bytes": 484580,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "48a71912e4843b03358fede7176b2e57ced83d3a1344a92b989886374dbded62"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/nb.pak",
+      "rel": "win-unpacked/locales/nb.pak",
+      "bytes": 482576,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "96747543d9b2dbfb4482d4c24d7818d366545b2476633ad4fec8cc958ab760d3"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/et.pak",
+      "rel": "win-unpacked/locales/et.pak",
+      "bytes": 479354,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "292eb18ec61502b0e952b447f73a66143c56dd95f170981945e5aab53a6b32b3"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/libEGL.dll",
+      "rel": "win-unpacked/libEGL.dll",
+      "bytes": 478208,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "7bee4e33d89e5a4f2b3bc74d632f7c773ae9a399b6b2ba6d29b1192e25695a8b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/af.pak",
+      "rel": "win-unpacked/locales/af.pak",
+      "bytes": 475987,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "57670eae6d1871e648ad6148125ee82d08575bec5b323459fc14c3831570774a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/id.pak",
+      "rel": "win-unpacked/locales/id.pak",
+      "bytes": 473577,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "af63384cf7d1d39e57decd823dff7538ab2b1e7e36e9ac61238477f7889d1d46"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/zh-CN.pak",
+      "rel": "win-unpacked/locales/zh-CN.pak",
+      "bytes": 445903,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6a9a1f5b7674da36f20cb76af7e3e75e9e56873539e8a3b32895ebba439af83a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/zh-TW.pak",
+      "rel": "win-unpacked/locales/zh-TW.pak",
+      "bytes": 441078,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6a43c8fac5a0ce7c7a21b30ac7bc2167488e17c81c76c00f0b92b49e9e46e469"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/en-US.pak",
+      "rel": "win-unpacked/locales/en-US.pak",
+      "bytes": 438820,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "0db4f65e527553b9e7bee395f774cc9447971bf0b86d1728856b6c15b88207bb"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/locales/en-GB.pak",
+      "rel": "win-unpacked/locales/en-GB.pak",
+      "bytes": 434881,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "4e4d71f24f5eea6892b961fcda014fc74914c1340366f9c62f0535e9b94ae846"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/PIL/_webp.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/PIL/_webp.cp312-win_amd64.pyd",
+      "bytes": 409600,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6c7af1e7c6d500f39bbf29e5db9f897f3bcbb830117e6b6ad177fe1965413152"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/大肥鱼音乐管家 Setup 0.2.0.exe.blockmap",
+      "rel": "大肥鱼音乐管家 Setup 0.2.0.exe.blockmap",
+      "bytes": 385739,
+      "mtime": "2026-11-12T17:48:16+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "0a8379f420e9575ba91827342a04bb2927767931c3942bb338f2a7b612f0afd4"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/fields.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/fields.cp312-win_amd64.pyd",
+      "bytes": 356864,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "ab47cb41d26cac079609017f53e55da7461cdfb1bb15aa1a5e1bf72ef89952d0"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/main.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/main.cp312-win_amd64.pyd",
+      "bytes": 354304,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "446e4ce15f7bfe3264740098b4746e724b4131d72278f5a39040010c4e1add92"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/types.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/types.cp312-win_amd64.pyd",
+      "bytes": 336384,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "b150610b02d0ac2ba15845bc226d611dd6a49bddb3cd8e8b7844531ec973de61"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/schema.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/schema.cp312-win_amd64.pyd",
+      "bytes": 321024,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "fbf45958dedbe09c2323a753a3c12c7d3b2b86596a097ced1f394a70310dc52c"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/mypy.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/mypy.cp312-win_amd64.pyd",
+      "bytes": 317440,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "f0d5f20febcf9317d4ac28b54a04adbb2559c85532d586222045dc8531cc8b55"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/utils.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/utils.cp312-win_amd64.pyd",
+      "bytes": 281600,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "dd4a0fac8735641caaa7db9fbb40a0e0e00ce441bddf30f3ea3e70ca8918575d"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/fft/_pocketfft_umath.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/fft/_pocketfft_umath.cp312-win_amd64.pyd",
+      "bytes": 279040,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "002c10e8db4f79d9979404341aea8c09595dd45943c3bbed9a340e1b3126c183"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/snapshot_blob.bin",
+      "rel": "win-unpacked/snapshot_blob.bin",
+      "bytes": 276794,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "b6bea91727efb8c88e7c059856553d3a47abd883e60dd60efc01b04dc6eec621"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/PIL/_imagingcms.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/PIL/_imagingcms.cp312-win_amd64.pyd",
+      "bytes": 263168,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d037b8af3b59c56e70c38a044ef4532730c77c5602f8ee8b76e2a5fdcfea21b7"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_decimal.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_decimal.pyd",
+      "bytes": 262000,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "aeacfead2befcc0768063a037bb64bd32109ae09cb144e5f571b04dd7965db9d"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/validators.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/validators.cp312-win_amd64.pyd",
+      "bytes": 235008,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "02b01690195d80f7724f5ea3894661129a0d0fa56a2b7df17bf4967a6099670f"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/networks.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/networks.cp312-win_amd64.pyd",
+      "bytes": 231424,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "201ad374ed51870e2b31459795efea78e1090793837e0fece5b7a6e08dae0c8b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/chrome_200_percent.pak",
+      "rel": "win-unpacked/chrome_200_percent.pak",
+      "bytes": 227823,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "fac820a98b746a04ce14ec40c7268d6a58819133972b538f9720a5363c862e32"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/random/_bounded_integers.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/random/_bounded_integers.cp312-win_amd64.pyd",
+      "bytes": 226304,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1f22eb30ef45d00f73c0774884c5c080e2258b7332b2ae75e87395308b97de4f"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/color.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/color.cp312-win_amd64.pyd",
+      "bytes": 208384,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "173c36f2c56f0c9e64d70f955972ce0b46797b172da668d7905adb2f41e9f834"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pyexpat.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pyexpat.pyd",
+      "bytes": 205304,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d615e193d1affcdbfe504e90d3621cbdcff94bf72b79d899126534507fd6d27a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/dataclasses.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/dataclasses.cp312-win_amd64.pyd",
+      "bytes": 184320,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "3c926a1457e6634e3310770cb50aaf1452bbb28c41582553bc7ba3555fefd05e"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/class_validators.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/class_validators.cp312-win_amd64.pyd",
+      "bytes": 183296,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6456a8648738dcf400571ec65d497d52e8aad4572374994151e9e7e09acdad05"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_ssl.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_ssl.pyd",
+      "bytes": 179432,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "0bc527d2dbc50009f43b2ed5d5982c4f63f4b647647ffa9eda612dcda80f6040"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/errors.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/errors.cp312-win_amd64.pyd",
+      "bytes": 177664,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "c91da11ab39f37efaad9f4d1fd7223227f6637c429f040251513cd24341c7441"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/js/app.js",
+      "rel": "win-unpacked/resources/backend/web/js/app.js",
+      "bytes": 177636,
+      "mtime": "2026-11-12T21:25:22+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "52b470663e0230937cdd3440be1c6cc0d01a05a8493917548b4aa293856b858a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/typing.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/typing.cp312-win_amd64.pyd",
+      "bytes": 174592,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "5254e3dff5789f354086ad5dcdc16eefa9aa96d6c94a35ab2ea660893b4b5cf0"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/random/bit_generator.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/random/bit_generator.cp312-win_amd64.pyd",
+      "bytes": 172032,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "4d373261ce207875071fc5541d2e5b712640294e0a13b5045692b7eb15262230"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/random/_common.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/random/_common.cp312-win_amd64.pyd",
+      "bytes": 167936,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "ce364f3412ea4d2d5c174f295acad28674916e9edcb8c4b40860ec6a5e618e34"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/chrome_100_percent.pak",
+      "rel": "win-unpacked/chrome_100_percent.pak",
+      "bytes": 167733,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "b7805392bfce11118165e3a4e747ac0ca515e4e0ceadab356d685575f6aa45fb"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/env_settings.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/env_settings.cp312-win_amd64.pyd",
+      "bytes": 166400,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "189733a7d3c88104a371c7214bdda784b4dc88e577fdd56f69386f7bde9e6a12"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_lzma.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_lzma.pyd",
+      "bytes": 161136,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e3deecc1f59a3b811c608861decd84de1e8df8bafd5e2b39188861318c5a38cf"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/_hypothesis_plugin.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/_hypothesis_plugin.cp312-win_amd64.pyd",
+      "bytes": 140800,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "a954f921a29fe49cb864f2e708e41662ebfdb8b8ec0237c9264bbd2a0b740420"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_elementtree.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_elementtree.pyd",
+      "bytes": 135160,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "5009a9a53c03ef8387443b5cf6ce08e5c3a79727466a0b931c5bbca915bf89ca"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_ctypes.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_ctypes.pyd",
+      "bytes": 127480,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "0e56107a891100535f2da79d85a5ae65ff1227b4765bd108f8593ac1a1110d81"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/decorator.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/decorator.cp312-win_amd64.pyd",
+      "bytes": 126976,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "7dc17b6e31e4a63cfb18b7eeb303a66e03ffaa97ded1b6f9b3c6bb3830d7f046"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_sqlite3.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_sqlite3.pyd",
+      "bytes": 126184,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "64b51df2805c58b023a875e8ae3be7ac7f61ef664f32ca6c90f6315da47ef0bc"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/VCRUNTIME140.dll",
+      "rel": "win-unpacked/resources/backend/_internal/VCRUNTIME140.dll",
+      "bytes": 120400,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "052ad6a20d375957e82aa6a3c441ea548d89be0981516ca7eb306e063d5027f4"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/error_wrappers.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/error_wrappers.cp312-win_amd64.pyd",
+      "bytes": 112640,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "4e7a200d815aefffd97a283d7b120da0cb347ffc733374e815b56c83d9fce998"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/linalg/_umath_linalg.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/linalg/_umath_linalg.cp312-win_amd64.pyd",
+      "bytes": 108032,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "9f01a5cabc9be3532205ea3cc941b2093680582f93f5256157175c2497d208c0"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/elevate.exe",
+      "rel": "win-unpacked/resources/elevate.exe",
+      "bytes": 107520,
+      "mtime": "2019-06-18T03:21:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "9b1fbf0c11c520ae714af8aa9af12cfd48503eedecd7398d8992ee94d1b4dc37"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/大肥鱼音乐管家 Setup 0.2.1.exe.blockmap",
+      "rel": "大肥鱼音乐管家 Setup 0.2.1.exe.blockmap",
+      "bytes": 104615,
+      "mtime": "2026-11-12T21:41:40+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "291e5bf2435d2f1c0b8f8d79e82594ee18f334b38e835facdcd125ef44aaacfe"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/random/_pcg64.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/random/_pcg64.cp312-win_amd64.pyd",
+      "bytes": 96768,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "c341e73a309686f1398a619e4ae88db6d0378300b0bf47d07e997c2448a8bbf7"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/random/_mt19937.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/random/_mt19937.cp312-win_amd64.pyd",
+      "bytes": 89088,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1696c55987b63c5a0f59bbab913e1db9fcb34f9304c2627fd5e2ec7df145a93b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/app.asar",
+      "rel": "win-unpacked/resources/app.asar",
+      "bytes": 87541,
+      "mtime": "2026-11-12T21:41:00+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1e7b7afb10a9dcd125446485482156f4ad0b438ba682921b38f467a65f7b9c48"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_bz2.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_bz2.pyd",
+      "bytes": 86896,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "65f610646d10d5babea080e060d244b546ec52c54012e5e937dc72dcc2e2e7bc"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_socket.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_socket.pyd",
+      "bytes": 85496,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "3efa4636cf9e350856f6927d67a4c2564bf9bd2758a00bbf17d3aece5b60016d"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/datetime_parse.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/datetime_parse.cp312-win_amd64.pyd",
+      "bytes": 84992,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "bbb681cce48460b2d5d678ca775567f7c0ff867f1c77c617084a26c47a40fb43"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/random/_philox.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/random/_philox.cp312-win_amd64.pyd",
+      "bytes": 81920,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "037560a46a86eac3487641daf5dc57cfe6f1c1776f85ffd77822fe38ff162ac0"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/app.css",
+      "rel": "win-unpacked/resources/backend/web/app.css",
+      "bytes": 79711,
+      "mtime": "2026-11-12T21:25:19+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "a0b3351fd3e7418b73829ba807bb3480f69f09c23a44af01f2e78919fd98a59f"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/config.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/config.cp312-win_amd64.pyd",
+      "bytes": 76288,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6356301b7177946e9b43400c5cbcebe92239757e9291db9c5e6e6ff33835a420"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_asyncio.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_asyncio.pyd",
+      "bytes": 74096,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "c77de90cad749087a0c5dc5e19d78d24f6ef44e7e5ac19b8420cfc0cea62395d"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_hashlib.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_hashlib.pyd",
+      "bytes": 68976,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "03d233dbace599168eaffec823de6ed7beec8c2a4ebfe9b8a3d8e042a59af3ba"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/annotated_types.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/annotated_types.cp312-win_amd64.pyd",
+      "bytes": 66048,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "adb51f84fa2880ab1eb7dd6fbab6788d5326273b8b8117b9487f0770aed986df"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/_core/_multiarray_tests.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/_core/_multiarray_tests.cp312-win_amd64.pyd",
+      "bytes": 64000,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "0eb18a6ff0e1e5ee5cf57e2eee9d6fb72f1ae872db3a0be880088cad962f8794"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/json.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/json.cp312-win_amd64.pyd",
+      "bytes": 63488,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "220d935155c1584fa58cc35ad733807b2f381dcfc43691891de25b12aca16595"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/prototype/starfield.html",
+      "rel": "win-unpacked/resources/backend/web/prototype/starfield.html",
+      "bytes": 63170,
+      "mtime": "2026-11-10T16:55:51+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "4e2e7fca5b5a99eba5a83b7f67f8a3be1b272ddb7d4c4334be81c45f5f41e719"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/numpy/random/_sfc64.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/numpy/random/_sfc64.cp312-win_amd64.pyd",
+      "bytes": 62464,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "41830c2fa4cae8e5cda42b665498cb00b9f5b0c4ea8f1a63a9ffa1c90f9c875b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/tools.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/tools.cp312-win_amd64.pyd",
+      "bytes": 59904,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d3af1cc6d951bcc4b59e0669e5323b951010c3f6a18c3ad9d1504ee9e3c54888"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_overlapped.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_overlapped.pyd",
+      "bytes": 57336,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "662126ff80c3a1b4cedf74074029c12ae4743e6d3b37376e39ac70aacb7d4d3c"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/version.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/version.cp312-win_amd64.pyd",
+      "bytes": 53248,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "b7b22e1ea16220c7e36c6dc8abb42591b8f0690251c89c7e9faa1500dccca82d"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/VCRUNTIME140_1.dll",
+      "rel": "win-unpacked/resources/backend/_internal/VCRUNTIME140_1.dll",
+      "bytes": 49776,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6a99bc0128e0c7d6cbbf615fcc26909565e17d4ca3451b97f8987f9c6acbc6c8"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/parse.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/parse.cp312-win_amd64.pyd",
+      "bytes": 48128,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "9112defb020f9c83095d27685d959de54ab96b34c99a6a4692c1632aefe18a56"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/index.html",
+      "rel": "win-unpacked/resources/backend/web/index.html",
+      "bytes": 44225,
+      "mtime": "2026-11-12T17:07:14+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1ed598783e8426300bffdf95d2523d165fe2d9c7377475c2e8d16214b859ead7"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_wmi.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_wmi.pyd",
+      "bytes": 40304,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "a980f1e7a29842bd946863fc2693fbeb555a9dc0f9e1630dfed9a2fcdef3ece2"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/libffi-8.dll",
+      "rel": "win-unpacked/resources/backend/_internal/libffi-8.dll",
+      "bytes": 39696,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_multiprocessing.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_multiprocessing.pyd",
+      "bytes": 37368,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "2c636df7059cb0dd7e978dd735c7c5c8ddb09cf94754cf9e232296b96c5c545a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/pydantic/__init__.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/pydantic/__init__.cp312-win_amd64.pyd",
+      "bytes": 35328,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "40a3695f09356e540b7cd736c0fd5adac3b20a8a03e6a7e49356b10f0e50b473"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_queue.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_queue.pyd",
+      "bytes": 33784,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "48e76e0ad63f6932b4a77b5819f41c1e7595636ca8d9e824f0943a14b8bb5035"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/select.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/select.pyd",
+      "bytes": 33136,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d4d7181b11db0bd22a6cd5cda6f8583d1f5c77615fd0a6ca33350619d6e0438a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/_uuid.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/_uuid.pyd",
+      "bytes": 27128,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "acce4f281d7ffb2dec0997527faf25b1df62ad7bd3032c568ddcf65c90edc867"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/PIL/_imagingmath.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/PIL/_imagingmath.cp312-win_amd64.pyd",
+      "bytes": 25600,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "045e0ef62086176ab38ddf8e52a840a39ffd50121a2694c09d35853ccb73c4fb"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/http/httptools_impl.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/http/httptools_impl.py",
+      "bytes": 21805,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "b6e4010a20faadfe4341ec90c0755ce39af11fda2ea233299178bd286e8d4419"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/config.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/config.py",
+      "bytes": 20897,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6cc49d8056690fac1f434fa27889771dadc854314218bb6dd26a60f8954db6e6"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/http/h11_impl.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/http/h11_impl.py",
+      "bytes": 20694,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e1bf8ab302b9ec505a44f7875e52bfa32f2928ceaf1b585a00b0887911fed5b0"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/js/starfield.js",
+      "rel": "win-unpacked/resources/backend/web/js/starfield.js",
+      "bytes": 17848,
+      "mtime": "2026-11-12T13:48:04+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "83a58915695aaa3c7558109fe8581fe007bbb29e41f9edc967187d0670ed80c1"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/main.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/main.py",
+      "bytes": 16915,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "8afea9b600c19e4a345be5641ecd1edc8e14ac5effe6c119ae7b5034a24614d6"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/websockets/websockets_impl.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/websockets/websockets_impl.py",
+      "bytes": 15517,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d32e2493ecd1fae3dd9a98eaf4e62ecc993b83d6a6962b2952633dd65caa45d6"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/websockets/wsproto_impl.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/websockets/wsproto_impl.py",
+      "bytes": 15381,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "81af09cc3514d90ad0b2381076022295f6e604722b1f8cdbc8633899aa2f4d1a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/PIL/_imagingtk.cp312-win_amd64.pyd",
+      "rel": "win-unpacked/resources/backend/_internal/PIL/_imagingtk.cp312-win_amd64.pyd",
+      "bytes": 15360,
+      "mtime": "2026-11-12T21:40:29+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "3fa78a526c9d24620fd84673bb724c86fb68f8bf290b1ac7d8fd94c895081538"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/js/player.js",
+      "rel": "win-unpacked/resources/backend/web/js/player.js",
+      "bytes": 15155,
+      "mtime": "2026-11-12T13:10:37+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "b1a373b4bc992221ef95ff93290bb8bc4b7e64ee50fe7f16988d4338e33b3f19"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/server.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/server.py",
+      "bytes": 12893,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "8dd3d150523fd140a9981c41f0fae963b869b20c064dd94ab7422bc453748e6f"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+      "rel": "win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+      "bytes": 10278,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/js/lyrics.js",
+      "rel": "win-unpacked/resources/backend/web/js/lyrics.js",
+      "bytes": 10107,
+      "mtime": "2026-11-10T23:53:48+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "9a2da9401368471e374d3a186c890dac98c7f2dcd4f5e8b53a6a0126e83c6777"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/onboard.css",
+      "rel": "win-unpacked/resources/backend/web/onboard.css",
+      "bytes": 8866,
+      "mtime": "2026-11-10T15:46:09+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "799ccd2c907d035d9068f83b30c8abeabdb85f52a724e2322ffe5045d5878919"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/_types.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/_types.py",
+      "bytes": 7775,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e4570fbef21f78ab090e31a14eb71e0eff139b0cd823cc8f17b997b174d63943"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/builder-debug.yml",
+      "rel": "builder-debug.yml",
+      "bytes": 7621,
+      "mtime": "2026-11-12T21:41:40+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "490486c4c4e51b232f3265906acf764c70482d06e3fa5b3889865913068c6a40"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/supervisors/multiprocess.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/supervisors/multiprocess.py",
+      "bytes": 7507,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "3a9b745ef3948f50c83176306f83a59096717a1fd18f07859d39833d822d38dc"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/middleware/wsgi.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/middleware/wsgi.py",
+      "bytes": 7120,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "178e452df319739d742e2629bbb5509e81694687f8939a66e424c4478babb375"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/js/api.js",
+      "rel": "win-unpacked/resources/backend/web/js/api.js",
+      "bytes": 6585,
+      "mtime": "2026-11-12T17:09:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "61b5fbe9ac8c31f0ffbf92561032035b8b2992ed4e2325c6be9192c719cf7e9c"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/METADATA",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/METADATA",
+      "bytes": 6534,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6d2f1a126d811ae114fb69fc98b4181d6979743d132c0537231b302c207841c5"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/RECORD",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/RECORD",
+      "bytes": 6169,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "997ef68ecaf5a4c556b93f53eb5f444913804f084c115b140852c15ea8987bbb"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/middleware/proxy_headers.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/middleware/proxy_headers.py",
+      "bytes": 5790,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "7f554301cfa2a4f1dd353b8b347c1809e0e0617a022ff5630fa8434d45d94ff5"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/lifespan/on.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/lifespan/on.py",
+      "bytes": 5184,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d4a62e14d37240e3488ed10784a640269f8e3a8908ca38fbe30a4608606fe259"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/pierce.css",
+      "rel": "win-unpacked/resources/backend/web/pierce.css",
+      "bytes": 4903,
+      "mtime": "2026-11-12T15:45:55+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "2c838b8cbb6296ac46dd6edc295511b221644584a1b0a3c1636c81134b1a5d13"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/METADATA",
+      "rel": "win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/METADATA",
+      "bytes": 4670,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "a3e38b9ee4326289d4864704f30e299ee769e2309ce9f4a75f0de1a50ad0a356"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/js/visualizer.js",
+      "rel": "win-unpacked/resources/backend/web/js/visualizer.js",
+      "bytes": 4265,
+      "mtime": "2026-11-10T14:15:25+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "98af19553599f751fb1a4d7854ec95880adbd08c7d7381d3f8b8d5c59c5c8f31"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/logging.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/logging.py",
+      "bytes": 4235,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "f9e084e273899856ed07da9f349b8454d174635dcb1941eabc5cde9984f43da4"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/workers.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/workers.py",
+      "bytes": 3895,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "eca1a01806a9c4690679751c046ba73a348d748f51e38282a164c6100a8075fb"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/supervisors/basereload.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/supervisors/basereload.py",
+      "bytes": 3858,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "6ab39edcfa90a742f916f0980ec560f2351ebfee7bb32585cc786082c335f156"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/supervisors/watchfilesreload.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/supervisors/watchfilesreload.py",
+      "bytes": 3010,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e3514634c5cf2ab2af3ebfb93bcc915a0e3797a38206d6a9b77f4cfa0a5d9341"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/middleware/message_logger.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/middleware/message_logger.py",
+      "bytes": 2859,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "2071195129c535a305505770b593b702e1404e761c4a8afe815b4e8db0b3b7c3"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/_subprocess.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/_subprocess.py",
+      "bytes": 2766,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1db7d19ec0a45f283bc425950165b35d04de5a5bcb29f4e5205e707af141911e"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/web/tokens.css",
+      "rel": "win-unpacked/resources/backend/web/tokens.css",
+      "bytes": 2364,
+      "mtime": "2026-11-10T13:56:15+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "a7a07b32f9860590456f7694fc40ca77a337319fbdeecab2677ae5bdc7324da5"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/RECORD",
+      "rel": "win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/RECORD",
+      "bytes": 1868,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "52a6b8ee0de15cf7fd99625f43b97cd2e3942ac86f16054ea90de48e66f29355"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/utils.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/utils.py",
+      "bytes": 1849,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "ac28d82dde3fbb03de6646d15d0e9b7827f1c88fe8629bc90b0cf78c418d3a21"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/http/flow_control.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/http/flow_control.py",
+      "bytes": 1701,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d39d16560df512f3ce907c329c2a0c3f5cd7165fef3b753876eae5739bf2a785"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/data/roadmap.json",
+      "rel": "win-unpacked/resources/backend/data/roadmap.json",
+      "bytes": 1641,
+      "mtime": "2026-11-12T17:24:05+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "5c8a926bc8dbc247ec0bda56a14c055e6fb18d19fc94fe8b8ffe86647fd51e82"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/supervisors/statreload.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/supervisors/statreload.py",
+      "bytes": 1569,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "857ce70c85b77f9e25b718a4ea15ec0520bed6a0452f7d1e0afb4f4a522f9f5a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/licenses/LICENSE.md",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/licenses/LICENSE.md",
+      "bytes": 1526,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/setuptools/_vendor/jaraco/text/Lorem ipsum.txt",
+      "rel": "win-unpacked/resources/backend/_internal/setuptools/_vendor/jaraco/text/Lorem ipsum.txt",
+      "bytes": 1335,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "37fedcffbf73c4eb9f058f47677cb33203a436ff9390e4d38a8e01c9dad28e0b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/importer.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/importer.py",
+      "bytes": 1128,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "9d1b74410deaa62dbae3e9ff991d25e790b675d33c9e8c133734f58ec59a6a6f"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/LICENSE.electron.txt",
+      "rel": "win-unpacked/LICENSE.electron.txt",
+      "bytes": 1096,
+      "mtime": "2026-11-12T21:40:57+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/websockets/auto.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/websockets/auto.py",
+      "bytes": 574,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "90d3fe874ed9ce303d74a45477b30d3b427bc61449e715417e2b7bc026dd0740"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/supervisors/__init__.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/supervisors/__init__.py",
+      "bytes": 507,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "c13f1e38422a4f5c96420cad66dbf9b5a58cba5ef1a13218d319b59b8a323d3c"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/http/auto.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/http/auto.py",
+      "bytes": 403,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "61f5c6cb359369a136a7f8e44cf5ab2425ecc446909c2dcd2b4f86ed68269e5b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/loops/auto.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/loops/auto.py",
+      "bytes": 400,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "05656ad7c71ef52a054e8df3e73356d88536f39d2edad46b73a5b22bb89db1d2"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/middleware/asgi2.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/middleware/asgi2.py",
+      "bytes": 394,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "610ad0366dd17a116db379b3937938cb0f1a0fc120b63d2d452dcde3962441ad"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/latest.yml",
+      "rel": "latest.yml",
+      "bytes": 362,
+      "mtime": "2026-11-12T21:41:40+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "d6a26414e4269a3f30b0efb7c3c6c415f9fc4ef9f675d1e5e990438805bd1fff"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/lifespan/off.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/lifespan/off.py",
+      "bytes": 332,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "9df23aa87014a3ff3e0445cc04aa0743dc146ec5eb3da5cb09b0d24b4bca4abf"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/loops/asyncio.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/loops/asyncio.py",
+      "bytes": 301,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "a8f9d02d3da1b5991c186fe77274f2ad21f7f23124aa383c82ec0fd25035e3a0"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/loops/uvloop.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/loops/uvloop.py",
+      "bytes": 148,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "2b84326d8571b4af42d9e9838433d40a40574785cc4f939fbfd04f14fa17d289"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/__init__.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/__init__.py",
+      "bytes": 147,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e902afc5a4f31e3338f22cda7ae65706456ba92841c3a29e1ecc18c23e05c078"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/vk_swiftshader_icd.json",
+      "rel": "win-unpacked/vk_swiftshader_icd.json",
+      "bytes": 106,
+      "mtime": "2026-11-12T21:40:58+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "32d83ff113fef532a9f97e0d2831f8656628ab1c99e9060f0332b1532839afd9"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/app-update.yml",
+      "rel": "win-unpacked/resources/app-update.yml",
+      "bytes": 95,
+      "mtime": "2026-11-12T21:41:01+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "1a1bdeddac86d29d4707f466c2bad066339b8f53cbedb782da2dd0bebf41a20a"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/WHEEL",
+      "rel": "win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/WHEEL",
+      "bytes": 91,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/WHEEL",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/WHEEL",
+      "bytes": 87,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/data/config.json",
+      "rel": "win-unpacked/resources/backend/data/config.json",
+      "bytes": 84,
+      "mtime": "2026-11-12T19:11:00+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "77b69a9be38df7b43bdfd0a8fca8ef6da7647bdf65ad2fc322bf0c3dafa155fe"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/__main__.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/__main__.py",
+      "bytes": 62,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "0d08b3cba9ca3f4cb084fa6708782644360831f72a64a544ccd2164198eab554"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/entry_points.txt",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/entry_points.txt",
+      "bytes": 46,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "156d70fa191cf50830686a28bccbe6d1963bdf0fcd7327167460147c3b0d1b1c"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/top_level.txt",
+      "rel": "win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/top_level.txt",
+      "bytes": 19,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "08eddf0fdcb29403625e4acca38a872d5fe6a972f6b02e4914a82dd725804fe0"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/INSTALLER",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/INSTALLER",
+      "bytes": 4,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/INSTALLER",
+      "rel": "win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/INSTALLER",
+      "bytes": 2,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/py.typed",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/py.typed",
+      "bytes": 1,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/REQUESTED",
+      "rel": "win-unpacked/resources/backend/_internal/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/REQUESTED",
+      "bytes": 0,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/lifespan/__init__.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/lifespan/__init__.py",
+      "bytes": 0,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/loops/__init__.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/loops/__init__.py",
+      "bytes": 0,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/middleware/__init__.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/middleware/__init__.py",
+      "bytes": 0,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/__init__.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/__init__.py",
+      "bytes": 0,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/http/__init__.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/http/__init__.py",
+      "bytes": 0,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn/protocols/websockets/__init__.py",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn/protocols/websockets/__init__.py",
+      "bytes": 0,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:/数据/deepseek-harness/default-workspace/music-hub/dist/installer/win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/REQUESTED",
+      "rel": "win-unpacked/resources/backend/_internal/uvicorn-0.34.0.dist-info/REQUESTED",
+      "bytes": 0,
+      "mtime": "2026-11-12T21:40:30+08:00",
+      "big": false,
+      "chunks": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

@@ -1,0 +1,977 @@
+{
+  "source": {
+    "file": "课程电商数据集_退款.csv",
+    "sha256": "9b10c5af388b1c52e5b124800d665627706fc17db07342ba098a797e534760a8",
+    "encoding": "utf-8-sig",
+    "rows": 360863,
+    "currency": "USD",
+    "provenance": {
+      "dataset": "课程电商数据集（pandas 数据预处理课程）",
+      "is_company_data": false,
+      "category": "家用电器/电子产品（非本公司）",
+      "period": "2023-01 ~ 2023-11",
+      "return_definition": "已退款（源字段 订单是否退款=是，无发起/完成阶段信息）；分母为订单行，指标为已退款订单行占比（非严格订单退货率）",
+      "caliber_code": "refunded"
+    }
+  },
+  "caliber": {
+    "code": "refunded",
+    "label": "已退款",
+    "note": "退款行占比 = 已退款订单行 / 订单行（非订单退货率）"
+  },
+  "clean": {
+    "rows": 360863,
+    "dropped": 0,
+    "problems": []
+  },
+  "time_range": {
+    "from": "2023-01-05 04:06:00",
+    "to": "2023-11-21 10:10:00"
+  },
+  "totals": {
+    "orders": 360863,
+    "gmv": 89993969.58,
+    "return_orders": 16353,
+    "return_line_share_pct": 4.5316,
+    "refund_amount": 0.0,
+    "aov": 249.39
+  },
+  "by_category": {
+    "儿童-奶瓶": {
+      "orders": 58,
+      "gmv": 735.22,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "儿童-婴儿车": {
+      "orders": 33,
+      "gmv": 5440.76,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "儿童-快消品-尿布": {
+      "orders": 10,
+      "gmv": 178.94,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "儿童-玩偶": {
+      "orders": 314,
+      "gmv": 1792.04,
+      "ret": 1,
+      "refund": 0.0,
+      "return_line_share_pct": 0.3185
+    },
+    "儿童-玩具": {
+      "orders": 549,
+      "gmv": 30239.53,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "儿童-秋千": {
+      "orders": 5,
+      "gmv": 578.6,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "儿童-轮滑鞋": {
+      "orders": 956,
+      "gmv": 411996.05,
+      "ret": 10,
+      "refund": 0.0,
+      "return_line_share_pct": 1.046
+    },
+    "医疗-工具-眼压计": {
+      "orders": 895,
+      "gmv": 56828.36,
+      "ret": 4,
+      "refund": 0.0,
+      "return_line_share_pct": 0.4469
+    },
+    "家具-卧室-床": {
+      "orders": 377,
+      "gmv": 7486.53,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家具-卧室-枕头": {
+      "orders": 1515,
+      "gmv": 22227.2,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家具-卧室-毯子": {
+      "orders": 54,
+      "gmv": 5438.13,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家具-厨房-桌子": {
+      "orders": 9249,
+      "gmv": 390851.77,
+      "ret": 765,
+      "refund": 0.0,
+      "return_line_share_pct": 8.2712
+    },
+    "家具-厨房-椅子": {
+      "orders": 2555,
+      "gmv": 98490.61,
+      "ret": 214,
+      "refund": 0.0,
+      "return_line_share_pct": 8.3757
+    },
+    "家具-客厅-架子": {
+      "orders": 2107,
+      "gmv": 26325.07,
+      "ret": 12,
+      "refund": 0.0,
+      "return_line_share_pct": 0.5695
+    },
+    "家具-客厅-椅子": {
+      "orders": 1178,
+      "gmv": 222987.5,
+      "ret": 90,
+      "refund": 0.0,
+      "return_line_share_pct": 7.6401
+    },
+    "家具-客厅-沙发": {
+      "orders": 336,
+      "gmv": 21926.54,
+      "ret": 9,
+      "refund": 0.0,
+      "return_line_share_pct": 2.6786
+    },
+    "家具-客厅橱柜": {
+      "orders": 2598,
+      "gmv": 106744.78,
+      "ret": 535,
+      "refund": 0.0,
+      "return_line_share_pct": 20.5928
+    },
+    "家具-浴室-洗手盆": {
+      "orders": 41,
+      "gmv": 1209.85,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家具-浴室-浴缸": {
+      "orders": 185,
+      "gmv": 16276.52,
+      "ret": 3,
+      "refund": 0.0,
+      "return_line_share_pct": 1.6216
+    },
+    "家具-通用-灯": {
+      "orders": 18,
+      "gmv": 1164.65,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家用电器-个护-按摩器": {
+      "orders": 1429,
+      "gmv": 76694.99,
+      "ret": 4,
+      "refund": 0.0,
+      "return_line_share_pct": 0.2799
+    },
+    "家用电器-个护-电动理发器": {
+      "orders": 2241,
+      "gmv": 90676.31,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家用电器-个护-电子秤": {
+      "orders": 5561,
+      "gmv": 99606.24,
+      "ret": 5,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0899
+    },
+    "家用电器-厨房-冰箱": {
+      "orders": 16938,
+      "gmv": 7211193.27,
+      "ret": 112,
+      "refund": 0.0,
+      "return_line_share_pct": 0.6612
+    },
+    "家用电器-厨房-咖啡机": {
+      "orders": 1046,
+      "gmv": 88862.94,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家用电器-厨房-咖啡研磨机": {
+      "orders": 674,
+      "gmv": 25530.26,
+      "ret": 89,
+      "refund": 0.0,
+      "return_line_share_pct": 13.2047
+    },
+    "家用电器-厨房-微波炉": {
+      "orders": 6352,
+      "gmv": 608020.12,
+      "ret": 7,
+      "refund": 0.0,
+      "return_line_share_pct": 0.1102
+    },
+    "家用电器-厨房-抽油烟机": {
+      "orders": 7494,
+      "gmv": 1654523.07,
+      "ret": 454,
+      "refund": 0.0,
+      "return_line_share_pct": 6.0582
+    },
+    "家用电器-厨房-搅拌机": {
+      "orders": 9359,
+      "gmv": 576676.99,
+      "ret": 444,
+      "refund": 0.0,
+      "return_line_share_pct": 4.7441
+    },
+    "家用电器-厨房-榨汁机": {
+      "orders": 979,
+      "gmv": 136659.42,
+      "ret": 63,
+      "refund": 0.0,
+      "return_line_share_pct": 6.4351
+    },
+    "家用电器-厨房-水壶": {
+      "orders": 10439,
+      "gmv": 381160.3,
+      "ret": 359,
+      "refund": 0.0,
+      "return_line_share_pct": 3.439
+    },
+    "家用电器-厨房-油炸锅": {
+      "orders": 84,
+      "gmv": 9417.34,
+      "ret": 12,
+      "refund": 0.0,
+      "return_line_share_pct": 14.2857
+    },
+    "家用电器-厨房-洗碗机": {
+      "orders": 2181,
+      "gmv": 1052642.83,
+      "ret": 30,
+      "refund": 0.0,
+      "return_line_share_pct": 1.3755
+    },
+    "家用电器-厨房-洗衣机": {
+      "orders": 12092,
+      "gmv": 4095520.26,
+      "ret": 179,
+      "refund": 0.0,
+      "return_line_share_pct": 1.4803
+    },
+    "家用电器-厨房-烤架": {
+      "orders": 1313,
+      "gmv": 327819.38,
+      "ret": 4,
+      "refund": 0.0,
+      "return_line_share_pct": 0.3046
+    },
+    "家用电器-厨房-烤箱": {
+      "orders": 3317,
+      "gmv": 1310195.92,
+      "ret": 3,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0904
+    },
+    "家用电器-厨房-烤面包机": {
+      "orders": 1130,
+      "gmv": 52705.45,
+      "ret": 36,
+      "refund": 0.0,
+      "return_line_share_pct": 3.1858
+    },
+    "家用电器-厨房-绞肉机": {
+      "orders": 3697,
+      "gmv": 389043.86,
+      "ret": 85,
+      "refund": 0.0,
+      "return_line_share_pct": 2.2992
+    },
+    "家用电器-厨房-蒸锅": {
+      "orders": 389,
+      "gmv": 29174.99,
+      "ret": 88,
+      "refund": 0.0,
+      "return_line_share_pct": 22.6221
+    },
+    "家用电器-烫衣板": {
+      "orders": 1764,
+      "gmv": 85192.58,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家用电器-熨斗": {
+      "orders": 6816,
+      "gmv": 584810.91,
+      "ret": 80,
+      "refund": 0.0,
+      "return_line_share_pct": 1.1737
+    },
+    "家用电器-环境电器-冷气机": {
+      "orders": 6191,
+      "gmv": 1531915.76,
+      "ret": 8,
+      "refund": 0.0,
+      "return_line_share_pct": 0.1292
+    },
+    "家用电器-环境电器-吸尘器": {
+      "orders": 13144,
+      "gmv": 2014588.36,
+      "ret": 31,
+      "refund": 0.0,
+      "return_line_share_pct": 0.2358
+    },
+    "家用电器-环境电器-暖风机": {
+      "orders": 2119,
+      "gmv": 85161.52,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家用电器-环境电器-气候调节器": {
+      "orders": 85,
+      "gmv": 2121.25,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家用电器-环境电器-热水器": {
+      "orders": 2936,
+      "gmv": 350653.5,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家用电器-环境电器-风扇": {
+      "orders": 3236,
+      "gmv": 89936.21,
+      "ret": 4,
+      "refund": 0.0,
+      "return_line_share_pct": 0.1236
+    },
+    "家用电器-缝纫机": {
+      "orders": 1300,
+      "gmv": 221051.62,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "家用电器-蒸汽清洁器": {
+      "orders": 103,
+      "gmv": 23369.62,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "庭院-割草机": {
+      "orders": 96,
+      "gmv": 10717.81,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "庭院-气象站": {
+      "orders": 42,
+      "gmv": 1089.25,
+      "ret": 1,
+      "refund": 0.0,
+      "return_line_share_pct": 2.381
+    },
+    "庭院-浇水壶": {
+      "orders": 5,
+      "gmv": 28.82,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "庭院-耕作机": {
+      "orders": 28,
+      "gmv": 10380.85,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "建筑五金-工具-发电机": {
+      "orders": 37,
+      "gmv": 9389.61,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "建筑五金-工具-取暖器": {
+      "orders": 307,
+      "gmv": 160551.33,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "建筑五金-工具-水泵": {
+      "orders": 57,
+      "gmv": 5694.53,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "建筑五金-工具-灯": {
+      "orders": 9,
+      "gmv": 207.38,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "建筑五金-工具-焊接": {
+      "orders": 150,
+      "gmv": 16545.93,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "建筑五金-工具-螺丝": {
+      "orders": 1982,
+      "gmv": 36093.78,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "建筑五金-工具-钻头": {
+      "orders": 517,
+      "gmv": 33504.92,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "建筑五金-工具-锯": {
+      "orders": 138,
+      "gmv": 19136.32,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "建筑五金-配件工具-水龙头": {
+      "orders": 109,
+      "gmv": 8095.66,
+      "ret": 4,
+      "refund": 0.0,
+      "return_line_share_pct": 3.6697
+    },
+    "文具-打印机墨盒": {
+      "orders": 2051,
+      "gmv": 32072.69,
+      "ret": 2,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0975
+    },
+    "文具-电池": {
+      "orders": 4220,
+      "gmv": 14814.08,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "文具-纸": {
+      "orders": 912,
+      "gmv": 4219.95,
+      "ret": 68,
+      "refund": 0.0,
+      "return_line_share_pct": 7.4561
+    },
+    "文具-订书机": {
+      "orders": 86,
+      "gmv": 2551.89,
+      "ret": 4,
+      "refund": 0.0,
+      "return_line_share_pct": 4.6512
+    },
+    "服装-T恤": {
+      "orders": 322,
+      "gmv": 6877.4,
+      "ret": 291,
+      "refund": 0.0,
+      "return_line_share_pct": 90.3727
+    },
+    "服装-手套": {
+      "orders": 1662,
+      "gmv": 644770.35,
+      "ret": 976,
+      "refund": 0.0,
+      "return_line_share_pct": 58.7244
+    },
+    "服装-服装服饰": {
+      "orders": 1,
+      "gmv": 15.02,
+      "ret": 1,
+      "refund": 0.0,
+      "return_line_share_pct": 100.0
+    },
+    "服装-衬衫": {
+      "orders": 197,
+      "gmv": 6284.15,
+      "ret": 177,
+      "refund": 0.0,
+      "return_line_share_pct": 89.8477
+    },
+    "服装-袜子": {
+      "orders": 16,
+      "gmv": 4674.19,
+      "ret": 13,
+      "refund": 0.0,
+      "return_line_share_pct": 81.25
+    },
+    "服装-裤子": {
+      "orders": 75,
+      "gmv": 2081.25,
+      "ret": 73,
+      "refund": 0.0,
+      "return_line_share_pct": 97.3333
+    },
+    "服装-鞋": {
+      "orders": 2,
+      "gmv": 411.53,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "未分类": {
+      "orders": 99,
+      "gmv": 19319.27,
+      "ret": 7,
+      "refund": 0.0,
+      "return_line_share_pct": 7.0707
+    },
+    "汽车-配件-压缩机": {
+      "orders": 240,
+      "gmv": 8639.51,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "汽车-配件-播放器": {
+      "orders": 90,
+      "gmv": 5342.61,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "汽车-配件-行车记录仪": {
+      "orders": 420,
+      "gmv": 49326.72,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "汽车-配件-警报器": {
+      "orders": 217,
+      "gmv": 27048.61,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "汽车-配件-防冻": {
+      "orders": 92,
+      "gmv": 749.03,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "汽车-配件-雷达": {
+      "orders": 66,
+      "gmv": 5946.42,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "电子产品-时钟": {
+      "orders": 5463,
+      "gmv": 1853410.13,
+      "ret": 436,
+      "refund": 0.0,
+      "return_line_share_pct": 7.981
+    },
+    "电子产品-智能手机": {
+      "orders": 85647,
+      "gmv": 34481795.16,
+      "ret": 5865,
+      "refund": 0.0,
+      "return_line_share_pct": 6.8479
+    },
+    "电子产品-电话": {
+      "orders": 2008,
+      "gmv": 115828.6,
+      "ret": 15,
+      "refund": 0.0,
+      "return_line_share_pct": 0.747
+    },
+    "电子产品-相机-视频相机": {
+      "orders": 103,
+      "gmv": 60613.53,
+      "ret": 6,
+      "refund": 0.0,
+      "return_line_share_pct": 5.8252
+    },
+    "电子产品-相机-镜头": {
+      "orders": 276,
+      "gmv": 134648.96,
+      "ret": 9,
+      "refund": 0.0,
+      "return_line_share_pct": 3.2609
+    },
+    "电子产品-视频-投影仪": {
+      "orders": 100,
+      "gmv": 40349.34,
+      "ret": 5,
+      "refund": 0.0,
+      "return_line_share_pct": 5.0
+    },
+    "电子产品-视频-电视": {
+      "orders": 14822,
+      "gmv": 7389536.4,
+      "ret": 1016,
+      "refund": 0.0,
+      "return_line_share_pct": 6.8547
+    },
+    "电子产品-计算器": {
+      "orders": 29,
+      "gmv": 400.21,
+      "ret": 3,
+      "refund": 0.0,
+      "return_line_share_pct": 10.3448
+    },
+    "电子产品-音频设备-低音炮": {
+      "orders": 56,
+      "gmv": 7199.75,
+      "ret": 8,
+      "refund": 0.0,
+      "return_line_share_pct": 14.2857
+    },
+    "电子产品-音频设备-录音机": {
+      "orders": 9,
+      "gmv": 526.64,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "电子产品-音频设备-耳机": {
+      "orders": 16766,
+      "gmv": 1415556.56,
+      "ret": 587,
+      "refund": 0.0,
+      "return_line_share_pct": 3.5011
+    },
+    "电子产品-音频设备-音源": {
+      "orders": 367,
+      "gmv": 110886.74,
+      "ret": 26,
+      "refund": 0.0,
+      "return_line_share_pct": 7.0845
+    },
+    "电子产品-音频设备-麦克风": {
+      "orders": 862,
+      "gmv": 56124.57,
+      "ret": 130,
+      "refund": 0.0,
+      "return_line_share_pct": 15.0812
+    },
+    "电脑-一体机": {
+      "orders": 865,
+      "gmv": 372639.73,
+      "ret": 15,
+      "refund": 0.0,
+      "return_line_share_pct": 1.7341
+    },
+    "电脑-外接设备-打印机": {
+      "orders": 2882,
+      "gmv": 490899.43,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "电脑-外接设备-扫描器": {
+      "orders": 64,
+      "gmv": 7952.43,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "电脑-外接设备-摄像头": {
+      "orders": 868,
+      "gmv": 47899.08,
+      "ret": 37,
+      "refund": 0.0,
+      "return_line_share_pct": 4.2627
+    },
+    "电脑-外接设备-操控杆": {
+      "orders": 995,
+      "gmv": 67737.55,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "电脑-外接设备-显示器": {
+      "orders": 2764,
+      "gmv": 577859.19,
+      "ret": 2,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0724
+    },
+    "电脑-外接设备-键盘": {
+      "orders": 3164,
+      "gmv": 209883.4,
+      "ret": 357,
+      "refund": 0.0,
+      "return_line_share_pct": 11.2832
+    },
+    "电脑-外接设备-鼠标": {
+      "orders": 10503,
+      "gmv": 226226.8,
+      "ret": 1247,
+      "refund": 0.0,
+      "return_line_share_pct": 11.8728
+    },
+    "电脑-平板电脑": {
+      "orders": 5330,
+      "gmv": 1979555.89,
+      "ret": 354,
+      "refund": 0.0,
+      "return_line_share_pct": 6.6417
+    },
+    "电脑-游戏软件": {
+      "orders": 119,
+      "gmv": 12552.95,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "电脑-电子书": {
+      "orders": 326,
+      "gmv": 65831.39,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "电脑-电脑配件-中央处理器（cpu）": {
+      "orders": 3490,
+      "gmv": 565740.86,
+      "ret": 162,
+      "refund": 0.0,
+      "return_line_share_pct": 4.6418
+    },
+    "电脑-电脑配件-主板": {
+      "orders": 722,
+      "gmv": 87760.5,
+      "ret": 18,
+      "refund": 0.0,
+      "return_line_share_pct": 2.4931
+    },
+    "电脑-电脑配件-内存": {
+      "orders": 1338,
+      "gmv": 77346.26,
+      "ret": 204,
+      "refund": 0.0,
+      "return_line_share_pct": 15.2466
+    },
+    "电脑-电脑配件-可擦写光盘（CDRW）": {
+      "orders": 127,
+      "gmv": 3707.77,
+      "ret": 20,
+      "refund": 0.0,
+      "return_line_share_pct": 15.748
+    },
+    "电脑-电脑配件-声卡": {
+      "orders": 20,
+      "gmv": 412.07,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "电脑-电脑配件-散热器": {
+      "orders": 2819,
+      "gmv": 36552.35,
+      "ret": 45,
+      "refund": 0.0,
+      "return_line_share_pct": 1.5963
+    },
+    "电脑-电脑配件-显卡": {
+      "orders": 1024,
+      "gmv": 385316.37,
+      "ret": 15,
+      "refund": 0.0,
+      "return_line_share_pct": 1.4648
+    },
+    "电脑-电脑配件-电源": {
+      "orders": 826,
+      "gmv": 47720.44,
+      "ret": 19,
+      "refund": 0.0,
+      "return_line_share_pct": 2.3002
+    },
+    "电脑-电脑配件-硬盘驱动": {
+      "orders": 4217,
+      "gmv": 354702.19,
+      "ret": 192,
+      "refund": 0.0,
+      "return_line_share_pct": 4.553
+    },
+    "电脑-笔记本": {
+      "orders": 21642,
+      "gmv": 12465144.88,
+      "ret": 162,
+      "refund": 0.0,
+      "return_line_share_pct": 0.7485
+    },
+    "电脑-网络-路由器": {
+      "orders": 5304,
+      "gmv": 188582.99,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "运动户外-教练机": {
+      "orders": 182,
+      "gmv": 57826.59,
+      "ret": 8,
+      "refund": 0.0,
+      "return_line_share_pct": 4.3956
+    },
+    "运动户外-滑雪板": {
+      "orders": 13,
+      "gmv": 1000.17,
+      "ret": 4,
+      "refund": 0.0,
+      "return_line_share_pct": 30.7692
+    },
+    "运动户外-潜水装备": {
+      "orders": 9,
+      "gmv": 154.95,
+      "ret": 2,
+      "refund": 0.0,
+      "return_line_share_pct": 22.2222
+    },
+    "运动户外-网球": {
+      "orders": 34,
+      "gmv": 1816.32,
+      "ret": 0,
+      "refund": 0.0,
+      "return_line_share_pct": 0.0
+    },
+    "运动户外-自行车": {
+      "orders": 484,
+      "gmv": 158917.63,
+      "ret": 4,
+      "refund": 0.0,
+      "return_line_share_pct": 0.8264
+    },
+    "配件-包": {
+      "orders": 2509,
+      "gmv": 53014.76,
+      "ret": 15,
+      "refund": 0.0,
+      "return_line_share_pct": 0.5978
+    },
+    "配件-雨伞": {
+      "orders": 28,
+      "gmv": 1913.27,
+      "ret": 8,
+      "refund": 0.0,
+      "return_line_share_pct": 28.5714
+    }
+  },
+  "by_province": {
+    "地区A": {
+      "orders": 21776,
+      "gmv": 5347974.18,
+      "ret": 1109,
+      "refund": 0.0,
+      "return_line_share_pct": 5.0928
+    },
+    "地区B": {
+      "orders": 59000,
+      "gmv": 14637412.13,
+      "ret": 2729,
+      "refund": 0.0,
+      "return_line_share_pct": 4.6254
+    },
+    "地区C": {
+      "orders": 79958,
+      "gmv": 20186907.32,
+      "ret": 3617,
+      "refund": 0.0,
+      "return_line_share_pct": 4.5236
+    },
+    "地区D": {
+      "orders": 19989,
+      "gmv": 4893128.21,
+      "ret": 834,
+      "refund": 0.0,
+      "return_line_share_pct": 4.1723
+    },
+    "地区E": {
+      "orders": 19362,
+      "gmv": 4823907.01,
+      "ret": 908,
+      "refund": 0.0,
+      "return_line_share_pct": 4.6896
+    },
+    "地区F": {
+      "orders": 59446,
+      "gmv": 14881971.68,
+      "ret": 2743,
+      "refund": 0.0,
+      "return_line_share_pct": 4.6143
+    },
+    "地区G": {
+      "orders": 19260,
+      "gmv": 4908636.65,
+      "ret": 833,
+      "refund": 0.0,
+      "return_line_share_pct": 4.325
+    },
+    "地区H": {
+      "orders": 22519,
+      "gmv": 5383784.71,
+      "ret": 990,
+      "refund": 0.0,
+      "return_line_share_pct": 4.3963
+    },
+    "地区I": {
+      "orders": 17830,
+      "gmv": 4652376.06,
+      "ret": 761,
+      "refund": 0.0,
+      "return_line_share_pct": 4.2681
+    },
+    "地区J": {
+      "orders": 19121,
+      "gmv": 4971526.26,
+      "ret": 818,
+      "refund": 0.0,
+      "return_line_share_pct": 4.278
+    },
+    "地区K": {
+      "orders": 22602,
+      "gmv": 5306345.37,
+      "ret": 1011,
+      "refund": 0.0,
+      "return_line_share_pct": 4.4731
+    }
+  },
+  "reasons": {
+    "": 16353
+  }
+}

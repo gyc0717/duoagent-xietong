@@ -1,0 +1,140 @@
+{
+  "node": "N5",
+  "sub_step": "sandbox_executor",
+  "label": "独立验证沙箱 · execution_evidence（真实执行，非模拟）",
+  "evidence_source": "real_execution",
+  "executor": "python3 + unittest + lxml（确定性执行，零模型 token）",
+  "principle": "脚本产事实，模型判事实",
+  "elapsed_ms": 416.3,
+  "checks": {
+    "01_compile": {
+      "files": 5,
+      "errors": [],
+      "pass": true
+    },
+    "02_unit_test": {
+      "run": 13,
+      "failed": 0,
+      "pass": true,
+      "detail": "OK"
+    },
+    "03_svg_render": {
+      "rendered": 5,
+      "total": 5,
+      "bad": [],
+      "pass": true
+    },
+    "04_chart_vs_structured_data": {
+      "compared": 14,
+      "mismatches": [],
+      "pass": true
+    },
+    "05_data_script_rerun": {
+      "recomputed": {
+        "orders": 48216,
+        "returns": 1032,
+        "aov_cny": 256.46,
+        "return_rate": 0.0214,
+        "bands": {
+          "¥0–199": 15340,
+          "¥200–399": 27148,
+          "¥400+": 5728
+        }
+      },
+      "artifact": {
+        "orders": 48216,
+        "returns": 1032,
+        "aov_cny": 256.46,
+        "return_rate": 0.0214,
+        "bands": {
+          "¥0–199": 15340,
+          "¥200–399": 27148,
+          "¥400+": 5728
+        }
+      },
+      "pass": true
+    },
+    "06_reconciliation": {
+      "sum_group_orders": 48216,
+      "ledger_orders": 48216,
+      "diff": 0,
+      "pass": true
+    },
+    "07_null_boundary": {
+      "naive_impl": "RAISED",
+      "error": "TypeError: '<' not supported between instances of 'NoneType' and 'int'",
+      "fixed_impl_handles_null": true,
+      "pass": true
+    },
+    "08_mock_vs_real_consistency": {
+      "mock_totals_orders": 128400,
+      "real_rows": 48216,
+      "gap": 80184,
+      "finding": "mock 的 totals.orders 与 partitions 合计不自洽，纯文本复核未发现",
+      "pass": true
+    },
+    "09_chart_proportionality": {
+      "columns": [
+        {
+          "file": "chart_01_orders_by_band.svg",
+          "column_x": "single-column",
+          "n": 3,
+          "dim": "height",
+          "px_per_unit": 0.0094,
+          "max_rel_deviation": 0.0003,
+          "linear": true
+        },
+        {
+          "file": "chart_02_return_rate_by_band.svg",
+          "column_x": "single-column",
+          "n": 3,
+          "dim": "height",
+          "px_per_unit": 86.7765,
+          "max_rel_deviation": 0.00027,
+          "linear": true
+        },
+        {
+          "file": "chart_04_reconciliation.svg",
+          "column_x": "single-column",
+          "n": 2,
+          "dim": "width",
+          "px_per_unit": 0.004,
+          "max_rel_deviation": 0.0,
+          "linear": true
+        },
+        {
+          "file": "chart_05_returns_by_band.svg",
+          "column_x": "single-column",
+          "n": 3,
+          "dim": "height",
+          "px_per_unit": 0.4089,
+          "max_rel_deviation": 0.00013,
+          "linear": true
+        }
+      ],
+      "pass": true
+    }
+  },
+  "checks_passed": "9/9",
+  "found_defect": true,
+  "defects": [
+    "空值边界在朴素实现上真运行时抛 TypeError（已由修复实现覆盖）"
+  ],
+  "artifacts": {
+    "structured_data": "out/structured_data.json",
+    "charts": [
+      "out/charts/chart_01_orders_by_band.svg",
+      "out/charts/chart_02_return_rate_by_band.svg",
+      "out/charts/chart_03_null_amount_by_band.svg",
+      "out/charts/chart_04_reconciliation.svg",
+      "out/charts/chart_05_returns_by_band.svg"
+    ],
+    "ledger": "out/ledger.csv"
+  },
+  "exit_code": 0,
+  "stdout_tail": [
+    "",
+    "checks_passed=9/9  elapsed=416.3ms  found_defect=True",
+    "evidence -> D:\\鏁版嵁\\deepseek-harness\\default-workspace\\multi-agent\\real\\out\\execution_evidence.json"
+  ]
+}

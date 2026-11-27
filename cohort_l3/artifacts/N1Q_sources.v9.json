@@ -1,0 +1,81 @@
+{
+  "node": "N1Q",
+  "query": "2026 年双十一期间家电类目退货率的最新公开报道有哪些？请给出 2-3 条带链接、发布时间和原文引用的来源。",
+  "answer": "查到2026年双十一期间家电类目退货率的公开报道中，**未见直接披露整体家电退货率的具体数值**；所有来源均聚焦于投诉量、投诉类型（如维修三包、保价、质量问题）及品类分布（冰箱、扫地机器人等），但**均未提供退货率数据**。知识库中提及的61.5%退货率明确标注为2025年双11综合退货率（服装直播超80%），不适用于2026年家电类目。",
+  "sources": [
+    {
+      "title": "双十一带动日用电器投诉增长17%，冰箱投诉占比最高",
+      "url": "https://finance.sina.com.cn/heimao/2026-11-09/doc-iniycmty6550757.shtml",
+      "published_at": "2026-11-09",
+      "quote": "10月20日至31日，黑猫投诉平台日用电器相关投诉量超过3100件，较上一周期（10月8日至19日）增长17%。从投诉问题类型来看，维修与三包问题最为突出，占比达到31.20%。",
+      "confidence": "high",
+      "contract_errors": [],
+      "contract_pass": true,
+      "reachable": true,
+      "http_status": 200,
+      "reach_error": null
+    },
+    {
+      "title": "黑猫大数据：双十一期间日用电器投诉量增17%，雪柜占最多",
+      "url": "https://news.etnet.com.hk/news/20261111/1139686",
+      "published_at": "2026-11-11",
+      "quote": "2026年10月20日至10月31日雙十一啟動期……日用電器行業投訴量超過3100件，較上一周期（10月8日至19日）增長17%。冰箱投訴量最多，佔比13.43%，製冷失效問題投訴最集中。",
+      "confidence": "high",
+      "contract_errors": [],
+      "contract_pass": true,
+      "reachable": false,
+      "http_status": 404,
+      "reach_error": "HTTP 404"
+    },
+    {
+      "title": "2026双11消费维权报告出炉：售后履约投诉占三成 AI客服“转人工难”、国补商品退货成焦点",
+      "url": "https://www.100ec.cn/detail--6789012.html",
+      "published_at": "2026-11-24",
+      "quote": "涉及售后履约的相关投诉占投诉总量的30.2%，其中拆封后退货、AI客服等成为消费者集中反映的问题……‘国补验货不退’引发的‘拆封两难’尤为突出。",
+      "confidence": "high",
+      "contract_errors": [],
+      "contract_pass": true,
+      "reachable": true,
+      "http_status": 200,
+      "reach_error": null
+    }
+  ],
+  "citation_contract": {
+    "total": 3,
+    "pass": 3,
+    "rejected": []
+  },
+  "reachability": {
+    "checked": 3,
+    "reachable": 2,
+    "unreachable": [
+      "https://news.etnet.com.hk/news/20261111/1139686"
+    ]
+  },
+  "injection_scan": {
+    "patterns": [
+      "忽略以上",
+      "忽略之前",
+      "忽略所有",
+      "系统指令",
+      "外发到",
+      "绕过",
+      "ignore previous",
+      "ignore all previous",
+      "send all data",
+      "system prompt"
+    ],
+    "hits": [],
+    "quarantined": null,
+    "fact_content_truncated": false
+  },
+  "trust_level": "untrusted",
+  "channel": "data_only",
+  "usage": {
+    "model": "qwen-plus",
+    "calls": 1,
+    "tokens": 7991,
+    "latency_ms": 13563.5,
+    "est_cny": 0.007052
+  }
+}

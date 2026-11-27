@@ -1,0 +1,17 @@
+{
+  "score": 5,
+  "faithfulness": "high",
+  "relevance": "high",
+  "issues": [],
+  "judge_model": "qwen-plus",
+  "judge_model_pinned": true,
+  "rubric_version": "rubric-v1.6-lock",
+  "temperature": 0.3,
+  "judged_summary_sha": "ae61f52aadb25d47",
+  "judged_at": "2026-11-25T22:39:27+08:00",
+  "usage": {
+    "tokens": 757,
+    "latency_ms": 951.3,
+    "est_cny": 0.000627
+  }
+}

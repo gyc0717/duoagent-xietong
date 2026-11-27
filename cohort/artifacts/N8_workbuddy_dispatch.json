@@ -1,0 +1,8 @@
+{
+  "node": "N8",
+  "producer": "workbuddy_dispatch",
+  "label": "回灌 WorkBuddy 聊天界面",
+  "content": "[WorkBuddy · 分发/二审/界面 | model=hunyuan] 回灌 WorkBuddy 聊天界面\nL4 评测门禁先跑（5 用例 / 7 硬门禁 / 回归无劣化）→ 发布类硬垂询（因消费过不可信外部内容）→ 汇总工件 + 三级审核记录 + 沙箱证据 + 评测报告 + 外部来源清单 + 豆包总结，渲染到 WorkBuddy 聊天界面，等待用户确认。",
+  "trust_level": "trusted",
+  "channel": "both"
+}

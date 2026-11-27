@@ -1,0 +1,35 @@
+{
+  "verdict": "FAIL",
+  "reviewer": "WorkBuddy",
+  "review_at": "2026-11-25T23:33+08:00",
+  "basis_artifact": "A-082 / N1Q_sources.v11",
+  "verdict_text": "二审意见（N6 v2）：FAIL，仍不通过，暂不触发豆包三审、不发布。",
+  "evidence": [
+    "①过程与质量基线确实达标（复核确认）：门禁 11/11、用例 5/5、数据 48,216 行对账差额 0、沙箱 9/9；台账 parallel_exec 记录 N2/N3/N4 同一轮并发，墙钟 1,086ms / 串行应为 1,484ms、all_ok=true；验收 15/15 属实。",
+    "②引用核实未达放行条件：A-082 三条来源中仅 1 条 verified（黑猫投诉/sina，实测 HTTP 200、102424 字节，正文确实含 31.20% 与 17%，引用片段 2/2 命中）；people.com.cn 实测 HTTP 404、属真 fabricated；100ec.cn 实测 HTTP 200 但返回 660 字节反爬挑战页（HW_CHECK cookie + JS 刷新 + '正在进行安全检查'），按三级判据应归 blocked 而非 fabricated。无论采用哪种归类，可引用来源只有 1 条。",
+    "③A-079 原放行条件'替换不可达来源'未执行：两条问题 URL 原封不动保留在 v11 中，只是把判据从'URL 可达'升级为'引用可核实'。测量变严不等于数据修复；问题来源未被替换、未重新检索。"
+  ],
+  "risk": "判据升级暴露的事实是可引用来源仅 1/3，而报告正文中的'售后履约投诉占 30.2%'等数字正来自那两条不可用来源。若此时放行进豆包三审，等于用'更诚实的测量'掩盖'未修复的事实'，构成带病交付。",
+  "data_correction": {
+    "issue": "A-082 将 100ec.cn 归类为 fabricated，理由写'URL 不存在（HTTP 404）'，与同工件 reachable.http_status=200 自相矛盾。",
+    "independent_check": "实测该 URL 返回 HTTP 200、660 字节，内容为 HW_CHECK 反爬挑战页，非 404、无正文可供引用。",
+    "correct_classification": "blocked（站点拒客）",
+    "correct_counts": {
+      "verified": 1,
+      "blocked": 1,
+      "fabricated": 1
+    },
+    "reported_counts": {
+      "verified": 1,
+      "blocked": 0,
+      "fabricated": 2
+    },
+    "impact": "不改变 FAIL 结论——verified 仍为 1，可引用来源不足。"
+  },
+  "remediation_required": [
+    "按三级判据修正 100ec.cn 的 status 与 reason，使其与 reachable 字段自洽；blocked 不得计入 fabricated。",
+    "对两条不可用来源实际换源重检，直到得到至少 2 条 verified 来源（且覆盖报告正文引用的数字）。",
+    "重新登记 N1Q 工件后再次提交 N6 二审；PASS 后方可触发豆包三审。"
+  ],
+  "note": "三级判据升级方向正确、旧字段保留正确、片段匹配正确；本轮 FAIL 针对的是数据未修复与一处分类错误，不否定判据升级本身。"
+}

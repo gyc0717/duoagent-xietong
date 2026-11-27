@@ -1,0 +1,8 @@
+{
+  "node": "N1Q",
+  "producer": "qwen_search",
+  "label": "千问检索：公网文献/竞品资料 → 带引用资料工件",
+  "content": "[千问 · 联网检索/文献 | model=qwen-deep-research] 千问检索：公网文献/竞品资料 → 带引用资料工件\n千问联网检索 Agent：反问澄清 → 多步规划 → 全网多源检索 → 多源交叉验证，产出 4 条带 source_url / 发布时间 / 引用片段 / 可信度的资料工件。引用契约 PASS；注入扫描检出 S-02 夹带隐藏指令，已隔离到 quarantine/，事实性内容零裁剪进入数据通道。",
+  "trust_level": "untrusted",
+  "channel": "data_only"
+}

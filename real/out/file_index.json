@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "dir": "D:\\数据\\deepseek-harness\\default-workspace\\multi-agent\\real\\data",
+  "count": 1,
+  "skipped": [
+    {
+      "name": "订单明细模板.csv",
+      "reason": "文件名含模板/示例标记"
+    }
+  ],
+  "files": [
+    {
+      "name": "课程电商数据集_退款.csv",
+      "rel": "课程电商数据集_退款.csv",
+      "bytes": 27875176,
+      "sha256": "9b10c5af388b1c52",
+      "csv_rows": 360863
+    }
+  ]
+}

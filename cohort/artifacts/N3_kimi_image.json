@@ -1,0 +1,8 @@
+{
+  "node": "N3",
+  "producer": "kimi_image",
+  "label": "生图：数值口径以 structured_data 为准，产出图表 / 视觉层",
+  "content": "[Kimi · 生图 | model=kimi-design] 生图：数值口径以 structured_data 为准，产出图表 / 视觉层\n基于 structured_data 锁定的数值口径生成 5 张 SVG 图表、2 张信息图与 8 页可编辑视觉层；数值与源表 / 数据工件 100% 一致，元素级可编辑。",
+  "trust_level": "trusted",
+  "channel": "both"
+}

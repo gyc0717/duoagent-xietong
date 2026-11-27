@@ -1,0 +1,6 @@
+{
+  "file": "real/charts.py",
+  "sha256": "4ebef873716c45d6c801a6c8deccd69d045b5dc88a9fab209ab415335520c09f",
+  "bytes": 3540,
+  "desc": "确定性 SVG 渲染器（N3 兜底）"
+}

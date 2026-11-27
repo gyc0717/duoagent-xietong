@@ -1,0 +1,31 @@
+{
+  "node": "N3",
+  "role": "kimi_image",
+  "vendor": null,
+  "artifacts": [
+    "A-003",
+    "A-004",
+    "A-005",
+    "A-006",
+    "A-007",
+    "A-011",
+    "A-012",
+    "A-013",
+    "A-014",
+    "A-015",
+    "A-018",
+    "A-019",
+    "A-020",
+    "A-021",
+    "A-048",
+    "A-049",
+    "A-069",
+    "A-070"
+  ],
+  "context_mode": "FULL",
+  "truncation": false,
+  "fulltext_on_demand": true,
+  "trust_channel_separation": true,
+  "untrusted_consumed": false,
+  "claimed_at": "2026-11-25T23:22:47+08:00"
+}

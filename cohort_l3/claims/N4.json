@@ -1,0 +1,14 @@
+{
+  "node": "N4",
+  "role": "marvis_device",
+  "vendor": null,
+  "artifacts": [
+    "A-017"
+  ],
+  "context_mode": "FULL",
+  "truncation": false,
+  "fulltext_on_demand": true,
+  "trust_channel_separation": true,
+  "untrusted_consumed": false,
+  "claimed_at": "2026-11-25T23:22:47+08:00"
+}

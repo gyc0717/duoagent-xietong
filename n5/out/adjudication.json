@@ -1,0 +1,18 @@
+{
+  "reviewer": "Qwen",
+  "reviewer_model": "qwen-max",
+  "reviewer_verdict": "PASS",
+  "findings": [],
+  "summary": {
+    "total": 0,
+    "confirmed": 0,
+    "refuted_self": 0,
+    "refuted_computed": 0,
+    "unverifiable": 0,
+    "blockers": 0
+  },
+  "reviewer_degenerate": false,
+  "final_verdict": "PASS",
+  "needs_human": [],
+  "rule": "severity 标签不可信：只认脚本复算；自证无问题的 blocker 记为 refuted_self；blocker 数 ≥8 或半数自证 → 判 REVIEWER_UNUSABLE（要求重跑/换厂）"
+}

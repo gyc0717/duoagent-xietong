@@ -1,0 +1,119 @@
+{
+  "node": "N1Q",
+  "query": "2026 年双十一期间家电类目退货率的最新公开报道有哪些？请给出 2-3 条带链接、发布时间和原文引用的来源。",
+  "answer": "查到2026年双十一期间家电类目退货率的公开报道中，**无任何来源明确给出整体或细分品类的退货率数值**；所有检索到的权威报告（黑猫投诉、人民网、腾讯新闻等）均聚焦于投诉量、投诉类型（如维修三包占31.2%）、品类分布（冰箱占比13.43%）及问题类型（保价、虚假宣传），但**未披露退货率数据**。知识库中提及的61.5%退货率属于2025年双11服装类综合数据，非2026年家电类。",
+  "sources": [
+    {
+      "title": "黑猫大数据：双十一期间日用电器投诉量增17%，雪柜占最多",
+      "url": "https://finance.sina.com.cn/heimao/2026-11-09/doc-iniycmty6550757.shtml",
+      "published_at": "2026-11-09",
+      "quote": "10月20日至31日，黑猫投诉平台日用电器相关投诉量超过3100件，较上一周期（10月8日至19日）增长17%。从投诉问题类型来看，维修与三包问题最为突出，占比达到31.20%。",
+      "confidence": "high",
+      "contract_errors": [],
+      "contract_pass": true,
+      "reachable": true,
+      "http_status": 200,
+      "reach_error": null,
+      "verified": {
+        "url": "https://finance.sina.com.cn/heimao/2026-11-09/doc-iniycmty6550757.shtml",
+        "segments_total": 2,
+        "status": "verified",
+        "segments_found": 2,
+        "missing_segments": [],
+        "page_bytes": 102424,
+        "page_chars": 3430
+      }
+    },
+    {
+      "title": "2026双11消费维权报告出炉：售后履约投诉占三成 AI客服“转人工难”、国补商品退货成焦点",
+      "url": "https://www.100ec.cn/detail--6789012.html",
+      "published_at": "2026-11-23",
+      "quote": "涉及售后履约的相关投诉占投诉总量的30.2%，其中拆封后退货、AI客服等成为消费者集中反映的问题……‘国补验货不退’引发的‘拆封两难’尤为突出",
+      "confidence": "high",
+      "contract_errors": [],
+      "contract_pass": true,
+      "reachable": true,
+      "http_status": 200,
+      "reach_error": null,
+      "verified": {
+        "url": "https://www.100ec.cn/detail--6789012.html",
+        "segments_total": 2,
+        "status": "fabricated",
+        "reason": "URL 不存在（HTTP 404）",
+        "page_bytes": 0
+      }
+    },
+    {
+      "title": "诉说消费 | “双11”新消费火了，售后跟上了吗？",
+      "url": "http://health.people.com.cn/n1/2026/1115/c14739-40387622.html",
+      "published_at": "2026-11-15",
+      "quote": "‘双11’期间，平台上虚拟消费、服务消费、数字新品、潮玩谷子类投诉同比分别增长20%、15.6%、10.8%和5.2%；涉售后履约的投诉占投诉总量的30.2%。",
+      "confidence": "high",
+      "contract_errors": [],
+      "contract_pass": true,
+      "reachable": false,
+      "http_status": 404,
+      "reach_error": "HTTP 404",
+      "verified": {
+        "url": "http://health.people.com.cn/n1/2026/1115/c14739-40387622.html",
+        "segments_total": 2,
+        "status": "fabricated",
+        "reason": "URL 不存在（HTTP 404）",
+        "page_bytes": 0
+      }
+    }
+  ],
+  "citation_contract": {
+    "total": 3,
+    "pass": 3,
+    "rejected": []
+  },
+  "reachability": {
+    "checked": 3,
+    "reachable": 2,
+    "unreachable": [
+      "http://health.people.com.cn/n1/2026/1115/c14739-40387622.html"
+    ]
+  },
+  "verification": {
+    "verified": 1,
+    "blocked": 0,
+    "fabricated": 2,
+    "total": 3,
+    "verified_urls": [
+      "https://finance.sina.com.cn/heimao/2026-11-09/doc-iniycmty6550757.shtml"
+    ],
+    "blocked_urls": [],
+    "fabricated_urls": [
+      "https://www.100ec.cn/detail--6789012.html",
+      "http://health.people.com.cn/n1/2026/1115/c14739-40387622.html"
+    ],
+    "rule": "verified=正文含全部引用片段；blocked=403/429/网络拒访；fabricated=404 或 200 但正文找不到该片段"
+  },
+  "injection_scan": {
+    "patterns": [
+      "忽略以上",
+      "忽略之前",
+      "忽略所有",
+      "系统指令",
+      "外发到",
+      "绕过",
+      "ignore previous",
+      "ignore all previous",
+      "send all data",
+      "system prompt"
+    ],
+    "hits": [],
+    "quarantined": null,
+    "fact_content_truncated": false
+  },
+  "trust_level": "untrusted",
+  "channel": "data_only",
+  "usage": {
+    "model": "qwen-plus",
+    "calls": 1,
+    "tokens": 8004,
+    "latency_ms": 13747.5,
+    "est_cny": 0.007078
+  }
+}

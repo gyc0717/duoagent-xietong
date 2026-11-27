@@ -1,0 +1,207 @@
+{
+  "task_id": "T-20261125-001",
+  "trace_id": "tr-096f926497",
+  "goal": "产出新品 Q4 竞品与经营复盘（代码/数据结果 + 图表 + 一页总结）",
+  "brief": "产出 Q4 复盘：代码/数据结果 + 图表视觉 + 一页总结",
+  "context_mode": "FULL",
+  "inputs": {
+    "chat_history": [
+      {
+        "role": "user",
+        "text": "做 Q4 新品竞品与经营复盘，重点看退货率和客单价的关系"
+      },
+      {
+        "role": "user",
+        "text": "空值数据也要能跑，别直接报错；图表数值必须和源数据完全一致"
+      },
+      {
+        "role": "assistant",
+        "text": "已确认：空值按 0 计入并单独标注；图表由 Kimi 出，数值回查源表"
+      }
+    ],
+    "requirement_clarifications": [
+      "退货率按「退货单量 / 成交单量」口径，不按金额",
+      "竞品声量趋势取第三方指数，需与自有销量趋势并列展示",
+      "最终交付为可编辑 SVG/PPTX，不接受位图截图"
+    ],
+    "full_artifacts": "可读全量（引用仅为索引，不替代内容）",
+    "file_fulltext": "按需加载，由 data_class 决定，禁止以省 token 为由截断",
+    "external_sources": "N1Q 千问联网检索，带引用；trust_level=untrusted，仅进数据通道",
+    "structured_data": "L0 数据执行器入口预跑，图表数值权威口径（N0 工件）"
+  },
+  "quality_floor": {
+    "context_completeness": 1.0,
+    "deep_review": true,
+    "heterogeneous_review": true,
+    "parallelism": 3,
+    "prefetch_parallelism": 2,
+    "retry_on_fail": true,
+    "no_context_truncation": true,
+    "rework_on_defect": true,
+    "citation_required": true,
+    "trust_channel_separation": true,
+    "injection_scan": true,
+    "sandbox_evidence": true,
+    "eval_gate": true,
+    "judge_rubric_pinned": true,
+    "data_executor": true
+  },
+  "l0_model_routes": {
+    "primary": {
+      "trigger": "默认",
+      "model": "deepseek-coder",
+      "via": "dsh 模型插件",
+      "local": false
+    },
+    "fallback_1": {
+      "trigger": "主模型不可用 / 限流",
+      "model": "qwen3-coder 开源权重",
+      "via": "dsh 插件热切换",
+      "local": true
+    },
+    "fallback_2": {
+      "trigger": "data_class=restricted 敏感",
+      "model": "Qwen 本地私有化部署",
+      "via": "L0 私有推理",
+      "local": true
+    },
+    "note": "仅切换 L0 模型插件，不改分工、不改三级审核链、不改 L3 中转层"
+  },
+  "l0_data_executor": {
+    "plugin": "l0-data-executor",
+    "runtime": "Python 3.11 / pandas / openpyxl（本地 L0 插件）",
+    "capabilities": [
+      "表格读写",
+      "分组统计",
+      "对账",
+      "空值策略",
+      "CSV/XLSX 导出"
+    ],
+    "invoked_at": "入口阶段预跑（不占关键路径，不新增角色）",
+    "produces": "artifacts/structured_data.json（L3 工件登记，FULLTEXT）",
+    "consumed_by": "N3 Kimi 生图数值口径 / N5 一审交叉校验",
+    "cost": "确定性执行，零模型 token"
+  },
+  "trust_policy": {
+    "instruction_channel": [
+      "system_policy",
+      "task_brief",
+      "chat_history",
+      "requirement_clarifications"
+    ],
+    "data_channel": [
+      "full_artifacts",
+      "external_sources",
+      "file_fulltext",
+      "structured_data"
+    ],
+    "rule": "外部检索工件 trust_level=untrusted，仅可进数据通道，永不作为指令",
+    "quarantine": "命中的指令性载荷移入 cohort/quarantine/ 完整保留并标告警（不是裁剪）",
+    "post_untrusted_action": "消费过不可信内容后，发布类高影响动作强制硬垂询"
+  },
+  "eval_set": {
+    "id": "eval-2026Q4-016",
+    "version": "v1.6.0",
+    "judge": {
+      "model": "qwen3-max",
+      "model_pinned": true,
+      "rubric_version": "rubric-v1.6-lock",
+      "temperature": 0,
+      "policy": "确定性门禁 100% + 在线 judge 抽样 1%–10%；规则与待评内容分开传",
+      "note": "裁判模型 / rubric 必须锁版本，否则升级一次裁判分数就漂移，会误判为 Agent 退化"
+    },
+    "gates": [
+      "schema 校验",
+      "工具调用签名",
+      "延迟上限",
+      "token 预算上限",
+      "幻觉 canary",
+      "上下文完整度",
+      "首次正确率"
+    ]
+  },
+  "budget": {
+    "tokens": 500000,
+    "cny": 80.0,
+    "on_exceed": "raise_limit（提额），禁止裁剪上下文 / 跳过校验"
+  },
+  "policy": {
+    "data_class": "internal",
+    "confirm_required": [
+      "delete_file",
+      "modify_system",
+      "publish",
+      "write_prod_db"
+    ],
+    "post_untrusted_action": "消费过不可信内容后，发布类高影响动作强制硬垂询"
+  },
+  "dag": {
+    "N1": {
+      "role": "workbuddy_dispatch",
+      "deps": []
+    },
+    "N1Q": {
+      "role": "qwen_search",
+      "deps": []
+    },
+    "N2": {
+      "role": "dsh_coder",
+      "deps": [
+        "N1",
+        "N1Q"
+      ]
+    },
+    "N3": {
+      "role": "kimi_image",
+      "deps": [
+        "N1",
+        "N1Q"
+      ]
+    },
+    "N4": {
+      "role": "marvis_device",
+      "deps": [
+        "N1",
+        "N1Q"
+      ]
+    },
+    "N5": {
+      "role": "dsh_l1",
+      "deps": [
+        "N2",
+        "N3",
+        "N4"
+      ]
+    },
+    "N6": {
+      "role": "workbuddy_dispatch",
+      "deps": [
+        "N5"
+      ]
+    },
+    "N7": {
+      "role": "doubao_chat",
+      "deps": [
+        "N6"
+      ]
+    },
+    "N8": {
+      "role": "workbuddy_dispatch",
+      "deps": [
+        "N7"
+      ]
+    }
+  },
+  "review_chain": [
+    "N5 Harness 深度一审（同源 + 沙箱实证 + 千问异构复核）",
+    "N6 WorkBuddy 二审",
+    "N7 豆包 三审+总结",
+    "N8 WorkBuddy 聊天界面"
+  ],
+  "v16_capabilities": [
+    "P0 不可信输入隔离",
+    "P1 独立验证沙箱",
+    "P2 回归评测闭环",
+    "P3 结构化数据分析"
+  ]
+}

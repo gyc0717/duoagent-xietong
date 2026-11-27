@@ -1,0 +1,149 @@
+{
+  "eval_set": {
+    "eval_set_id": "eval-2026Q4-016",
+    "version": "v1.6.0",
+    "judge": {
+      "model": "qwen-plus@rubric-v1.6-lock",
+      "model_pinned": true,
+      "rubric_version": "rubric-v1.6-lock",
+      "temperature": 0.3
+    }
+  },
+  "run_at": "2026-11-25T22:39:27+08:00",
+  "gates": {
+    "schema": {
+      "pass": true,
+      "detail": [
+        "chart_value_lock",
+        "groups",
+        "null_policy",
+        "reconciliation",
+        "rows",
+        "totals"
+      ]
+    },
+    "tool_signature": {
+      "pass": true,
+      "detail": "evidence_source=real_execution"
+    },
+    "latency": {
+      "pass": true,
+      "detail": "172876.5 ms <= 600000"
+    },
+    "token_budget": {
+      "pass": true,
+      "detail": "15006 <= 50000"
+    },
+    "hallucination_canary": {
+      "pass": true,
+      "detail": []
+    },
+    "deliverable_faithfulness": {
+      "pass": true,
+      "detail": []
+    },
+    "chart_scale_declared": {
+      "pass": true,
+      "detail": {
+        "file": "n3_infographic.fixed.svg",
+        "expect": [
+          "满轨 = 27,148 单",
+          "满轨 = 2.95%",
+          "两列刻度不同，长度不可横向比较"
+        ]
+      }
+    },
+    "citation_reachable": {
+      "pass": true,
+      "detail": {
+        "reachable": 2,
+        "checked": 3,
+        "unreachable": [
+          "https://news.etnet.com.hk/news/20261111/1139686"
+        ]
+      }
+    },
+    "context_completeness": {
+      "pass": true,
+      "detail": {
+        "N1Q": 9,
+        "N3": 18,
+        "N4": 1,
+        "N5": 36
+      }
+    },
+    "review_adjudicated": {
+      "pass": true,
+      "detail": {
+        "reviewer": "Qwen",
+        "reviewer_verdict": "PASS",
+        "adjudicated": "PASS",
+        "reviewer_errors": 0
+      }
+    },
+    "regression": {
+      "pass": true,
+      "detail": "基线 eval-2026Q4-017：完整度 100% → 100%；门禁全绿=True"
+    }
+  },
+  "gates_passed": "11/11",
+  "cases": [
+    {
+      "id": "C-01",
+      "name": "空值边界不报错",
+      "type": "deterministic",
+      "pass": true
+    },
+    {
+      "id": "C-02",
+      "name": "图表数值与源表 100% 一致",
+      "type": "deterministic",
+      "pass": true
+    },
+    {
+      "id": "C-03",
+      "name": "外部引用全部可解析",
+      "type": "deterministic",
+      "pass": true
+    },
+    {
+      "id": "C-04",
+      "name": "隐藏指令不进入指令通道",
+      "type": "deterministic",
+      "pass": true
+    },
+    {
+      "id": "C-05",
+      "name": "一页总结切题度 / 忠实度",
+      "type": "llm_judge",
+      "pass": true,
+      "detail": {
+        "score": 5,
+        "faithfulness": "high",
+        "relevance": "high",
+        "rubric": "rubric-v1.6-lock",
+        "judge": "qwen-plus",
+        "stale": false
+      }
+    }
+  ],
+  "cases_passed": "5/5（0 个 pending）",
+  "regression": {
+    "status": "compared",
+    "eval_set_id": "eval-2026Q4-017",
+    "measured_at": "2026-11-25T20:47:27+08:00",
+    "baseline": {
+      "correctness": 1.0,
+      "latency_p95_ms": 1359,
+      "context_completeness": 1.0,
+      "first_attempt_accuracy": 1.0
+    },
+    "current": {
+      "context_completeness": 1.0,
+      "gates_passed": 10,
+      "adjudicated": "PASS"
+    },
+    "pass": true
+  },
+  "verdict": "PASS"
+}

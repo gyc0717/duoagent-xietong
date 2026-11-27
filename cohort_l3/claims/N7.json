@@ -1,0 +1,20 @@
+{
+  "node": "N7",
+  "role": "doubao_chat",
+  "vendor": "Doubao",
+  "artifacts": [
+    "A-051",
+    "A-052",
+    "A-055",
+    "A-058",
+    "A-064",
+    "A-072",
+    "A-077"
+  ],
+  "context_mode": "FULL",
+  "truncation": false,
+  "fulltext_on_demand": true,
+  "trust_channel_separation": true,
+  "untrusted_consumed": false,
+  "claimed_at": "2026-11-25T23:22:47+08:00"
+}

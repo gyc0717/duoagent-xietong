@@ -1,0 +1,59 @@
+{
+  "root": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out",
+  "files": 8,
+  "total_bytes": 1547745,
+  "big_files": 0,
+  "chunk_bytes": 4194304,
+  "top": [
+    {
+      "rel": "ledger.csv",
+      "uri": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/ledger.csv",
+      "bytes": 1537564,
+      "big": false,
+      "chunks": 0,
+      "sha256": "dddaad38308b2e568b708339414aae4b2033d2b4aff1c0b78680428d87e5c5bb",
+      "content_mode": "FULLTEXT",
+      "note": "大文件不整份进上下文；需要时按 rel 调 load_fulltext()"
+    },
+    {
+      "rel": "execution_evidence.json",
+      "uri": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/execution_evidence.json",
+      "bytes": 2539,
+      "big": false,
+      "chunks": 0,
+      "sha256": "f017f73a0a001df484a0f13ba080cde9c92bc42d3cacabea834ba7ed9c363494",
+      "content_mode": "FULLTEXT",
+      "note": "大文件不整份进上下文；需要时按 rel 调 load_fulltext()"
+    },
+    {
+      "rel": "charts/chart_02_return_rate_by_band.svg",
+      "uri": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/charts/chart_02_return_rate_by_band.svg",
+      "bytes": 1440,
+      "big": false,
+      "chunks": 0,
+      "sha256": "a3ab98d302a5e6884e0e764fd69c605d8312eb132dffad37ab3555590dbad25f",
+      "content_mode": "FULLTEXT",
+      "note": "大文件不整份进上下文；需要时按 rel 调 load_fulltext()"
+    },
+    {
+      "rel": "charts/chart_03_null_amount_by_band.svg",
+      "uri": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/charts/chart_03_null_amount_by_band.svg",
+      "bytes": 1440,
+      "big": false,
+      "chunks": 0,
+      "sha256": "2f78db23df4b501e682baa35a3909e7cedf6fcf021cd3cbf7d819c6bc919c804",
+      "content_mode": "FULLTEXT",
+      "note": "大文件不整份进上下文；需要时按 rel 调 load_fulltext()"
+    },
+    {
+      "rel": "charts/chart_01_orders_by_band.svg",
+      "uri": "D:/数据/deepseek-harness/default-workspace/multi-agent/real/out/charts/chart_01_orders_by_band.svg",
+      "bytes": 1401,
+      "big": false,
+      "chunks": 0,
+      "sha256": "d35e6b228bb6285423fedaf86f0f7ba6f500caf513302508e147ea288f9250c5",
+      "content_mode": "FULLTEXT",
+      "note": "大文件不整份进上下文；需要时按 rel 调 load_fulltext()"
+    }
+  ]
+}

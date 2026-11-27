@@ -1,0 +1,72 @@
+{
+  "verdict": "FAIL",
+  "checked": [
+    "rows",
+    "null_policy",
+    "groups.aov_band",
+    "groups.orders",
+    "groups.returns",
+    "groups.return_rate",
+    "groups.null_amount",
+    "totals.orders",
+    "totals.returns",
+    "totals.return_rate",
+    "totals.aov_cny",
+    "totals.null_amount_rows",
+    "reconciliation.sum_group_orders",
+    "reconciliation.ledger_orders",
+    "reconciliation.diff",
+    "chart_value_lock",
+    "kimi_chart bar heights and labels",
+    "kimi_chart y-axis scale",
+    "kimi_infographic AOV value",
+    "kimi_infographic overall return rate",
+    "kimi_infographic group return rates",
+    "kimi_infographic null_amount footnote"
+  ],
+  "findings": [
+    {
+      "severity": "blocker",
+      "item": "Overall return rate in kimi_infographic shows '2.14%' but structured_data.return_rate = 0.0214 → should be '2.14%' with exactly two decimal places, yet visual renders as '2.14%' — acceptable; however, kimi_infographic displays '¥256.46' for AOV, but structured_data.totals.aov_cny = 256.46 → correct; BUT: kimi_infographic states '总订单量（行） 48,216' and '整体退货率 2.14%', yet structured_data.totals.returns = 1032, and 1032 / 48216 = 0.021407... → rounded to 2.14% is correct; however, kimi_infographic's '总退货 1,032 单' footnote is missing comma in '1,032' — it says '1,032' correctly; BUT critical: kimi_chart y-axis labels show '30,000' at y=74, '25,000' at y=125.67, ..., '0' at y=384 — total chart height from y=70 to y=380 is 310px; max value 30,000 maps to 310px → scale = 310/30000 ≈ 0.010333 px/unit; bar for ¥0–199: height = 158.51px → implied value = 158.51 / 0.010333 ≈ 15,340 ✅; ¥200–399: 280.53px → 280.53 / 0.010333 ≈ 27,148 ✅; ¥400+: 59.19px → 59.19 / 0.010333 ≈ 5,728 ✅ — bars match; BUT: kimi_infographic group return rate bars — for ¥0–199, blue bar width = 170px against 300px max, and data-value=\"0.0154\" → 170/300 = 0.5667 ≠ 0.0154; this is a fatal口径 error: return rate bars are drawn as *absolute width proportional to return rate*, but 0.0154 should map to 170px only if max return rate is ~0.0295 (¥400+), and 170/300 = 0.5667 of max width, but 0.0154 / 0.0295 ≈ 0.522 → 0.522 × 300 = 156.6px, not 170px; actual width used is 170px for 0.0154, 78px for 0.0231 (78/300 = 0.26), 100px for 0.0295 (100/300 = 0.333) — widths do NOT scale linearly with return rate values; e.g., 0.0231 / 0.0154 ≈ 1.5, but 78 / 170 ≈ 0.46 — inverse and inconsistent; this misrepresents magnitude relationships",
+      "evidence": "kimi_infographic: <rect x=\"600\" y=\"234\" width=\"52\" ... data-value=\"0.0154\"/> (52px), <rect ... width=\"78\" ... data-value=\"0.0231\"/> (78px), <rect ... width=\"100\" ... data-value=\"0.0295\"/> (100px); 52:78:100 ≠ 0.0154:0.0231:0.0295 (which is ~1:1.5:1.92)"
+    },
+    {
+      "severity": "major",
+      "item": "kimi_infographic omits explicit label for 'null_amount_rows' in main metrics — footnote mentions null_amount per band and 'null_amount = 694 行', but totals.null_amount_rows = 694 is not surfaced as a top-level KPI like orders/AOV/return_rate",
+      "evidence": "kimi_infographic has no dedicated display of 'null_amount_rows = 694'; only buried in footnote text"
+    },
+    {
+      "severity": "minor",
+      "item": "kimi_chart y-axis tick label '5,000' appears at y=332.33, but line is at y=328.33 — vertical misalignment of 4px between text baseline and grid line",
+      "evidence": "<line x1=\"80\" y1=\"328.33\" .../><text x=\"70\" y=\"332.33\">5,000</text>"
+    }
+  ],
+  "reviewer": "Qwen",
+  "reviewer_model": "qwen-plus",
+  "reviewed_ids": [
+    "A-011",
+    "A-012",
+    "A-013",
+    "A-014",
+    "A-015",
+    "A-020",
+    "A-021"
+  ],
+  "reviewed_names": [
+    "chart_01_orders_by_band",
+    "chart_02_return_rate_by_band",
+    "chart_03_null_amount_by_band",
+    "chart_04_reconciliation",
+    "chart_05_returns_by_band",
+    "kimi_chart",
+    "kimi_infographic"
+  ],
+  "vendor_distinct": true,
+  "usage": {
+    "calls": 1,
+    "prompt_tokens": 3682,
+    "completion_tokens": 1303,
+    "latency_ms": 29326.9,
+    "est_cost_cny": 0.005552
+  }
+}

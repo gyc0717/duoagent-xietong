@@ -1,0 +1,8 @@
+{
+  "node": "N1",
+  "producer": "workbuddy_dispatch",
+  "label": "聊天界面收目标 → 拆解 → 分发（携带完整上下文）",
+  "content": "[WorkBuddy · 分发/二审/界面 | model=hunyuan] 聊天界面收目标 → 拆解 → 分发（携带完整上下文）\n拆解为 3 个执行子任务 + 3 级审核链；派单携带完整上下文（对话历史、需求澄清、约束、全量工件清单、结构化数据工件），不做任何裁剪。",
+  "trust_level": "trusted",
+  "channel": "both"
+}

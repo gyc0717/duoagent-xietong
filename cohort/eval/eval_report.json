@@ -1,0 +1,42 @@
+{
+  "eval_set_id": "eval-2026Q4-016",
+  "version": "v1.6.0",
+  "judge": {
+    "model": "qwen3-max",
+    "model_pinned": true,
+    "rubric_version": "rubric-v1.6-lock",
+    "temperature": 0,
+    "policy": "确定性门禁 100% + 在线 judge 抽样 1%–10%；规则与待评内容分开传",
+    "note": "裁判模型 / rubric 必须锁版本，否则升级一次裁判分数就漂移，会误判为 Agent 退化"
+  },
+  "gates": [
+    "schema 校验",
+    "工具调用签名",
+    "延迟上限",
+    "token 预算上限",
+    "幻觉 canary",
+    "上下文完整度",
+    "首次正确率"
+  ],
+  "cases_total": 5,
+  "cases_passed": 5,
+  "deterministic_gates_passed": "7/7",
+  "judge_sampled": 1,
+  "judge_passed": 1,
+  "baseline": {
+    "correctness": 0.96,
+    "latency_p95_ms": 4200,
+    "context_completeness": 1.0,
+    "first_attempt_accuracy": 0.92
+  },
+  "current": {
+    "correctness": 0.97,
+    "latency_p95_ms": 4080,
+    "context_completeness": 1.0,
+    "first_attempt_accuracy": 0.93
+  },
+  "no_regression": true,
+  "decision": "PASS",
+  "regression_rule": "任一硬门禁劣化即 PR 阻断；评测集按节奏从真实 trace 刷新，旧用例留作回归下限",
+  "note": "L4 治理门禁，非审核级；评分只作信号，运行时拦截由独立策略面完成"
+}

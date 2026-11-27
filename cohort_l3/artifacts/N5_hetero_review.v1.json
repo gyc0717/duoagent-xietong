@@ -1,0 +1,42 @@
+{
+  "verdict": "PASS",
+  "checked": [
+    "分组订单数求和：15,340+27,148+5,728=48,216，与 rows/totals/对账一致",
+    "退货数求和：237+626+169=1,032，与 totals.returns 一致",
+    "退货率口径复算（returns/orders，非金额分母）：237/15340=0.01545→0.0154；626/27148=0.02306→0.0231；169/5728=0.02950→0.0295；整体 1,032/48,216=0.02140→0.0214，全部一致",
+    "null_amount 标注：694 行仅在 ¥0–199 组，其余为 0，与 null_policy 和 totals.null_amount_rows 一致",
+    "对账：sum_group_orders=ledger_orders=48,216，diff=0",
+    "n3_chart.svg 刻度线性性：轴域 380→70px 对应 0→30,000，网格线 y 坐标全部按 310px/30,000 复算正确",
+    "n3_chart.svg 柱高换算：158.51/280.53/59.19px 对应 15,340/27,148/5,728，柱顶 y 与 height 互补，data-value、数值标签、tooltip 三者一致",
+    "n3_chart.svg 副标题对账文案（48,216/48,216/差异 0）与数据工件一致；y 轴从 0 起，无截断误导",
+    "n3_infographic.svg KPI：48,216 / ¥256.46 / 2.14% 与工件一致（AOV 无原始金额数据可复算，仅核展示一致性）",
+    "n3_infographic.svg 条宽比例：订单条 170/300/63px = 组值/27,148×300；退货率条 52/78/100px = 组值/0.0295×100，复算取整正确；data-value 与文本标签（1.54%/2.31%/2.95%）一致",
+    "n3_infographic.svg 脚注：null_amount=694 行说明与对账、总退货 1,032 单文案与工件一致"
+  ],
+  "findings": [
+    {
+      "severity": "minor",
+      "item": "信息图比例条按组内最大值归一且无刻度说明，满轨条易被误读",
+      "evidence": "n3_infographic.svg 中 ¥200–399 订单条 width=300 填满轨道、¥400+ 退货率条 width=100 填满轨道，实际仅为组内最大值（27,148 / 2.95%），无坐标轴或比例注记，可能被读成 100%（旁侧数值标签可部分缓解）"
+    },
+    {
+      "severity": "minor",
+      "item": "柱状图数值标签色与柱体填充色不一致（视觉一致性瑕疵）",
+      "evidence": "n3_chart.svg 第 2 柱填充 #10B981 但标签用 #059669，第 3 柱填充 #F59E0B 但标签用 #D97706（第 1 柱一致均为 #3B82F6）"
+    }
+  ],
+  "reviewer": "Kimi/Moonshot",
+  "reviewer_model": "kimi-k3",
+  "reviewed_artifacts": [
+    "n3_chart.svg",
+    "n3_infographic.svg"
+  ],
+  "vendor_distinct": true,
+  "usage": {
+    "calls": 1,
+    "prompt_tokens": 3058,
+    "completion_tokens": 4805,
+    "latency_ms": 72854.8,
+    "est_cost_cny": 0.089112
+  }
+}

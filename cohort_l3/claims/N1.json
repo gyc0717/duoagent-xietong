@@ -1,0 +1,16 @@
+{
+  "node": "N1",
+  "role": "workbuddy_dispatch",
+  "vendor": null,
+  "artifacts": [
+    "A-001",
+    "A-009",
+    "A-078"
+  ],
+  "context_mode": "FULL",
+  "truncation": false,
+  "fulltext_on_demand": true,
+  "trust_channel_separation": true,
+  "untrusted_consumed": false,
+  "claimed_at": "2026-11-25T23:22:47+08:00"
+}

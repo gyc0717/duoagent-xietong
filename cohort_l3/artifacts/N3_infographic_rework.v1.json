@@ -1,0 +1,13 @@
+{
+  "file": "n3_infographic.fixed.svg",
+  "sha256": "45398d29f1ff332e9d7b4e179ece19215b1f5846262ea516fd5050deaac13bff",
+  "based_on": "A-019",
+  "based_on_sha256": "82ff874b659b5b3a64fdd0e892ee67d80dc2c369732a5184d56f0c62d9651f0e",
+  "fixes": [
+    "订单量列标注满轨 = 27,148 单",
+    "退货率列标注满轨 = 2.95%",
+    "补总注：两列刻度不同，长度不可横向比较"
+  ],
+  "data_values_unchanged": true,
+  "rendered_png": "n3_infographic.fixed.png"
+}

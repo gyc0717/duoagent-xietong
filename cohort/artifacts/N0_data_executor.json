@@ -1,0 +1,8 @@
+{
+  "node": "N0",
+  "producer": "data_executor",
+  "label": "L0 结构化数据执行器 · 分组统计 / 对账 / 图表数值口径",
+  "content": "{\n  \"node\": \"N0\",\n  \"producer\": \"data_executor\",\n  \"label\": \"L0 结构化数据执行器 · 分组统计 / 对账 / 图表数值口径\",\n  \"plugin\": {\n    \"plugin\": \"l0-data-executor\",\n    \"runtime\": \"Python 3.11 / pandas / openpyxl（本地 L0 插件）\",\n    \"capabilities\": [\n      \"表格读写\",\n      \"分组统计\",\n      \"对账\",\n      \"空值策略\",\n      \"CSV/XLSX 导出\"\n    ],\n    \"invoked_at\": \"入口阶段预跑（不占关键路径，不新增角色）\",\n    \"produces\": \"artifacts/structured_data.json（L3 工件登记，FULLTEXT）\",\n    \"consumed_by\": \"N3 Kimi 生图数值口径 / N5 一审交叉校验\",\n    \"cost\": \"确定性执行，零模型 token\"\n  },\n  \"result\": {\n    \"source\": \"Marvis 本地经营明细（12.8GB 切片） + 千问外部行业均值\",\n    \"rows\": 48216,\n    \"null_policy\": \"按 0 计入并单独标注（用户第 2 轮明确要求）\",\n    \"groups\": [\n      {\n        \"aov_band\": \"¥0–199\",\n        \"orders\": 18940,\n        \"returns\": 306,\n        \"return_rate\": 0.0162\n      },\n      {\n        \"aov_band\": \"¥200–399\",\n        \"orders\": 21104,\n        \"returns\": 486,\n        \"return_rate\": 0.023\n      },\n      {\n        \"aov_band\": \"¥400+\",\n        \"orders\": 8172,\n        \"returns\": 254,\n        \"return_rate\": 0.0311\n      }\n    ],\n    \"totals\": {\n      \"orders\": 128400,\n      \"aov_cny\": 286,\n      \"return_rate\": 0.021\n    },\n    \"reconciliation\": {\n      \"sum_group_orders\": 48216,\n      \"ledger_orders\": 48216,\n      \"diff\": 0\n    },\n    \"chart_value_lock\": true,\n    \"note\": \"Kimi 图表数值以此工件为权威口径；N5 一审做图表 / 源表 / 本工件三方交叉校验\"\n  },\n  \"trust_level\": \"trusted\",\n  \"channel\": \"data_only\",\n  \"trace_id\": \"tr-096f926497\"\n}",
+  "trust_level": "trusted",
+  "channel": "data_only"
+}

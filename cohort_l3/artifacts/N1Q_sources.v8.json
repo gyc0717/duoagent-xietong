@@ -1,0 +1,83 @@
+{
+  "node": "N1Q",
+  "query": "2026 年双十一期间家电类目退货率的最新公开报道有哪些？请给出 2-3 条带链接、发布时间和原文引用的来源。",
+  "answer": "查到2026年双十一期间家电类目退货率的公开报道极少：所有检索到的权威信源（黑猫投诉、人民网、腾讯新闻等）均详细披露了家电类投诉量、投诉问题类型（如维修三包、保价、质量问题）及品类分布（冰箱居首），但**未提供家电类目的具体退货率数值**；‘61.5%综合退货率’明确标注为2025年双11全行业数据，且来源注明‘服装直播赛道超80%’‘女装50%-60%’，家电未被单列。因此，家电退货率属查不到项。",
+  "sources": [
+    {
+      "title": "黑猫投诉发布《2026双十一消费投诉数据报告》",
+      "url": "https://www.163.com/dy/article/JDQJ7V4H05539E3K.html",
+      "published_at": "2026-11-23",
+      "quote": "日用电器行业投诉量达2827件，环比增长32.66%……维修与三包问题投诉占比近四成",
+      "confidence": "high",
+      "contract_errors": [],
+      "contract_pass": true,
+      "reachable": false,
+      "http_status": 404,
+      "reach_error": "HTTP 404"
+    },
+    {
+      "title": "双十一带动日用电器投诉增长17%，冰箱投诉占比最高",
+      "url": "https://finance.sina.com.cn/jiankang/2026-11-09/doc-ineytpqi5982212.shtml",
+      "published_at": "2026-11-09",
+      "quote": "10月20日至31日，黑猫投诉平台日用电器相关投诉量超过3100件……维修与三包问题最为突出，占比达到31.20%",
+      "confidence": "high",
+      "contract_errors": [],
+      "contract_pass": true,
+      "reachable": false,
+      "http_status": 404,
+      "reach_error": "HTTP 404"
+    },
+    {
+      "title": "诉说消费 | “双11”新消费火了，售后跟上了吗？",
+      "url": "http://health.people.com.cn/n1/2026/1115/c14739-40387922.html",
+      "published_at": "2026-11-15",
+      "quote": "‘双11’期间，平台上虚拟消费、服务消费、数字新品、潮玩谷子类投诉同比分别增长20%、15.6%、10.8%和5.2%；涉售后履约的投诉占投诉总量的30.2%",
+      "confidence": "high",
+      "contract_errors": [],
+      "contract_pass": true,
+      "reachable": false,
+      "http_status": 404,
+      "reach_error": "HTTP 404"
+    }
+  ],
+  "citation_contract": {
+    "total": 3,
+    "pass": 3,
+    "rejected": []
+  },
+  "reachability": {
+    "checked": 3,
+    "reachable": 0,
+    "unreachable": [
+      "https://www.163.com/dy/article/JDQJ7V4H05539E3K.html",
+      "https://finance.sina.com.cn/jiankang/2026-11-09/doc-ineytpqi5982212.shtml",
+      "http://health.people.com.cn/n1/2026/1115/c14739-40387922.html"
+    ]
+  },
+  "injection_scan": {
+    "patterns": [
+      "忽略以上",
+      "忽略之前",
+      "忽略所有",
+      "系统指令",
+      "外发到",
+      "绕过",
+      "ignore previous",
+      "ignore all previous",
+      "send all data",
+      "system prompt"
+    ],
+    "hits": [],
+    "quarantined": null,
+    "fact_content_truncated": false
+  },
+  "trust_level": "untrusted",
+  "channel": "data_only",
+  "usage": {
+    "model": "qwen-plus",
+    "calls": 1,
+    "tokens": 7330,
+    "latency_ms": 13529.5,
+    "est_cny": 0.006481
+  }
+}

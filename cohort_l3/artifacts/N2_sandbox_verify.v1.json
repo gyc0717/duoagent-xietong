@@ -1,0 +1,6 @@
+{
+  "file": "real/verify.py",
+  "sha256": "41a8051ef7de58df08c8e42781518b78138fa4a4284e5fee4bf9ae5976278f0b",
+  "bytes": 10589,
+  "desc": "9 类确定性检查执行器（P1 落地）"
+}

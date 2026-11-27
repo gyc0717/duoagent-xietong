@@ -1,0 +1,47 @@
+{
+  "task_id": "T-20261125-001",
+  "trace_id": "tr-096f926497",
+  "goal": "产出新品 Q4 竞品与经营复盘（代码/数据结果 + 图表 + 一页总结）",
+  "chat_history": [
+    {
+      "role": "user",
+      "text": "做 Q4 新品竞品与经营复盘，重点看退货率和客单价的关系"
+    },
+    {
+      "role": "user",
+      "text": "空值数据也要能跑；图表数值必须和源数据完全一致"
+    }
+  ],
+  "requirement_clarifications": [
+    "退货率按退货单量/成交单量，不按金额",
+    "竞品声量取第三方指数，与自有销量并列",
+    "交付为可编辑 SVG/PPTX，不收位图"
+  ],
+  "context_fields": {
+    "chat_history": true,
+    "file_fulltext": true,
+    "external_sources": true,
+    "structured_data": true
+  },
+  "structured_data_ref": "artifacts/N0_data_executor.json",
+  "external_sources_ref": "artifacts/N1Q_sources.json",
+  "quality_floor": {
+    "context_completeness": 1.0,
+    "truncation_events": 0,
+    "parallelism_exec": 3,
+    "parallelism_entry": 2,
+    "trust_channel_separation": true,
+    "injection_scan": true,
+    "sandbox_evidence": true,
+    "eval_gate": true
+  },
+  "trust_policy": {
+    "external": "untrusted/data_only",
+    "instruction_channel": [
+      "task_brief",
+      "chat_history",
+      "requirement_clarifications"
+    ]
+  },
+  "created_at": "2026-11-25T23:22:47+08:00"
+}

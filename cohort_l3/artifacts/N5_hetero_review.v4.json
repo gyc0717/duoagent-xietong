@@ -1,0 +1,49 @@
+{
+  "verdict": "FAIL",
+  "checked": [
+    "rows总数",
+    "null_policy描述",
+    "各组订单数总和",
+    "退货率计算",
+    "图表显示的订单量",
+    "整体退货率",
+    "AOV值",
+    "对账差异",
+    "null_amount行数"
+  ],
+  "findings": [
+    {
+      "severity": "blocker",
+      "item": "总退货数量不一致",
+      "evidence": "数据工件中totals.returns为1032，而视觉层SVG源码中提到总退货1,032单（kimi_infographic部分最后一行）"
+    }
+  ],
+  "reviewer": "Qwen",
+  "reviewer_model": "qwen-max",
+  "reviewed_ids": [
+    "A-011",
+    "A-012",
+    "A-013",
+    "A-014",
+    "A-015",
+    "A-020",
+    "A-021"
+  ],
+  "reviewed_names": [
+    "chart_01_orders_by_band",
+    "chart_02_return_rate_by_band",
+    "chart_03_null_amount_by_band",
+    "chart_04_reconciliation",
+    "chart_05_returns_by_band",
+    "kimi_chart",
+    "kimi_infographic"
+  ],
+  "vendor_distinct": true,
+  "usage": {
+    "calls": 1,
+    "prompt_tokens": 3787,
+    "completion_tokens": 118,
+    "latency_ms": 5902.4,
+    "est_cost_cny": 0.010222
+  }
+}

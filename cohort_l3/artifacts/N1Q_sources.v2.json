@@ -1,0 +1,15 @@
+{
+  "trust_level": "untrusted",
+  "channel": "data_only",
+  "sources": [
+    {
+      "id": "S-01",
+      "url": "https://example.org/industry/q3-returns"
+    },
+    {
+      "id": "S-02",
+      "url": "https://example.org/news/competitor-a",
+      "quarantined": true
+    }
+  ]
+}

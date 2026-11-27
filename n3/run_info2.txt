@@ -1,0 +1,22 @@
+﻿N3 · Kimi（kimi-k3）开始产出视觉层
+
+[infographic]
+  第 1 次生成：2935 字符 / finish=stop / reasoning 5912 tok / 问题 0 个
+  ✓ n3_infographic.svg 渲染 PNG：True（31904 字节）
+
+{
+  "calls": 1,
+  "prompt_tokens": 584,
+  "completion_tokens": 7094,
+  "total_tokens": 7678,
+  "latency_ms": 162270.3,
+  "est_cost_cny": 0.11584,
+  "per_call": [
+    {
+      "model": "kimi-k3",
+      "ms": 162270.3,
+      "in": 584,
+      "out": 7094
+    }
+  ]
+}

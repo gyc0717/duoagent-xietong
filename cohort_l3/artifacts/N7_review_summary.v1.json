@@ -1,0 +1,29 @@
+{
+  "verdict": "PASS",
+  "objections": [
+    {
+      "level": "minor",
+      "item": "不可达源标注高置信度",
+      "evidence": "sources_detail中2026-11-15发布的《诉说消费 | “双11”新消费火了，售后跟上了吗？》reachable为false，但confidence标注为high"
+    },
+    {
+      "level": "minor",
+      "item": "异审FAIL结论未闭环",
+      "evidence": "hetero_review中Qwen给出FAIL结论、findings为1，但adjudication中confirmed、refuted计数均为0，直接判定最终PASS，逻辑未闭环"
+    }
+  ],
+  "clarifications": [
+    "不可达源的高置信度判定依据，以及contract_pass统计口径是否包含不可达源",
+    "Qwen给出FAIL的具体findings内容，以及adjudication中confirmed、refuted均为0仍判定PASS的依据"
+  ],
+  "summary_md": "本次分析覆盖48216笔订单，按用户要求执行空金额按0计入对账、单独标注的规则。按客单价分三档：¥0–199档15340单、退货237单、退货率0.0154，含694笔空金额订单；¥200–399档27148单、退货626单、退货率0.0231；¥400+档5728单、退货169单、退货率0.0295。整体总退货1032单，退货率0.0214，客单价256.46元，订单对账无差异。共检索3个公开源，2个可达，沙箱校验9/9通过，最终裁决为PASS，已生成对应可视化图表。",
+  "reviewer": "Doubao",
+  "reviewer_model": "doubao-seed-2-1-lite-260915",
+  "usage": {
+    "calls": 1,
+    "prompt_tokens": 889,
+    "completion_tokens": 4909,
+    "latency_ms": 49458.2,
+    "est_cost_cny": 0.003212
+  }
+}

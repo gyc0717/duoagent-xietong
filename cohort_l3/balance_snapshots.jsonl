@@ -1,0 +1,9 @@
+{"ts": "2026-11-26T01:25:29", "provider": "Moonshot", "balance_cny": 6.6456203, "source": "GET /v1/users/me/balance"}
+{"ts": "2026-11-26T10:16:52", "provider": "Moonshot", "balance_cny": 6.39543, "source": "GET /v1/users/me/balance"}
+{"ts": "2026-11-26T10:21:10", "provider": "Moonshot", "balance_cny": 6.39543, "run_id": "chain-102109", "phase": "before", "source": "GET /v1/users/me/balance"}
+{"ts": "2026-11-26T10:21:39", "provider": "Moonshot", "balance_cny": 6.39543, "run_id": "chain-102109", "phase": "after", "source": "GET /v1/users/me/balance"}
+{"ts": "2026-11-26T10:34:14", "provider": "Moonshot", "balance_cny": 6.34871, "run_id": "chain-103413", "phase": "before", "source": "GET /v1/users/me/balance"}
+{"ts": "2026-11-26T10:35:00", "provider": "Moonshot", "balance_cny": 6.34871, "run_id": "chain-103459", "phase": "before", "source": "GET /v1/users/me/balance"}
+{"ts": "2026-11-26T10:35:42", "provider": "Moonshot", "balance_cny": 6.34871, "run_id": "chain-103459", "phase": "after", "source": "GET /v1/users/me/balance"}
+{"ts": "2026-11-26T10:52:52", "provider": "Moonshot", "balance_cny": 6.30083, "source": "GET /v1/users/me/balance"}
+{"ts": "2026-11-27T19:12:16", "provider": "Moonshot", "balance_cny": 6.30083, "source": "GET /v1/users/me/balance"}
